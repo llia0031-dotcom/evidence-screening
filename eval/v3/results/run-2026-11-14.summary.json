@@ -1,0 +1,157 @@
+{
+ "file": "run-2026-11-14.jsonl",
+ "runs": [
+  1,
+  2
+ ],
+ "calls": {
+  "plain": {
+   "conversations": 48,
+   "failed": 0,
+   "cost": 0.0116156,
+   "api_calls": 48,
+   "tool_runs": 0,
+   "used_tool": 0,
+   "send_modes": [
+    "batch"
+   ],
+   "models": [
+    "claude-haiku-5-5"
+   ]
+  },
+  "split": {
+   "conversations": 48,
+   "failed": 0,
+   "cost": 0.02458825,
+   "api_calls": 48,
+   "tool_runs": 0,
+   "used_tool": 0,
+   "send_modes": [
+    "batch"
+   ],
+   "models": [
+    "claude-haiku-5-5"
+   ]
+  },
+  "split-self": {
+   "conversations": 48,
+   "failed": 0,
+   "cost": 0.0421426,
+   "api_calls": 98,
+   "tool_runs": 50,
+   "used_tool": 48,
+   "send_modes": [
+    "batch"
+   ],
+   "models": [
+    "claude-haiku-5-5"
+   ]
+  }
+ },
+ "accuracy": {
+  "plain": {
+   "cells": 288,
+   "correct": 286,
+   "false_met": 0,
+   "false_not_met": 2,
+   "gold_met": 208,
+   "gold_not_met": 80,
+   "decisions": 48,
+   "decision_correct": 46
+  },
+  "split": {
+   "cells": 288,
+   "correct": 286,
+   "false_met": 0,
+   "false_not_met": 2,
+   "gold_met": 208,
+   "gold_not_met": 80,
+   "decisions": 48,
+   "decision_correct": 46
+  },
+  "split-self": {
+   "cells": 288,
+   "correct": 286,
+   "false_met": 0,
+   "false_not_met": 2,
+   "gold_met": 208,
+   "gold_not_met": 80,
+   "decisions": 48,
+   "decision_correct": 46
+  },
+  "split + script": {
+   "cells": 288,
+   "correct": 283,
+   "false_met": 0,
+   "false_not_met": 5,
+   "gold_met": 208,
+   "gold_not_met": 80,
+   "decisions": 48,
+   "decision_correct": 46
+  },
+  "split-self + script": {
+   "cells": 288,
+   "correct": 286,
+   "false_met": 0,
+   "false_not_met": 2,
+   "gold_met": 208,
+   "gold_not_met": 80,
+   "decisions": 48,
+   "decision_correct": 46
+  }
+ },
+ "wrong_met_by_trap": {
+  "plain": {},
+  "split": {},
+  "split-self": {},
+  "split + script": {},
+  "split-self + script": {}
+ },
+ "checks": {
+  "split": {
+   "quotes": 330,
+   "quotes_found": 330,
+   "met": 206,
+   "fail": 3,
+   "lost": 3,
+   "reason:numbers_not_in_quote": 3
+  },
+  "split-self": {
+   "quotes": 325,
+   "quotes_found": 325,
+   "met": 206
+  }
+ },
+ "noise": {
+  "plain": {
+   "cells": 144,
+   "flips": 0,
+   "decisions": 24,
+   "decision_flips": 0
+  },
+  "split": {
+   "cells": 144,
+   "flips": 0,
+   "decisions": 24,
+   "decision_flips": 0
+  },
+  "split-self": {
+   "cells": 144,
+   "flips": 0,
+   "decisions": 24,
+   "decision_flips": 0
+  },
+  "split + script": {
+   "cells": 144,
+   "flips": 3,
+   "decisions": 24,
+   "decision_flips": 0
+  },
+  "split-self + script": {
+   "cells": 144,
+   "flips": 0,
+   "decisions": 24,
+   "decision_flips": 0
+  }
+ }
+}

@@ -1,0 +1,101 @@
+{
+ "screen_file": "run-2026-11-15.jsonl",
+ "review_file": "review-not-run.jsonl",
+ "cost": {
+  "screen": 0.0732835,
+  "review": 0
+ },
+ "failed": {
+  "screen": 0,
+  "review": 0
+ },
+ "efforts": [
+  "low"
+ ],
+ "review_efforts": [],
+ "prompt_shas": [
+  "09acd4019d72"
+ ],
+ "review_prompt_shas": [],
+ "send_modes": [
+  "batch"
+ ],
+ "low": {
+  "plain": {
+   "cells": 288,
+   "correct": 288,
+   "wrong_met": 0,
+   "wrong_not_met": 0,
+   "decisions": 48,
+   "decision_correct": 48,
+   "wrong_met_by_trap": {}
+  },
+  "split": {
+   "cells": 288,
+   "correct": 287,
+   "wrong_met": 0,
+   "wrong_not_met": 1,
+   "decisions": 48,
+   "decision_correct": 47,
+   "wrong_met_by_trap": {}
+  },
+  "split-self": {
+   "cells": 288,
+   "correct": 286,
+   "wrong_met": 0,
+   "wrong_not_met": 2,
+   "decisions": 48,
+   "decision_correct": 46,
+   "wrong_met_by_trap": {}
+  }
+ },
+ "medium_v3": {
+  "plain": {
+   "cells": 288,
+   "correct": 286,
+   "wrong_met": 0,
+   "wrong_not_met": 2,
+   "decisions": 48,
+   "decision_correct": 46,
+   "wrong_met_by_trap": {}
+  },
+  "split": {
+   "cells": 288,
+   "correct": 286,
+   "wrong_met": 0,
+   "wrong_not_met": 2,
+   "decisions": 48,
+   "decision_correct": 46,
+   "wrong_met_by_trap": {}
+  },
+  "split-self": {
+   "cells": 288,
+   "correct": 286,
+   "wrong_met": 0,
+   "wrong_not_met": 2,
+   "decisions": 48,
+   "decision_correct": 46,
+   "wrong_met_by_trap": {}
+  }
+ },
+ "review": {
+  "split": {
+   "met": 207,
+   "wrong": 0,
+   "right": 207,
+   "check_stops_wrong": 0,
+   "check_fails_right": 4,
+   "review": {},
+   "wrong_cases": []
+  },
+  "split-self": {
+   "met": 206,
+   "wrong": 0,
+   "right": 206,
+   "check_stops_wrong": 0,
+   "check_fails_right": 0,
+   "review": {},
+   "wrong_cases": []
+  }
+ }
+}

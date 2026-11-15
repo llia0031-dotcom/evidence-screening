@@ -1,0 +1,7 @@
+{
+  "about": "Two harness-check resumes. They are not in the evaluation and are not scored.",
+  "instances": [
+    { "id": "S-01", "file": "S-01.md", "job": "EN-J1" },
+    { "id": "S-02", "file": "S-02.md", "job": "ZH-J2" }
+  ]
+}

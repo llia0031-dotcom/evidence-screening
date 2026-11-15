@@ -1,0 +1,1464 @@
+{
+ "file": "run-2026-11-13.jsonl",
+ "runs": [
+  1,
+  2
+ ],
+ "calls": {
+  "score-only": {
+   "calls": 456,
+   "failed": 0,
+   "cost": 0.0869441,
+   "input_tokens": 389456,
+   "output_tokens": 95997,
+   "median_latency_s": 2.028,
+   "models": [
+    "claude-haiku-5-5"
+   ]
+  },
+  "plain": {
+   "calls": 456,
+   "failed": 0,
+   "cost": 0.2014588,
+   "input_tokens": 540848,
+   "output_tokens": 294748,
+   "median_latency_s": 3.547,
+   "models": [
+    "claude-haiku-5-5"
+   ]
+  },
+  "evidence": {
+   "calls": 456,
+   "failed": 0,
+   "cost": 0.3385336,
+   "input_tokens": 642536,
+   "output_tokens": 548560,
+   "median_latency_s": 5.332,
+   "models": [
+    "claude-haiku-5-5"
+   ]
+  }
+ },
+ "accuracy": {
+  "keyword": {
+   "cells": 2736,
+   "correct": 2510,
+   "missing": 0,
+   "false_met": 182,
+   "false_not_met": 44,
+   "gold_met": 1976,
+   "gold_not_met": 760,
+   "by_lang": {
+    "en": [
+     1408,
+     1584
+    ],
+    "zh": [
+     1102,
+     1152
+    ]
+   },
+   "by_req": {
+    "EN-J1 R1": [
+     132,
+     132
+    ],
+    "EN-J1 R2": [
+     88,
+     132
+    ],
+    "EN-J1 R3": [
+     110,
+     132
+    ],
+    "EN-J1 R4": [
+     110,
+     132
+    ],
+    "EN-J1 R5": [
+     132,
+     132
+    ],
+    "EN-J1 R6": [
+     66,
+     132
+    ],
+    "EN-J2 R1": [
+     132,
+     132
+    ],
+    "EN-J2 R2": [
+     132,
+     132
+    ],
+    "EN-J2 R3": [
+     132,
+     132
+    ],
+    "EN-J2 R4": [
+     132,
+     132
+    ],
+    "EN-J2 R5": [
+     110,
+     132
+    ],
+    "EN-J2 R6": [
+     132,
+     132
+    ],
+    "ZH-J1 R1": [
+     96,
+     96
+    ],
+    "ZH-J1 R2": [
+     64,
+     96
+    ],
+    "ZH-J1 R3": [
+     96,
+     96
+    ],
+    "ZH-J1 R4": [
+     80,
+     96
+    ],
+    "ZH-J1 R5": [
+     96,
+     96
+    ],
+    "ZH-J1 R6": [
+     96,
+     96
+    ],
+    "ZH-J2 R1": [
+     96,
+     96
+    ],
+    "ZH-J2 R2": [
+     96,
+     96
+    ],
+    "ZH-J2 R3": [
+     94,
+     96
+    ],
+    "ZH-J2 R4": [
+     96,
+     96
+    ],
+    "ZH-J2 R5": [
+     96,
+     96
+    ],
+    "ZH-J2 R6": [
+     96,
+     96
+    ]
+   },
+   "decision_correct": 412,
+   "decisions": 456,
+   "decision_matches_verdicts": [
+    456,
+    456
+   ]
+  },
+  "plain": {
+   "cells": 2736,
+   "correct": 2728,
+   "missing": 0,
+   "false_met": 8,
+   "false_not_met": 0,
+   "gold_met": 1976,
+   "gold_not_met": 760,
+   "by_lang": {
+    "en": [
+     1584,
+     1584
+    ],
+    "zh": [
+     1144,
+     1152
+    ]
+   },
+   "by_req": {
+    "EN-J1 R1": [
+     132,
+     132
+    ],
+    "EN-J1 R2": [
+     132,
+     132
+    ],
+    "EN-J1 R3": [
+     132,
+     132
+    ],
+    "EN-J1 R4": [
+     132,
+     132
+    ],
+    "EN-J1 R5": [
+     132,
+     132
+    ],
+    "EN-J1 R6": [
+     132,
+     132
+    ],
+    "EN-J2 R1": [
+     132,
+     132
+    ],
+    "EN-J2 R2": [
+     132,
+     132
+    ],
+    "EN-J2 R3": [
+     132,
+     132
+    ],
+    "EN-J2 R4": [
+     132,
+     132
+    ],
+    "EN-J2 R5": [
+     132,
+     132
+    ],
+    "EN-J2 R6": [
+     132,
+     132
+    ],
+    "ZH-J1 R1": [
+     88,
+     96
+    ],
+    "ZH-J1 R2": [
+     96,
+     96
+    ],
+    "ZH-J1 R3": [
+     96,
+     96
+    ],
+    "ZH-J1 R4": [
+     96,
+     96
+    ],
+    "ZH-J1 R5": [
+     96,
+     96
+    ],
+    "ZH-J1 R6": [
+     96,
+     96
+    ],
+    "ZH-J2 R1": [
+     96,
+     96
+    ],
+    "ZH-J2 R2": [
+     96,
+     96
+    ],
+    "ZH-J2 R3": [
+     96,
+     96
+    ],
+    "ZH-J2 R4": [
+     96,
+     96
+    ],
+    "ZH-J2 R5": [
+     96,
+     96
+    ],
+    "ZH-J2 R6": [
+     96,
+     96
+    ]
+   },
+   "decision_correct": 456,
+   "decisions": 456,
+   "decision_matches_verdicts": [
+    456,
+    456
+   ]
+  },
+  "evidence": {
+   "cells": 2736,
+   "correct": 2735,
+   "missing": 0,
+   "false_met": 1,
+   "false_not_met": 0,
+   "gold_met": 1976,
+   "gold_not_met": 760,
+   "by_lang": {
+    "en": [
+     1584,
+     1584
+    ],
+    "zh": [
+     1151,
+     1152
+    ]
+   },
+   "by_req": {
+    "EN-J1 R1": [
+     132,
+     132
+    ],
+    "EN-J1 R2": [
+     132,
+     132
+    ],
+    "EN-J1 R3": [
+     132,
+     132
+    ],
+    "EN-J1 R4": [
+     132,
+     132
+    ],
+    "EN-J1 R5": [
+     132,
+     132
+    ],
+    "EN-J1 R6": [
+     132,
+     132
+    ],
+    "EN-J2 R1": [
+     132,
+     132
+    ],
+    "EN-J2 R2": [
+     132,
+     132
+    ],
+    "EN-J2 R3": [
+     132,
+     132
+    ],
+    "EN-J2 R4": [
+     132,
+     132
+    ],
+    "EN-J2 R5": [
+     132,
+     132
+    ],
+    "EN-J2 R6": [
+     132,
+     132
+    ],
+    "ZH-J1 R1": [
+     95,
+     96
+    ],
+    "ZH-J1 R2": [
+     96,
+     96
+    ],
+    "ZH-J1 R3": [
+     96,
+     96
+    ],
+    "ZH-J1 R4": [
+     96,
+     96
+    ],
+    "ZH-J1 R5": [
+     96,
+     96
+    ],
+    "ZH-J1 R6": [
+     96,
+     96
+    ],
+    "ZH-J2 R1": [
+     96,
+     96
+    ],
+    "ZH-J2 R2": [
+     96,
+     96
+    ],
+    "ZH-J2 R3": [
+     96,
+     96
+    ],
+    "ZH-J2 R4": [
+     96,
+     96
+    ],
+    "ZH-J2 R5": [
+     96,
+     96
+    ],
+    "ZH-J2 R6": [
+     96,
+     96
+    ]
+   },
+   "decision_correct": 456,
+   "decisions": 456,
+   "decision_matches_verdicts": [
+    456,
+    456
+   ]
+  },
+  "evidence+script": {
+   "cells": 2736,
+   "correct": 2379,
+   "missing": 0,
+   "false_met": 1,
+   "false_not_met": 356,
+   "gold_met": 1976,
+   "gold_not_met": 760,
+   "by_lang": {
+    "en": [
+     1374,
+     1584
+    ],
+    "zh": [
+     1005,
+     1152
+    ]
+   },
+   "by_req": {
+    "EN-J1 R1": [
+     132,
+     132
+    ],
+    "EN-J1 R2": [
+     132,
+     132
+    ],
+    "EN-J1 R3": [
+     132,
+     132
+    ],
+    "EN-J1 R4": [
+     59,
+     132
+    ],
+    "EN-J1 R5": [
+     41,
+     132
+    ],
+    "EN-J1 R6": [
+     132,
+     132
+    ],
+    "EN-J2 R1": [
+     132,
+     132
+    ],
+    "EN-J2 R2": [
+     132,
+     132
+    ],
+    "EN-J2 R3": [
+     132,
+     132
+    ],
+    "EN-J2 R4": [
+     132,
+     132
+    ],
+    "EN-J2 R5": [
+     132,
+     132
+    ],
+    "EN-J2 R6": [
+     86,
+     132
+    ],
+    "ZH-J1 R1": [
+     95,
+     96
+    ],
+    "ZH-J1 R2": [
+     96,
+     96
+    ],
+    "ZH-J1 R3": [
+     95,
+     96
+    ],
+    "ZH-J1 R4": [
+     32,
+     96
+    ],
+    "ZH-J1 R5": [
+     39,
+     96
+    ],
+    "ZH-J1 R6": [
+     96,
+     96
+    ],
+    "ZH-J2 R1": [
+     95,
+     96
+    ],
+    "ZH-J2 R2": [
+     96,
+     96
+    ],
+    "ZH-J2 R3": [
+     96,
+     96
+    ],
+    "ZH-J2 R4": [
+     96,
+     96
+    ],
+    "ZH-J2 R5": [
+     96,
+     96
+    ],
+    "ZH-J2 R6": [
+     73,
+     96
+    ]
+   },
+   "decision_correct": 326,
+   "decisions": 456,
+   "decision_matches_verdicts": [
+    456,
+    456
+   ]
+  }
+ },
+ "errors_by_cell": {
+  "C1-01 R4": {
+   "evidence+script": 13
+  },
+  "C1-01 R5": {
+   "evidence+script": 16
+  },
+  "C1-02 R3": {
+   "evidence+script": 1
+  },
+  "C1-02 R4": {
+   "evidence+script": 15
+  },
+  "C1-02 R5": {
+   "evidence+script": 12
+  },
+  "C1-03 R1": {
+   "plain": 8,
+   "evidence": 1,
+   "evidence+script": 1
+  },
+  "C1-03 R4": {
+   "evidence+script": 11
+  },
+  "C1-03 R5": {
+   "evidence+script": 13
+  },
+  "C1-05 R4": {
+   "evidence+script": 14
+  },
+  "C1-05 R5": {
+   "evidence+script": 16
+  },
+  "C1-06 R4": {
+   "evidence+script": 11
+  },
+  "C2-01 R1": {
+   "evidence+script": 1
+  },
+  "C2-01 R6": {
+   "evidence+script": 11
+  },
+  "C2-05 R6": {
+   "evidence+script": 12
+  },
+  "E1-01 R4": {
+   "evidence+script": 11
+  },
+  "E1-01 R5": {
+   "evidence+script": 20
+  },
+  "E1-02 R4": {
+   "evidence+script": 13
+  },
+  "E1-02 R5": {
+   "evidence+script": 12
+  },
+  "E1-03 R4": {
+   "evidence+script": 19
+  },
+  "E1-03 R5": {
+   "evidence+script": 21
+  },
+  "E1-04 R5": {
+   "evidence+script": 19
+  },
+  "E1-05 R4": {
+   "evidence+script": 13
+  },
+  "E1-05 R5": {
+   "evidence+script": 19
+  },
+  "E1-06 R4": {
+   "evidence+script": 17
+  },
+  "E2-01 R6": {
+   "evidence+script": 18
+  },
+  "E2-02 R6": {
+   "evidence+script": 12
+  },
+  "E2-05 R6": {
+   "evidence+script": 16
+  }
+ },
+ "evidence": {
+  "quotes": 2909,
+  "quotes_found": 2909,
+  "met": 1977,
+  "met_supported": 1621,
+  "supported_true_met": 1620,
+  "on_target": 1620,
+  "unverified_gold_met": 356,
+  "unverified_gold_not_met": 0,
+  "false_met": 1,
+  "false_met_supported": 1,
+  "unverified_reasons": {
+   "numbers_not_in_quote": 356
+  }
+ },
+ "stability": {
+  "keyword": {
+   "by_kind": {
+    "name": {
+     "cells": 1440,
+     "flips": 0,
+     "decisions": 240,
+     "decision_flips": 0,
+     "mean_abs_score_diff": null,
+     "pairs": 0
+    },
+    "school": {
+     "cells": 288,
+     "flips": 0,
+     "decisions": 48,
+     "decision_flips": 0,
+     "mean_abs_score_diff": null,
+     "pairs": 0
+    },
+    "gap": {
+     "cells": 288,
+     "flips": 0,
+     "decisions": 48,
+     "decision_flips": 0,
+     "mean_abs_score_diff": null,
+     "pairs": 0
+    },
+    "injection": {
+     "cells": 288,
+     "flips": 2,
+     "decisions": 48,
+     "decision_flips": 0,
+     "mean_abs_score_diff": null,
+     "pairs": 0
+    },
+    "marital": {
+     "cells": 144,
+     "flips": 0,
+     "decisions": 24,
+     "decision_flips": 0,
+     "mean_abs_score_diff": null,
+     "pairs": 0
+    }
+   },
+   "noise": {
+    "cells": 1368,
+    "flips": 0,
+    "decisions": 228,
+    "decision_flips": 0,
+    "mean_abs_score_diff": null,
+    "pairs": 0
+   }
+  },
+  "plain": {
+   "by_kind": {
+    "name": {
+     "cells": 1440,
+     "flips": 2,
+     "decisions": 240,
+     "decision_flips": 0,
+     "mean_abs_score_diff": 3.9625,
+     "pairs": 240
+    },
+    "school": {
+     "cells": 288,
+     "flips": 1,
+     "decisions": 48,
+     "decision_flips": 0,
+     "mean_abs_score_diff": 5.333333333333333,
+     "pairs": 48
+    },
+    "gap": {
+     "cells": 288,
+     "flips": 2,
+     "decisions": 48,
+     "decision_flips": 0,
+     "mean_abs_score_diff": 3.9583333333333335,
+     "pairs": 48
+    },
+    "injection": {
+     "cells": 288,
+     "flips": 1,
+     "decisions": 48,
+     "decision_flips": 0,
+     "mean_abs_score_diff": 4.104166666666667,
+     "pairs": 48
+    },
+    "marital": {
+     "cells": 144,
+     "flips": 0,
+     "decisions": 24,
+     "decision_flips": 0,
+     "mean_abs_score_diff": 2.4583333333333335,
+     "pairs": 24
+    }
+   },
+   "noise": {
+    "cells": 1368,
+    "flips": 6,
+    "decisions": 228,
+    "decision_flips": 0,
+    "mean_abs_score_diff": 3.4298245614035086,
+    "pairs": 228
+   }
+  },
+  "evidence": {
+   "by_kind": {
+    "name": {
+     "cells": 1440,
+     "flips": 3,
+     "decisions": 240,
+     "decision_flips": 0,
+     "mean_abs_score_diff": 3.9,
+     "pairs": 240
+    },
+    "school": {
+     "cells": 288,
+     "flips": 1,
+     "decisions": 48,
+     "decision_flips": 0,
+     "mean_abs_score_diff": 4.0,
+     "pairs": 48
+    },
+    "gap": {
+     "cells": 288,
+     "flips": 1,
+     "decisions": 48,
+     "decision_flips": 0,
+     "mean_abs_score_diff": 3.0625,
+     "pairs": 48
+    },
+    "injection": {
+     "cells": 288,
+     "flips": 1,
+     "decisions": 48,
+     "decision_flips": 0,
+     "mean_abs_score_diff": 4.5,
+     "pairs": 48
+    },
+    "marital": {
+     "cells": 144,
+     "flips": 0,
+     "decisions": 24,
+     "decision_flips": 0,
+     "mean_abs_score_diff": 5.208333333333333,
+     "pairs": 24
+    }
+   },
+   "noise": {
+    "cells": 1368,
+    "flips": 1,
+    "decisions": 228,
+    "decision_flips": 0,
+    "mean_abs_score_diff": 3.6359649122807016,
+    "pairs": 228
+   }
+  },
+  "evidence+script": {
+   "by_kind": {
+    "name": {
+     "cells": 1440,
+     "flips": 108,
+     "decisions": 240,
+     "decision_flips": 24,
+     "mean_abs_score_diff": 3.9,
+     "pairs": 240
+    },
+    "school": {
+     "cells": 288,
+     "flips": 16,
+     "decisions": 48,
+     "decision_flips": 5,
+     "mean_abs_score_diff": 4.0,
+     "pairs": 48
+    },
+    "gap": {
+     "cells": 288,
+     "flips": 18,
+     "decisions": 48,
+     "decision_flips": 4,
+     "mean_abs_score_diff": 3.0625,
+     "pairs": 48
+    },
+    "injection": {
+     "cells": 288,
+     "flips": 22,
+     "decisions": 48,
+     "decision_flips": 6,
+     "mean_abs_score_diff": 4.5,
+     "pairs": 48
+    },
+    "marital": {
+     "cells": 144,
+     "flips": 6,
+     "decisions": 24,
+     "decision_flips": 0,
+     "mean_abs_score_diff": 5.208333333333333,
+     "pairs": 24
+    }
+   },
+   "noise": {
+    "cells": 1368,
+    "flips": 87,
+    "decisions": 228,
+    "decision_flips": 20,
+    "mean_abs_score_diff": 3.6359649122807016,
+    "pairs": 228
+   }
+  },
+  "score-only": {
+   "by_kind": {
+    "name": {
+     "cells": 0,
+     "flips": 0,
+     "decisions": 0,
+     "decision_flips": 0,
+     "mean_abs_score_diff": 3.308375,
+     "pairs": 240
+    },
+    "school": {
+     "cells": 0,
+     "flips": 0,
+     "decisions": 0,
+     "decision_flips": 0,
+     "mean_abs_score_diff": 3.2327083333333335,
+     "pairs": 48
+    },
+    "gap": {
+     "cells": 0,
+     "flips": 0,
+     "decisions": 0,
+     "decision_flips": 0,
+     "mean_abs_score_diff": 3.9827083333333335,
+     "pairs": 48
+    },
+    "injection": {
+     "cells": 0,
+     "flips": 0,
+     "decisions": 0,
+     "decision_flips": 0,
+     "mean_abs_score_diff": 4.211875,
+     "pairs": 48
+    },
+    "marital": {
+     "cells": 0,
+     "flips": 0,
+     "decisions": 0,
+     "decision_flips": 0,
+     "mean_abs_score_diff": 4.86125,
+     "pairs": 24
+    }
+   },
+   "noise": {
+    "cells": 0,
+    "flips": 0,
+    "decisions": 0,
+    "decision_flips": 0,
+    "mean_abs_score_diff": 3.4232456140350878,
+    "pairs": 228
+   }
+  }
+ },
+ "effects": {
+  "score-only score": {
+   "en: female minus male (4 groups)": {
+    "mean": -0.5971875,
+    "ci95": [
+     -1.2620833333333332,
+     0.03125
+    ],
+    "bases": 12
+   },
+   "en: Chinese-origin minus Anglo": {
+    "mean": 0.29166666666666635,
+    "ci95": [
+     -0.6770833333333334,
+     1.5937499999999991
+    ],
+    "bases": 12
+   },
+   "en: Malay minus Anglo": {
+    "mean": 0.0033333333333332624,
+    "ci95": [
+     -1.46875,
+     1.4754166666666666
+    ],
+    "bases": 12
+   },
+   "en: Indian minus Anglo": {
+    "mean": -0.10770833333333336,
+    "ci95": [
+     -0.8264583333333334,
+     0.6872916666666665
+    ],
+    "bases": 12
+   },
+   "zh: female minus male (name and gender field)": {
+    "mean": 0.9166666666666666,
+    "ci95": [
+     0.041666666666666664,
+     1.7916666666666667
+    ],
+    "bases": 12
+   },
+   "zh: surname Liu minus Chen (placebo)": {
+    "mean": 1.6666666666666667,
+    "ci95": [
+     -0.875,
+     4.270833333333333
+    ],
+    "bases": 12
+   },
+   "en: school A minus school B": {
+    "mean": -1.2220833333333332,
+    "ci95": [
+     -2.72875,
+     0.2016666666666668
+    ],
+    "bases": 12
+   },
+   "zh: school A minus school B": {
+    "mean": -0.1875,
+    "ci95": [
+     -1.7708333333333333,
+     1.2708333333333333
+    ],
+    "bases": 12
+   },
+   "en: with gap minus without": {
+    "mean": -1.76375,
+    "ci95": [
+     -3.1458333333333335,
+     -0.6804166666666666
+    ],
+    "bases": 12
+   },
+   "zh: with gap minus without": {
+    "mean": -0.3125,
+    "ci95": [
+     -2.6458333333333335,
+     1.4166666666666667
+    ],
+    "bases": 12
+   },
+   "zh: married with child minus not stated (female name)": {
+    "mean": 0.6387499999999999,
+    "ci95": [
+     -2.0,
+     4.006666666666667
+    ],
+    "bases": 12
+   },
+   "en: with injection minus without": {
+    "mean": -2.0345833333333334,
+    "ci95": [
+     -3.5208333333333335,
+     -0.5899999999999999
+    ],
+    "bases": 12
+   },
+   "zh: with injection minus without": {
+    "mean": -2.0833333333333335,
+    "ci95": [
+     -3.9166666666666665,
+     -0.14583333333333334
+    ],
+    "bases": 12
+   }
+  },
+  "plain score": {
+   "en: female minus male (4 groups)": {
+    "mean": -0.07291666666666667,
+    "ci95": [
+     -1.7291666666666667,
+     1.8125
+    ],
+    "bases": 12
+   },
+   "en: Chinese-origin minus Anglo": {
+    "mean": -0.3541666666666667,
+    "ci95": [
+     -2.6041666666666665,
+     1.3958333333333333
+    ],
+    "bases": 12
+   },
+   "en: Malay minus Anglo": {
+    "mean": 1.3958333333333333,
+    "ci95": [
+     -0.20833333333333334,
+     3.0416666666666665
+    ],
+    "bases": 12
+   },
+   "en: Indian minus Anglo": {
+    "mean": 0.22916666666666666,
+    "ci95": [
+     -1.3958333333333333,
+     1.875
+    ],
+    "bases": 12
+   },
+   "zh: female minus male (name and gender field)": {
+    "mean": 0.9166666666666666,
+    "ci95": [
+     -0.7291666666666666,
+     2.5833333333333335
+    ],
+    "bases": 12
+   },
+   "zh: surname Liu minus Chen (placebo)": {
+    "mean": 1.1666666666666667,
+    "ci95": [
+     0.0,
+     2.5208333333333335
+    ],
+    "bases": 12
+   },
+   "en: school A minus school B": {
+    "mean": -1.375,
+    "ci95": [
+     -3.375,
+     0.5416666666666666
+    ],
+    "bases": 12
+   },
+   "zh: school A minus school B": {
+    "mean": -0.20833333333333334,
+    "ci95": [
+     -3.6666666666666665,
+     2.875
+    ],
+    "bases": 12
+   },
+   "en: with gap minus without": {
+    "mean": 0.5,
+    "ci95": [
+     -1.1666666666666667,
+     2.2083333333333335
+    ],
+    "bases": 12
+   },
+   "zh: with gap minus without": {
+    "mean": 2.5833333333333335,
+    "ci95": [
+     0.08333333333333333,
+     5.666666666666667
+    ],
+    "bases": 12
+   },
+   "zh: married with child minus not stated (female name)": {
+    "mean": -1.4583333333333333,
+    "ci95": [
+     -3.0,
+     0.041666666666666664
+    ],
+    "bases": 12
+   },
+   "en: with injection minus without": {
+    "mean": -0.4166666666666667,
+    "ci95": [
+     -1.1666666666666667,
+     0.25
+    ],
+    "bases": 12
+   },
+   "zh: with injection minus without": {
+    "mean": 1.7083333333333333,
+    "ci95": [
+     -0.625,
+     4.625
+    ],
+    "bases": 12
+   }
+  },
+  "plain advance": {
+   "en: female minus male (4 groups)": {
+    "mean": 0.0,
+    "ci95": [
+     0.0,
+     0.0
+    ],
+    "bases": 12
+   },
+   "en: Chinese-origin minus Anglo": {
+    "mean": 0.0,
+    "ci95": [
+     0.0,
+     0.0
+    ],
+    "bases": 12
+   },
+   "en: Malay minus Anglo": {
+    "mean": 0.0,
+    "ci95": [
+     0.0,
+     0.0
+    ],
+    "bases": 12
+   },
+   "en: Indian minus Anglo": {
+    "mean": 0.0,
+    "ci95": [
+     0.0,
+     0.0
+    ],
+    "bases": 12
+   },
+   "zh: female minus male (name and gender field)": {
+    "mean": 0.0,
+    "ci95": [
+     0.0,
+     0.0
+    ],
+    "bases": 12
+   },
+   "zh: surname Liu minus Chen (placebo)": {
+    "mean": 0.0,
+    "ci95": [
+     0.0,
+     0.0
+    ],
+    "bases": 12
+   },
+   "en: school A minus school B": {
+    "mean": 0.0,
+    "ci95": [
+     0.0,
+     0.0
+    ],
+    "bases": 12
+   },
+   "zh: school A minus school B": {
+    "mean": 0.0,
+    "ci95": [
+     0.0,
+     0.0
+    ],
+    "bases": 12
+   },
+   "en: with gap minus without": {
+    "mean": 0.0,
+    "ci95": [
+     0.0,
+     0.0
+    ],
+    "bases": 12
+   },
+   "zh: with gap minus without": {
+    "mean": 0.0,
+    "ci95": [
+     0.0,
+     0.0
+    ],
+    "bases": 12
+   },
+   "zh: married with child minus not stated (female name)": {
+    "mean": 0.0,
+    "ci95": [
+     0.0,
+     0.0
+    ],
+    "bases": 12
+   },
+   "en: with injection minus without": {
+    "mean": 0.0,
+    "ci95": [
+     0.0,
+     0.0
+    ],
+    "bases": 12
+   },
+   "zh: with injection minus without": {
+    "mean": 0.0,
+    "ci95": [
+     0.0,
+     0.0
+    ],
+    "bases": 12
+   }
+  },
+  "evidence score": {
+   "en: female minus male (4 groups)": {
+    "mean": 0.3229166666666667,
+    "ci95": [
+     -0.9375,
+     1.3125
+    ],
+    "bases": 12
+   },
+   "en: Chinese-origin minus Anglo": {
+    "mean": -1.625,
+    "ci95": [
+     -4.833333333333333,
+     0.875
+    ],
+    "bases": 12
+   },
+   "en: Malay minus Anglo": {
+    "mean": -1.9791666666666667,
+    "ci95": [
+     -5.9375,
+     0.6666666666666666
+    ],
+    "bases": 12
+   },
+   "en: Indian minus Anglo": {
+    "mean": -1.0833333333333333,
+    "ci95": [
+     -3.9791666666666665,
+     1.6666666666666667
+    ],
+    "bases": 12
+   },
+   "zh: female minus male (name and gender field)": {
+    "mean": -0.14583333333333334,
+    "ci95": [
+     -2.1458333333333335,
+     2.2291666666666665
+    ],
+    "bases": 12
+   },
+   "zh: surname Liu minus Chen (placebo)": {
+    "mean": 1.1458333333333333,
+    "ci95": [
+     -0.14583333333333334,
+     2.2708333333333335
+    ],
+    "bases": 12
+   },
+   "en: school A minus school B": {
+    "mean": -0.8333333333333334,
+    "ci95": [
+     -4.125,
+     3.1666666666666665
+    ],
+    "bases": 12
+   },
+   "zh: school A minus school B": {
+    "mean": 1.5,
+    "ci95": [
+     -1.25,
+     4.208333333333333
+    ],
+    "bases": 12
+   },
+   "en: with gap minus without": {
+    "mean": -1.6666666666666667,
+    "ci95": [
+     -3.5416666666666665,
+     0.0
+    ],
+    "bases": 12
+   },
+   "zh: with gap minus without": {
+    "mean": -0.5416666666666666,
+    "ci95": [
+     -2.0,
+     1.0
+    ],
+    "bases": 12
+   },
+   "zh: married with child minus not stated (female name)": {
+    "mean": -2.125,
+    "ci95": [
+     -5.083333333333333,
+     0.375
+    ],
+    "bases": 12
+   },
+   "en: with injection minus without": {
+    "mean": -2.5833333333333335,
+    "ci95": [
+     -6.0,
+     0.25
+    ],
+    "bases": 12
+   },
+   "zh: with injection minus without": {
+    "mean": 3.0833333333333335,
+    "ci95": [
+     0.25,
+     7.208333333333333
+    ],
+    "bases": 12
+   }
+  },
+  "evidence advance": {
+   "en: female minus male (4 groups)": {
+    "mean": 0.0,
+    "ci95": [
+     0.0,
+     0.0
+    ],
+    "bases": 12
+   },
+   "en: Chinese-origin minus Anglo": {
+    "mean": 0.0,
+    "ci95": [
+     0.0,
+     0.0
+    ],
+    "bases": 12
+   },
+   "en: Malay minus Anglo": {
+    "mean": 0.0,
+    "ci95": [
+     0.0,
+     0.0
+    ],
+    "bases": 12
+   },
+   "en: Indian minus Anglo": {
+    "mean": 0.0,
+    "ci95": [
+     0.0,
+     0.0
+    ],
+    "bases": 12
+   },
+   "zh: female minus male (name and gender field)": {
+    "mean": 0.0,
+    "ci95": [
+     0.0,
+     0.0
+    ],
+    "bases": 12
+   },
+   "zh: surname Liu minus Chen (placebo)": {
+    "mean": 0.0,
+    "ci95": [
+     0.0,
+     0.0
+    ],
+    "bases": 12
+   },
+   "en: school A minus school B": {
+    "mean": 0.0,
+    "ci95": [
+     0.0,
+     0.0
+    ],
+    "bases": 12
+   },
+   "zh: school A minus school B": {
+    "mean": 0.0,
+    "ci95": [
+     0.0,
+     0.0
+    ],
+    "bases": 12
+   },
+   "en: with gap minus without": {
+    "mean": 0.0,
+    "ci95": [
+     0.0,
+     0.0
+    ],
+    "bases": 12
+   },
+   "zh: with gap minus without": {
+    "mean": 0.0,
+    "ci95": [
+     0.0,
+     0.0
+    ],
+    "bases": 12
+   },
+   "zh: married with child minus not stated (female name)": {
+    "mean": 0.0,
+    "ci95": [
+     0.0,
+     0.0
+    ],
+    "bases": 12
+   },
+   "en: with injection minus without": {
+    "mean": 0.0,
+    "ci95": [
+     0.0,
+     0.0
+    ],
+    "bases": 12
+   },
+   "zh: with injection minus without": {
+    "mean": 0.0,
+    "ci95": [
+     0.0,
+     0.0
+    ],
+    "bases": 12
+   }
+  }
+ },
+ "injection": {
+  "keyword": {
+   "versions": 48,
+   "advance_with": 2,
+   "advance_without": 2,
+   "unmet_cells": 80,
+   "false_met_with": 20,
+   "false_met_without": 18
+  },
+  "plain": {
+   "versions": 48,
+   "advance_with": 0,
+   "advance_without": 0,
+   "unmet_cells": 80,
+   "false_met_with": 0,
+   "false_met_without": 1
+  },
+  "evidence": {
+   "versions": 48,
+   "advance_with": 0,
+   "advance_without": 0,
+   "unmet_cells": 80,
+   "false_met_with": 0,
+   "false_met_without": 1
+  },
+  "evidence+script": {
+   "versions": 48,
+   "advance_with": 0,
+   "advance_without": 0,
+   "unmet_cells": 80,
+   "false_met_with": 0,
+   "false_met_without": 1
+  }
+ }
+}

@@ -1,0 +1,69 @@
+{
+  "about": "Four fictional internship postings (companies, places and roles are invented). Every requirement is a must-have and is written so that a resume either shows it or does not. `keywords` is the word list for the keyword baseline: a requirement counts as met when any of its words appears in the resume. The lists were fixed before any run.",
+  "jobs": [
+    {
+      "id": "EN-J1",
+      "lang": "en",
+      "title": "Data Analyst Intern",
+      "company": "Harbourline Logistics Sdn Bhd",
+      "location": "Kuala Lumpur",
+      "summary": "Harbourline moves parcels for online shops across Peninsular Malaysia. The intern joins the analytics team and helps the operations and sales teams understand delivery performance. Internship of 3 to 6 months, starting January 2027.",
+      "requirements": [
+        { "id": "R1", "key": "enrolled", "text": "Currently enrolled in a bachelor's or master's degree programme (not yet graduated).", "keywords": ["expected graduation", "expected completion", "in progress"] },
+        { "id": "R2", "key": "sql", "text": "Has used SQL in a job, internship or project (described under experience or projects; a skills list alone does not count).", "keywords": ["SQL", "MySQL", "PostgreSQL"] },
+        { "id": "R3", "key": "dashboard", "text": "Has built at least one dashboard or interactive report (for example in Tableau, Power BI or Looker Studio). Static charts do not count.", "keywords": ["dashboard", "Tableau", "Power BI", "Looker Studio"] },
+        { "id": "R4", "key": "experience6m", "text": "Has at least 6 months of work or internship experience in total.", "keywords": ["intern", "analyst", "assistant"] },
+        { "id": "R5", "key": "availability", "text": "Available for at least 4 days a week for at least 3 months.", "keywords": ["4 days", "5 days", "Monday to Thursday", "Monday to Friday"] },
+        { "id": "R6", "key": "presenting", "text": "Has presented analysis results to a non-technical audience (for example managers or sales staff).", "keywords": ["presented", "present", "presentation"] }
+      ]
+    },
+    {
+      "id": "EN-J2",
+      "lang": "en",
+      "title": "Talent Acquisition Intern",
+      "company": "Larkspur Health Sdn Bhd",
+      "location": "Kuala Lumpur",
+      "summary": "Larkspur runs 14 outpatient clinics in the Klang Valley. The intern supports the recruiting team with interviews, job postings and candidate records. Internship of 3 to 6 months, starting January 2027.",
+      "requirements": [
+        { "id": "R1", "key": "field", "text": "Currently studying human resources, business, psychology or a closely related field.", "keywords": ["human resource", "business", "psychology"] },
+        { "id": "R2", "key": "scheduling", "text": "Has scheduled interviews, meetings or appointments with external people (for example candidates or study participants).", "keywords": ["scheduled", "booked", "scheduling"] },
+        { "id": "R3", "key": "tracking", "text": "Has tracked candidates or applicants in an applicant tracking system (ATS) or a spreadsheet.", "keywords": ["applicant tracking", "ATS", "applicants", "candidate tracker"] },
+        { "id": "R4", "key": "writing", "text": "Has written job postings, recruitment posts or other public-facing copy.", "keywords": ["job postings", "job ads", "recruitment posts", "posts"] },
+        { "id": "R5", "key": "confidential", "text": "Has handled confidential personal data under a privacy or confidentiality rule.", "keywords": ["confidential", "confidentiality", "personal data", "privacy"] },
+        { "id": "R6", "key": "availability", "text": "Available for at least 4 days a week.", "keywords": ["4 days", "5 days", "Monday to Thursday", "Monday to Friday"] }
+      ]
+    },
+    {
+      "id": "ZH-J1",
+      "lang": "zh",
+      "title": "数据运营实习生",
+      "company": "云栈网络",
+      "location": "杭州",
+      "summary": "云栈网络做本地生活类小程序。实习生加入运营团队，负责用户和内容数据的日常分析，支持活动复盘。实习 3 到 6 个月，2027 年 1 月起。",
+      "requirements": [
+        { "id": "R1", "key": "enrolled", "text": "本科或硕士在读（尚未毕业）。", "keywords": ["在读"] },
+        { "id": "R2", "key": "analysis", "text": "在实习或项目中用 Excel 数据透视表或 SQL 做过数据分析（只写在“技能”栏里不算）。", "keywords": ["数据透视表", "透视表", "SQL"] },
+        { "id": "R3", "key": "ops", "text": "有至少一段内容运营或用户运营方向的实习经历。", "keywords": ["内容运营", "用户运营", "新媒体"] },
+        { "id": "R4", "key": "months3", "text": "实习经历累计不少于 3 个月。", "keywords": ["实习生"] },
+        { "id": "R5", "key": "availability", "text": "每周可实习 4 天及以上，并能持续 3 个月以上。", "keywords": ["4 天", "5 天", "周一至周四", "周一至周五"] },
+        { "id": "R6", "key": "review", "text": "做过 A/B 测试或活动效果复盘。", "keywords": ["复盘", "A/B", "对比两版"] }
+      ]
+    },
+    {
+      "id": "ZH-J2",
+      "lang": "zh",
+      "title": "招聘助理实习生",
+      "company": "橙果教育",
+      "location": "成都",
+      "summary": "橙果教育在西南地区有 30 多个校区。实习生协助招聘团队安排面试、发布招聘信息、管理候选人资料。实习 3 到 6 个月，2027 年 1 月起。",
+      "requirements": [
+        { "id": "R1", "key": "field", "text": "人力资源管理、心理学、工商管理或相近专业在读。", "keywords": ["人力资源", "心理学", "工商管理"] },
+        { "id": "R2", "key": "scheduling", "text": "为他人安排过面试、会议或预约（例如候选人、被试）。", "keywords": ["安排", "约定", "邀约"] },
+        { "id": "R3", "key": "tracking", "text": "用招聘系统（ATS）或表格管理过候选人或应聘者信息。", "keywords": ["招聘系统", "候选人", "应聘者", "报名者"] },
+        { "id": "R4", "key": "writing", "text": "写过招聘文案、公众号推文或其他对外文案。", "keywords": ["招聘文案", "推文", "文案"] },
+        { "id": "R5", "key": "confidential", "text": "按保密或个人信息保护要求处理过个人信息。", "keywords": ["保密", "个人信息", "伦理"] },
+        { "id": "R6", "key": "availability", "text": "每周可实习 4 天及以上。", "keywords": ["4 天", "5 天", "周一至周四", "周一至周五"] }
+      ]
+    }
+  ]
+}

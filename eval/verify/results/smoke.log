@@ -1,0 +1,6 @@
+4 reviews to run (0 already stored, US$0.0000 spent so far); budget US$0.3; prompt c6ae232bd450
+2026-11-14T10:18:18.042Z sent batch msgbatch_016YQXCVVGeQNanh6yKNJapQ with 4 requests
+2026-11-14T10:18:18.457Z batch msgbatch_016YQXCVVGeQNanh6yKNJapQ in_progress: {"processing":4,"succeeded":0,"errored":0,"canceled":0,"expired":0}
+2026-11-14T10:19:49.942Z batch msgbatch_016YQXCVVGeQNanh6yKNJapQ ended: {"processing":0,"succeeded":4,"errored":0,"canceled":0,"expired":0}
+4 results read; 0 reviews still open; US$0.0004 spent
+finished: 4 reviews this session, 0 failed records in the file, total US$0.0004

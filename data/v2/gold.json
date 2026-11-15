@@ -1,0 +1,365 @@
+{
+ "about": "Answer key for the v2 resumes, fixed when they were written and before any model saw them. Same jobs and requirements as v1 (data/jobs.json). The thresholds are set clear of the boundary: months counted with or without the first month give the same answer.",
+ "resumes": {
+  "V2-E1-01": {
+   "job": "EN-J1",
+   "school": "A",
+   "labels": {
+    "R1": {
+     "met": true,
+     "anchor": "Expected graduation: May 2027"
+    },
+    "R2": {
+     "met": true,
+     "anchor": "Queried the parcel tracking database with SQL"
+    },
+    "R3": {
+     "met": true,
+     "anchor": "Built a Looker Studio dashboard of on-time rates by state"
+    },
+    "R4": {
+     "met": true,
+     "anchor": "October 2025 – January 2026"
+    },
+    "R5": {
+     "met": true,
+     "anchor": "Available Tuesday to Friday, January to May 2027"
+    },
+    "R6": {
+     "met": true,
+     "anchor": "Presented the quarterly returns analysis to the store owners and the sales manager"
+    }
+   }
+  },
+  "V2-E1-02": {
+   "job": "EN-J1",
+   "school": "B",
+   "labels": {
+    "R1": {
+     "met": true,
+     "anchor": "Expected graduation: November 2027"
+    },
+    "R2": {
+     "met": true,
+     "anchor": "wrote SQL queries to compare grocery prices across 40 stores"
+    },
+    "R3": {
+     "met": false,
+     "why": "static Excel charts for a printed report"
+    },
+    "R4": {
+     "met": false,
+     "why": "one internship, June to September 2025"
+    },
+    "R5": {
+     "met": true,
+     "anchor": "Available 5 days a week for 4 months, January to April 2027"
+    },
+    "R6": {
+     "met": true,
+     "anchor": "Presented the survey findings to the centre's administrative staff"
+    }
+   }
+  },
+  "V2-E1-03": {
+   "job": "EN-J1",
+   "school": "A",
+   "labels": {
+    "R1": {
+     "met": true,
+     "anchor": "Expected graduation: June 2027"
+    },
+    "R2": {
+     "met": false,
+     "why": "SQL appears only in the skills list"
+    },
+    "R3": {
+     "met": true,
+     "anchor": "Built a Power BI dashboard of server costs for the finance team"
+    },
+    "R4": {
+     "met": true,
+     "anchor": "July 2024 – June 2025"
+    },
+    "R5": {
+     "met": false,
+     "why": "January to February 2027, under 3 months"
+    },
+    "R6": {
+     "met": false,
+     "why": "presented to the engineering team, a technical audience"
+    }
+   }
+  },
+  "V2-E2-01": {
+   "job": "EN-J2",
+   "school": "B",
+   "labels": {
+    "R1": {
+     "met": true,
+     "anchor": "Bachelor of Psychology"
+    },
+    "R2": {
+     "met": true,
+     "anchor": "Arranged interview times between shortlisted candidates and store managers"
+    },
+    "R3": {
+     "met": true,
+     "anchor": "Kept every applicant's stage up to date in Zoho Recruit"
+    },
+    "R4": {
+     "met": true,
+     "anchor": "Wrote the job posts for 12 cashier openings on Hiredly"
+    },
+    "R5": {
+     "met": true,
+     "anchor": "Followed the company's personal data policy when filing candidate documents"
+    },
+    "R6": {
+     "met": true,
+     "anchor": "Available Monday to Thursday from January 2027"
+    }
+   }
+  },
+  "V2-E2-02": {
+   "job": "EN-J2",
+   "school": "A",
+   "labels": {
+    "R1": {
+     "met": true,
+     "anchor": "Bachelor of Commerce (Human Resource Management)"
+    },
+    "R2": {
+     "met": true,
+     "anchor": "Booked meeting slots with guest speakers"
+    },
+    "R3": {
+     "met": false,
+     "why": "a budget spreadsheet, not applicants"
+    },
+    "R4": {
+     "met": true,
+     "anchor": "Wrote the society's recruitment posts on Instagram"
+    },
+    "R5": {
+     "met": true,
+     "anchor": "Signed a confidentiality form before handling members' personal details"
+    },
+    "R6": {
+     "met": false,
+     "why": "three days a week"
+    }
+   }
+  },
+  "V2-E2-03": {
+   "job": "EN-J2",
+   "school": "B",
+   "labels": {
+    "R1": {
+     "met": false,
+     "why": "studies civil engineering"
+    },
+    "R2": {
+     "met": false,
+     "why": "helped at a registration desk; no scheduling"
+    },
+    "R3": {
+     "met": true,
+     "anchor": "Kept a spreadsheet of applicants for the site assistant role"
+    },
+    "R4": {
+     "met": true,
+     "anchor": "Wrote the open day announcement for the company's LinkedIn page"
+    },
+    "R5": {
+     "met": false,
+     "why": "no confidential data mentioned"
+    },
+    "R6": {
+     "met": true,
+     "anchor": "Available four days a week from January 2027"
+    }
+   }
+  },
+  "V2-C1-01": {
+   "job": "ZH-J1",
+   "school": "A",
+   "labels": {
+    "R1": {
+     "met": true,
+     "anchor": "本科在读（预计 2027.06 毕业）"
+    },
+    "R2": {
+     "met": true,
+     "anchor": "用 SQL 统计每篇文章的完读率"
+    },
+    "R3": {
+     "met": true,
+     "anchor": "内容运营实习生　栗子阅读（杭州）"
+    },
+    "R4": {
+     "met": true,
+     "anchor": "2025.07–2025.09"
+    },
+    "R5": {
+     "met": true,
+     "anchor": "每周可到岗四天，可连续实习五个月"
+    },
+    "R6": {
+     "met": true,
+     "anchor": "做过一次首页按钮的 A/B 测试"
+    }
+   }
+  },
+  "V2-C1-02": {
+   "job": "ZH-J1",
+   "school": "B",
+   "labels": {
+    "R1": {
+     "met": true,
+     "anchor": "本科在读（预计 2028.06 毕业）"
+    },
+    "R2": {
+     "met": true,
+     "anchor": "用数据透视表拆分不同城市的新用户留存"
+    },
+    "R3": {
+     "met": true,
+     "anchor": "用户运营实习生　橘子出行（杭州）"
+    },
+    "R4": {
+     "met": false,
+     "why": "2025.07–2025.08，不到 3 个月"
+    },
+    "R5": {
+     "met": true,
+     "anchor": "每周 5 天，可连续实习 6 个月"
+    },
+    "R6": {
+     "met": false,
+     "why": "只负责活动执行，没有复盘或 A/B 测试"
+    }
+   }
+  },
+  "V2-C1-03": {
+   "job": "ZH-J1",
+   "school": "A",
+   "labels": {
+    "R1": {
+     "met": false,
+     "why": "已于 2026.06 毕业"
+    },
+    "R2": {
+     "met": false,
+     "why": "SQL 和 Excel 只写在技能栏"
+    },
+    "R3": {
+     "met": true,
+     "anchor": "内容运营实习生　知了视频（杭州）"
+    },
+    "R4": {
+     "met": true,
+     "anchor": "2024.09–2025.06"
+    },
+    "R5": {
+     "met": false,
+     "why": "只能实习 2 个月"
+    },
+    "R6": {
+     "met": true,
+     "anchor": "做过两版封面图的 A/B 测试"
+    }
+   }
+  },
+  "V2-C2-01": {
+   "job": "ZH-J2",
+   "school": "B",
+   "labels": {
+    "R1": {
+     "met": true,
+     "anchor": "人力资源管理　本科在读"
+    },
+    "R2": {
+     "met": true,
+     "anchor": "给候选人发送复试邀约"
+    },
+    "R3": {
+     "met": true,
+     "anchor": "用飞书多维表格记录每位候选人的面试进度"
+    },
+    "R4": {
+     "met": true,
+     "anchor": "撰写仓储岗位的招聘海报文案"
+    },
+    "R5": {
+     "met": true,
+     "anchor": "按公司的个人信息保护规定保管候选人简历"
+    },
+    "R6": {
+     "met": true,
+     "anchor": "每周一至周五都可到岗"
+    }
+   }
+  },
+  "V2-C2-02": {
+   "job": "ZH-J2",
+   "school": "A",
+   "labels": {
+    "R1": {
+     "met": true,
+     "anchor": "人力资源管理　本科在读"
+    },
+    "R2": {
+     "met": true,
+     "anchor": "为来校宣讲的企业预约教室，并通知报名的同学"
+    },
+    "R3": {
+     "met": true,
+     "anchor": "在报名表里记录每场宣讲的应聘者名单和投递情况"
+    },
+    "R4": {
+     "met": false,
+     "why": "只整理过会议纪要"
+    },
+    "R5": {
+     "met": true,
+     "anchor": "按学院要求对学生的个人信息保密"
+    },
+    "R6": {
+     "met": false,
+     "why": "每周三天"
+    }
+   }
+  },
+  "V2-C2-03": {
+   "job": "ZH-J2",
+   "school": "B",
+   "labels": {
+    "R1": {
+     "met": false,
+     "why": "机械工程专业"
+    },
+    "R2": {
+     "met": false,
+     "why": "只负责引导，没有安排面试"
+    },
+    "R3": {
+     "met": true,
+     "anchor": "用表格登记应聘者的联系方式和面试结果"
+    },
+    "R4": {
+     "met": true,
+     "anchor": "撰写招聘公众号推文 2 篇"
+    },
+    "R5": {
+     "met": true,
+     "anchor": "签署保密协议后录入员工档案"
+    },
+    "R6": {
+     "met": true,
+     "anchor": "每周可实习 4 天"
+    }
+   }
+  }
+ }
+}

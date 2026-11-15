@@ -1,0 +1,345 @@
+{
+ "file": "run-2026-11-14.jsonl",
+ "runs": [
+  1,
+  2
+ ],
+ "cost": {
+  "verify-full": 0.02553095,
+  "verify-fact": 0.02487964999999999
+ },
+ "failed": {},
+ "send_modes": [
+  "batch"
+ ],
+ "models": [
+  "claude-haiku-5-5"
+ ],
+ "prompt_shas": [
+  "c6ae232bd450"
+ ],
+ "arms": {
+  "verify-full": {
+   "1": {
+    "misreadings": 40,
+    "caught": 40,
+    "right": 103,
+    "false_alarms": 0,
+    "by_trap": {
+     "below-threshold": [
+      8,
+      8
+     ],
+     "graduated": [
+      3,
+      3
+     ],
+     "internal-only": [
+      1,
+      1
+     ],
+     "no-rule": [
+      2,
+      2
+     ],
+     "not-own-work": [
+      11,
+      11
+     ],
+     "skills-only": [
+      4,
+      4
+     ],
+     "static-or-skills-only": [
+      1,
+      1
+     ],
+     "time-limited": [
+      2,
+      2
+     ],
+     "used-not-built": [
+      2,
+      2
+     ],
+     "wrong-field": [
+      2,
+      2
+     ],
+     "wrong-type": [
+      4,
+      4
+     ]
+    }
+   },
+   "2": {
+    "misreadings": 40,
+    "caught": 40,
+    "right": 103,
+    "false_alarms": 0,
+    "by_trap": {
+     "below-threshold": [
+      8,
+      8
+     ],
+     "graduated": [
+      3,
+      3
+     ],
+     "internal-only": [
+      1,
+      1
+     ],
+     "no-rule": [
+      2,
+      2
+     ],
+     "not-own-work": [
+      11,
+      11
+     ],
+     "skills-only": [
+      4,
+      4
+     ],
+     "static-or-skills-only": [
+      1,
+      1
+     ],
+     "time-limited": [
+      2,
+      2
+     ],
+     "used-not-built": [
+      2,
+      2
+     ],
+     "wrong-field": [
+      2,
+      2
+     ],
+     "wrong-type": [
+      4,
+      4
+     ]
+    }
+   }
+  },
+  "verify-fact": {
+   "1": {
+    "misreadings": 40,
+    "caught": 40,
+    "right": 103,
+    "false_alarms": 0,
+    "by_trap": {
+     "below-threshold": [
+      8,
+      8
+     ],
+     "graduated": [
+      3,
+      3
+     ],
+     "internal-only": [
+      1,
+      1
+     ],
+     "no-rule": [
+      2,
+      2
+     ],
+     "not-own-work": [
+      11,
+      11
+     ],
+     "skills-only": [
+      4,
+      4
+     ],
+     "static-or-skills-only": [
+      1,
+      1
+     ],
+     "time-limited": [
+      2,
+      2
+     ],
+     "used-not-built": [
+      2,
+      2
+     ],
+     "wrong-field": [
+      2,
+      2
+     ],
+     "wrong-type": [
+      4,
+      4
+     ]
+    }
+   },
+   "2": {
+    "misreadings": 40,
+    "caught": 39,
+    "right": 103,
+    "false_alarms": 0,
+    "by_trap": {
+     "below-threshold": [
+      8,
+      8
+     ],
+     "graduated": [
+      3,
+      3
+     ],
+     "internal-only": [
+      1,
+      1
+     ],
+     "no-rule": [
+      2,
+      2
+     ],
+     "not-own-work": [
+      11,
+      11
+     ],
+     "skills-only": [
+      4,
+      4
+     ],
+     "static-or-skills-only": [
+      1,
+      1
+     ],
+     "time-limited": [
+      2,
+      2
+     ],
+     "used-not-built": [
+      2,
+      2
+     ],
+     "wrong-field": [
+      2,
+      2
+     ],
+     "wrong-type": [
+      3,
+      4
+     ]
+    }
+   }
+  },
+  "re-judge (v3 plain, no new calls)": {
+   "1": {
+    "misreadings": 40,
+    "caught": 40,
+    "right": 103,
+    "false_alarms": 0,
+    "by_trap": {
+     "below-threshold": [
+      8,
+      8
+     ],
+     "graduated": [
+      3,
+      3
+     ],
+     "internal-only": [
+      1,
+      1
+     ],
+     "no-rule": [
+      2,
+      2
+     ],
+     "not-own-work": [
+      11,
+      11
+     ],
+     "skills-only": [
+      4,
+      4
+     ],
+     "static-or-skills-only": [
+      1,
+      1
+     ],
+     "time-limited": [
+      2,
+      2
+     ],
+     "used-not-built": [
+      2,
+      2
+     ],
+     "wrong-field": [
+      2,
+      2
+     ],
+     "wrong-type": [
+      4,
+      4
+     ]
+    }
+   },
+   "2": {
+    "misreadings": 40,
+    "caught": 40,
+    "right": 103,
+    "false_alarms": 0,
+    "by_trap": {
+     "below-threshold": [
+      8,
+      8
+     ],
+     "graduated": [
+      3,
+      3
+     ],
+     "internal-only": [
+      1,
+      1
+     ],
+     "no-rule": [
+      2,
+      2
+     ],
+     "not-own-work": [
+      11,
+      11
+     ],
+     "skills-only": [
+      4,
+      4
+     ],
+     "static-or-skills-only": [
+      1,
+      1
+     ],
+     "time-limited": [
+      2,
+      2
+     ],
+     "used-not-built": [
+      2,
+      2
+     ],
+     "wrong-field": [
+      2,
+      2
+     ],
+     "wrong-type": [
+      4,
+      4
+     ]
+    }
+   }
+  }
+ },
+ "run_to_run": {
+  "verify-full": 0,
+  "verify-fact": 1
+ }
+}

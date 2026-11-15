@@ -1,0 +1,26 @@
+Applicant #2001
+applicant2001@example.com  |  +60 11-0000 0000  |  Petaling Jaya
+linkedin.com/in/placeholder
+
+SUMMARY
+Third-year analytics student who likes messy data, clean dashboards and long walks through spreadsheets. Detail oriented, team player, fast learner.
+
+EDUCATION
+National University of Singapore — BSc (Hons) Data Science, yr 3 of 4 — exp. grad. Jun 2028
+CGPA 3.41 / 4.00 · Dean's List x2
+
+EXPERIENCE
+Analytics Intern — Kedai Runcit Online Sdn Bhd (Shah Alam)          Mar '25 – Sep '25
+• pulled order data with PostgreSQL queries for the weekly ops review
+• built a Power BI dashboard tracking late orders by courier; ops leads filter it by week
+• presented the late-delivery findings to the customer service supervisors (non-technical team)
+
+Part-time Tutor (Maths, SPM) — self-employed          2024 – present
+• 3 students, weekends
+
+AVAILABILITY
+Jan 2027 → May 2027, Mon–Thu (4 days/wk)
+
+SKILLS   Python · SQL · Power BI · Excel        LANGUAGES   English, Malay, Mandarin (basic)
+INTERESTS   badminton, bubble tea reviews, Kaggle
+References available upon request.

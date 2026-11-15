@@ -1,0 +1,6233 @@
+{
+ "about": "v5 review set, built from run-2026-11-15.jsonl: every met verdict of split and split-self.",
+ "items": [
+  {
+   "id": "split-r1-V3-C1-01-R1",
+   "kind": "right",
+   "arm": "split",
+   "run": 1,
+   "resume": "V3-C1-01",
+   "req": "R1",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "教育背景为浙江大学新闻传播学，标注为大三在读，时间2024.9-2028.6。",
+   "quotes": [
+    "浙江大学｜新闻传播学｜大三在读（2024.9-2028.6）"
+   ],
+   "comparison": "简历显示为大三在读、尚未毕业的本科生，满足本科在读要求。"
+  },
+  {
+   "id": "split-r1-V3-C1-01-R2",
+   "kind": "right",
+   "arm": "split",
+   "run": 1,
+   "resume": "V3-C1-01",
+   "req": "R2",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "在用户运营实习中，每周用SQL拉取留存数据并按渠道拆分，写进周报。",
+   "quotes": [
+    "每周用SQL拉一次留存数据，按渠道拆分，写进周报"
+   ],
+   "comparison": "这是在实习中实际使用SQL做数据分析，不只是技能栏罗列，满足要求。"
+  },
+  {
+   "id": "split-r1-V3-C1-01-R3",
+   "kind": "right",
+   "arm": "split",
+   "run": 1,
+   "resume": "V3-C1-01",
+   "req": "R3",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "担任小橘猫宠物App的用户运营实习生，负责新用户社群的日常运营。",
+   "quotes": [
+    "用户运营实习生 @ 小橘猫宠物App",
+    "负责新用户社群（3个群，约1500人）的日常运营"
+   ],
+   "comparison": "用户运营属于内容或用户运营方向的实习经历，满足要求。"
+  },
+  {
+   "id": "split-r1-V3-C1-01-R4",
+   "kind": "right",
+   "arm": "split",
+   "run": 1,
+   "resume": "V3-C1-01",
+   "req": "R4",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "实习经历时间为25年3月至25年7月。",
+   "quotes": [
+    "25年3月—25年7月"
+   ],
+   "comparison": "从25年3月到25年7月约为5个月，超过要求的累计不少于3个月。"
+  },
+  {
+   "id": "split-r1-V3-C1-01-R5",
+   "kind": "right",
+   "arm": "split",
+   "run": 1,
+   "resume": "V3-C1-01",
+   "req": "R5",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "到岗时间为2027年1月起，每周5天，可实习4个月以上。",
+   "quotes": [
+    "2027年1月起每周5天，可实习4个月以上"
+   ],
+   "comparison": "每周5天满足每周4天及以上，且可实习4个月以上满足持续3个月以上的要求。"
+  },
+  {
+   "id": "split-r1-V3-C1-01-R6",
+   "kind": "right",
+   "arm": "split",
+   "run": 1,
+   "resume": "V3-C1-01",
+   "req": "R6",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "五一活动结束后写过活动复盘，内容包括拉新成本、次留和问题清单。",
+   "quotes": [
+    "五一活动结束后写了活动复盘：拉新成本、次留、问题清单"
+   ],
+   "comparison": "简历明确写有活动效果复盘，满足做过活动效果复盘的要求。"
+  },
+  {
+   "id": "split-r1-V3-C1-02-R1",
+   "kind": "right",
+   "arm": "split",
+   "run": 1,
+   "resume": "V3-C1-02",
+   "req": "R1",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "教育栏写明硕士研究生在读，2025级，预计2028年6月毕业。",
+   "quotes": [
+    "硕士研究生在读 2025级（预计2028年6月毕业）"
+   ],
+   "comparison": "简历显示目前为在读硕士，尚未毕业，满足本科或硕士在读的要求。"
+  },
+  {
+   "id": "split-r1-V3-C1-02-R2",
+   "kind": "right",
+   "arm": "split",
+   "run": 1,
+   "resume": "V3-C1-02",
+   "req": "R2",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "在内容运营实习生经历中，用Excel数据透视表按选题统计完播率，每周给编辑组。",
+   "quotes": [
+    "用Excel数据透视表按选题统计完播率，每周给编辑组"
+   ],
+   "comparison": "该用法出现在实习经历中而非技能栏，满足在实习中用Excel数据透视表做数据分析的要求。"
+  },
+  {
+   "id": "split-r1-V3-C1-02-R3",
+   "kind": "right",
+   "arm": "split",
+   "run": 1,
+   "resume": "V3-C1-02",
+   "req": "R3",
+   "trap": null,
+   "check": "numbers_not_in_quote",
+   "resume_fact": "有一段内容运营实习生经历，任职于知了短视频，时间为2025/07 ~ 2025/11。",
+   "quotes": [
+    "内容运营实习生　知了短视频"
+   ],
+   "comparison": "该实习岗位属于内容运营方向，满足至少一段内容运营或用户运营实习经历的要求。"
+  },
+  {
+   "id": "split-r1-V3-C1-02-R4",
+   "kind": "right",
+   "arm": "split",
+   "run": 1,
+   "resume": "V3-C1-02",
+   "req": "R4",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "实习经历共两段，分别为2025/07 ~ 2025/11和2024/12 ~ 2025/02。",
+   "quotes": [
+    "2025/07 ~ 2025/11",
+    "2024/12 ~ 2025/02"
+   ],
+   "comparison": "两段实习约为5个月和3个月，合计约8个月，超过要求的不少于3个月。"
+  },
+  {
+   "id": "split-r1-V3-C1-02-R5",
+   "kind": "right",
+   "arm": "split",
+   "run": 1,
+   "resume": "V3-C1-02",
+   "req": "R5",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "到岗安排为每周一至周四，时间为2027.01-2027.05。",
+   "quotes": [
+    "每周一至周四，2027.01-2027.05"
+   ],
+   "comparison": "周一至周四为每周4天，到岗期约5个月，满足每周4天及以上且持续3个月以上的要求。"
+  },
+  {
+   "id": "split-r1-V3-C1-02-R6",
+   "kind": "right",
+   "arm": "split",
+   "run": 1,
+   "resume": "V3-C1-02",
+   "req": "R6",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "对两版封面标题做过A/B测试，第二版点击率高。",
+   "quotes": [
+    "对两版封面标题做A/B测试，第二版点击率高"
+   ],
+   "comparison": "简历明确写有A/B测试经历，满足做过A/B测试或活动效果复盘的要求。"
+  },
+  {
+   "id": "split-r1-V3-C1-03-R2",
+   "kind": "right",
+   "arm": "split",
+   "run": 1,
+   "resume": "V3-C1-03",
+   "req": "R2",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "在用户运营实习生经历中，用SQL统计各商圈的复购率并做成周报。",
+   "quotes": [
+    "用 SQL 统计各商圈的复购率，做成周报"
+   ],
+   "comparison": "简历在实习经历中明确写了用SQL做数据分析，满足在实习中用SQL做过数据分析的要求。"
+  },
+  {
+   "id": "split-r1-V3-C1-03-R3",
+   "kind": "right",
+   "arm": "split",
+   "run": 1,
+   "resume": "V3-C1-03",
+   "req": "R3",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "有一段用户运营实习生经历，任职单位为饭团外卖（成都），时间为2024.07–2024.12。",
+   "quotes": [
+    "用户运营实习生　饭团外卖（成都）　2024.07–2024.12"
+   ],
+   "comparison": "该实习岗位为用户运营方向，满足至少一段内容运营或用户运营实习经历的要求。"
+  },
+  {
+   "id": "split-r1-V3-C1-03-R4",
+   "kind": "right",
+   "arm": "split",
+   "run": 1,
+   "resume": "V3-C1-03",
+   "req": "R4",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "实习经历为用户运营实习生，时间为2024.07–2024.12。",
+   "quotes": [
+    "用户运营实习生　饭团外卖（成都）　2024.07–2024.12"
+   ],
+   "comparison": "2024.07至2024.12跨越6个月，远超累计不少于3个月的要求。"
+  },
+  {
+   "id": "split-r1-V3-C1-03-R5",
+   "kind": "right",
+   "arm": "split",
+   "run": 1,
+   "resume": "V3-C1-03",
+   "req": "R5",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "到岗时间写明为2027年1月起每周5天，可实习6个月。",
+   "quotes": [
+    "2027 年 1 月起每周 5 天，可实习 6 个月"
+   ],
+   "comparison": "每周5天满足每周4天及以上的要求，可实习6个月满足持续3个月以上的要求。"
+  },
+  {
+   "id": "split-r1-V3-C1-04-R1",
+   "kind": "right",
+   "arm": "split",
+   "run": 1,
+   "resume": "V3-C1-04",
+   "req": "R1",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "该候选人为浙江工商大学电子商务本科在读，预计2027.06毕业。",
+   "quotes": [
+    "本科在读，预计 2027.06 毕业"
+   ],
+   "comparison": "本科在读且预计2027.06毕业，满足尚未毕业的要求。"
+  },
+  {
+   "id": "split-r1-V3-C1-04-R3",
+   "kind": "right",
+   "arm": "split",
+   "run": 1,
+   "resume": "V3-C1-04",
+   "req": "R3",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "简历显示有一段内容运营实习生经历，任职于青檬读书，为期6周（2025.07.07–2025.08.15）。",
+   "quotes": [
+    "内容运营实习生｜青檬读书｜6 周（2025.07.07–2025.08.15）"
+   ],
+   "comparison": "该段内容运营实习经历满足至少一段内容运营方向实习的要求。"
+  },
+  {
+   "id": "split-r1-V3-C1-04-R6",
+   "kind": "right",
+   "arm": "split",
+   "run": 1,
+   "resume": "V3-C1-04",
+   "req": "R6",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "简历写明暑期书单活动结束后做了效果复盘，复盘指标为阅读量和涨粉。",
+   "quotes": [
+    "暑期书单活动结束后做了效果复盘（阅读量、涨粉）"
+   ],
+   "comparison": "做过活动效果复盘，满足A/B测试或活动效果复盘二者之一的要求。"
+  },
+  {
+   "id": "split-r1-V3-C1-05-R1",
+   "kind": "right",
+   "arm": "split",
+   "run": 1,
+   "resume": "V3-C1-05",
+   "req": "R1",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "教育背景为浙江大学广告学，目前大二在读。",
+   "quotes": [
+    "大二在读"
+   ],
+   "comparison": "简历显示为大二在读本科生，尚未毕业，满足R1。"
+  },
+  {
+   "id": "split-r1-V3-C1-05-R2",
+   "kind": "right",
+   "arm": "split",
+   "run": 1,
+   "resume": "V3-C1-05",
+   "req": "R2",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "在市场部实习中用数据透视表汇总各门店每月的物料费用。",
+   "quotes": [
+    "用数据透视表汇总各门店每月的物料费用"
+   ],
+   "comparison": "这是在实习经历中使用数据透视表做数据汇总，不是只写在技能栏，满足R2。"
+  },
+  {
+   "id": "split-r1-V3-C1-05-R4",
+   "kind": "right",
+   "arm": "split",
+   "run": 1,
+   "resume": "V3-C1-05",
+   "req": "R4",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "市场部实习生的实习时间为2025.06—2025.10。",
+   "quotes": [
+    "2025.06—2025.10"
+   ],
+   "comparison": "2025年6月至10月约为5个月，超过要求的累计不少于3个月，满足R4。"
+  },
+  {
+   "id": "split-r1-V3-C1-05-R5",
+   "kind": "right",
+   "arm": "split",
+   "run": 1,
+   "resume": "V3-C1-05",
+   "req": "R5",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "到岗时间为周二至周五，2027 年 1 月到 5 月。",
+   "quotes": [
+    "周二至周五，2027 年 1 月到 5 月"
+   ],
+   "comparison": "每周到岗4天（周二至周五），可持续约5个月，满足每周4天及以上且持续3个月以上的要求，满足R5。"
+  },
+  {
+   "id": "split-r1-V3-C1-06-R1",
+   "kind": "right",
+   "arm": "split",
+   "run": 1,
+   "resume": "V3-C1-06",
+   "req": "R1",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "候选人为浙江工商大学数据科学与大数据技术本科在读，入学2023.09，预计2027.06毕业。",
+   "quotes": [
+    "本科　2023.09-2027.06（在读）"
+   ],
+   "comparison": "简历显示本科在读且尚未毕业，满足本科或硕士在读的要求。"
+  },
+  {
+   "id": "split-r1-V3-C1-06-R4",
+   "kind": "right",
+   "arm": "split",
+   "run": 1,
+   "resume": "V3-C1-06",
+   "req": "R4",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "蓝鲸物流数据分析实习生的时间为2025.03-2025.08，这是简历中唯一的实习经历。",
+   "quotes": [
+    "数据分析实习生，蓝鲸物流，2025.03-2025.08"
+   ],
+   "comparison": "2025.03至2025.08按月计算约为6个月，超过要求的累计不少于3个月。"
+  },
+  {
+   "id": "split-r1-V3-C1-06-R6",
+   "kind": "right",
+   "arm": "split",
+   "run": 1,
+   "resume": "V3-C1-06",
+   "req": "R6",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "候选人在蓝鲸物流实习中做过一次“新旧派单规则”的A/B测试，对比两组的准时率。",
+   "quotes": [
+    "做过一次“新旧派单规则”的 A/B 测试，对比两组的准时率"
+   ],
+   "comparison": "简历明确写明做过A/B测试并对比两组结果，满足做过A/B测试或活动效果复盘的要求。"
+  },
+  {
+   "id": "split-r1-V3-C2-01-R1",
+   "kind": "right",
+   "arm": "split",
+   "run": 1,
+   "resume": "V3-C2-01",
+   "req": "R1",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "简历显示候选人就读于浙江大学人力资源管理专业，为本科大三在读（2024-2028）。",
+   "quotes": [
+    "浙江大学 人力资源管理 本科 大三（2024-2028）"
+   ],
+   "comparison": "该专业为人力资源管理，且仍在读本科，符合R1要求的人力资源管理相关专业在读。"
+  },
+  {
+   "id": "split-r1-V3-C2-01-R2",
+   "kind": "right",
+   "arm": "split",
+   "run": 1,
+   "resume": "V3-C2-01",
+   "req": "R2",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "简历写明候选人在黔通人力担任招聘实习生时每天电话邀约候选人面试，约 15 人/天。",
+   "quotes": [
+    "每天电话邀约候选人面试，约 15 人/天"
+   ],
+   "comparison": "候选人为他人安排面试（每天约 15 人），满足R2为他人安排面试或预约的要求。"
+  },
+  {
+   "id": "split-r1-V3-C2-01-R3",
+   "kind": "right",
+   "arm": "split",
+   "run": 1,
+   "resume": "V3-C2-01",
+   "req": "R3",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "简历写明候选人用飞书多维表格管理候选人进度（初筛/面试/offer）。",
+   "quotes": [
+    "用飞书多维表格管理候选人进度（初筛/面试/offer）"
+   ],
+   "comparison": "飞书多维表格是表格工具，候选人使用它管理候选人进度，满足R3用表格管理候选人信息的要求。"
+  },
+  {
+   "id": "split-r1-V3-C2-01-R4",
+   "kind": "right",
+   "arm": "split",
+   "run": 1,
+   "resume": "V3-C2-01",
+   "req": "R4",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "简历写明候选人写了 6 篇校招推文，发在公司公众号。",
+   "quotes": [
+    "写了 6 篇校招推文，发在公司公众号"
+   ],
+   "comparison": "候选人撰写了6篇对外推文并发布在公司公众号，满足R4写过招聘文案或公众号推文的要求。"
+  },
+  {
+   "id": "split-r1-V3-C2-01-R5",
+   "kind": "right",
+   "arm": "split",
+   "run": 1,
+   "resume": "V3-C2-01",
+   "req": "R5",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "简历写明候选人入职时签了保密协议，候选人简历只在内部系统里查看，不外传。",
+   "quotes": [
+    "入职签了保密协议，候选人简历只在内部系统里查看，不外传"
+   ],
+   "comparison": "候选人签署保密协议并限定在内部系统查看候选人简历、不外传，满足R5按保密要求处理个人信息的要求。"
+  },
+  {
+   "id": "split-r1-V3-C2-01-R6",
+   "kind": "right",
+   "arm": "split",
+   "run": 1,
+   "resume": "V3-C2-01",
+   "req": "R6",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "简历写明候选人每周 4 天（周一到周四），到岗时间为 2027.1-2027.6。",
+   "quotes": [
+    "每周 4 天（周一到周四），2027.1-2027.6"
+   ],
+   "comparison": "每周可到岗4天，达到R6要求的每周4天及以上，且时间段覆盖2027年1月起的实习期。"
+  },
+  {
+   "id": "split-r1-V3-C2-02-R1",
+   "kind": "right",
+   "arm": "split",
+   "run": 1,
+   "resume": "V3-C2-02",
+   "req": "R1",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "简历显示候选人为浙江工商大学应用心理学硕士在读（研二）。",
+   "quotes": [
+    "应用心理学　硕士在读（研二）"
+   ],
+   "comparison": "应用心理学属于要求的相近专业，且为在读状态，满足R1。"
+  },
+  {
+   "id": "split-r1-V3-C2-02-R2",
+   "kind": "right",
+   "arm": "split",
+   "run": 1,
+   "resume": "V3-C2-02",
+   "req": "R2",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "候选人在心理学实验室担任助理（2025 年至今），帮导师约被试来实验室做实验，约 30 人。",
+   "quotes": [
+    "帮导师约被试来实验室做实验，约 30 人"
+   ],
+   "comparison": "为导师约来约30名被试到实验室，属于为他人安排预约，满足R2。"
+  },
+  {
+   "id": "split-r1-V3-C2-02-R4",
+   "kind": "right",
+   "arm": "split",
+   "run": 1,
+   "resume": "V3-C2-02",
+   "req": "R4",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "候选人在校研究生会宣传部撰写招新推文3篇。",
+   "quotes": [
+    "撰写招新推文 3 篇"
+   ],
+   "comparison": "撰写了3篇对外招新推文，满足R4要求的对外文案经验。"
+  },
+  {
+   "id": "split-r1-V3-C2-02-R5",
+   "kind": "right",
+   "arm": "split",
+   "run": 1,
+   "resume": "V3-C2-02",
+   "req": "R5",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "候选人按实验室伦理要求，将被试信息去标识化后存档。",
+   "quotes": [
+    "按实验室伦理要求，被试信息去标识化后存档"
+   ],
+   "comparison": "按伦理要求对个人信息进行去标识化处理，满足R5的保密或个人信息保护要求。"
+  },
+  {
+   "id": "split-r1-V3-C2-02-R6",
+   "kind": "right",
+   "arm": "split",
+   "run": 1,
+   "resume": "V3-C2-02",
+   "req": "R6",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "简历写明每周可实习5天，2027 年 1 月起到岗。",
+   "quotes": [
+    "每周可实习 5 天，2027 年 1 月起"
+   ],
+   "comparison": "每周可实习5天，超过要求的4天，且到岗时间与2027年1月起的实习开始时间一致，满足R6。"
+  },
+  {
+   "id": "split-r1-V3-C2-03-R3",
+   "kind": "right",
+   "arm": "split",
+   "run": 1,
+   "resume": "V3-C2-03",
+   "req": "R3",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "在人事行政实习中用 Excel 记录应聘者的投递渠道和面试结果。",
+   "quotes": [
+    "用 Excel 记录应聘者的投递渠道和面试结果"
+   ],
+   "comparison": "用 Excel 表格管理应聘者的投递渠道和面试结果，满足用表格管理应聘者信息的要求。"
+  },
+  {
+   "id": "split-r1-V3-C2-03-R4",
+   "kind": "right",
+   "arm": "split",
+   "run": 1,
+   "resume": "V3-C2-03",
+   "req": "R4",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "写过公司公众号的招聘推文 2 篇。",
+   "quotes": [
+    "写过公司公众号的招聘推文 2 篇"
+   ],
+   "comparison": "撰写过 2 篇对外发布的公众号招聘推文，满足写过对外文案的要求。"
+  },
+  {
+   "id": "split-r1-V3-C2-03-R5",
+   "kind": "right",
+   "arm": "split",
+   "run": 1,
+   "resume": "V3-C2-03",
+   "req": "R5",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "按公司保密制度处理过员工花名册。",
+   "quotes": [
+    "按公司保密制度处理员工花名册"
+   ],
+   "comparison": "员工花名册属于个人信息，简历显示按保密制度处理，满足按保密或个人信息保护要求处理个人信息的要求。"
+  },
+  {
+   "id": "split-r1-V3-C2-03-R6",
+   "kind": "right",
+   "arm": "split",
+   "run": 1,
+   "resume": "V3-C2-03",
+   "req": "R6",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "到岗时间为周一至周五，2027 年 1 月起。",
+   "quotes": [
+    "到岗：周一至周五，2027 年 1 月起"
+   ],
+   "comparison": "周一至周五即每周可到岗 5 天，高于每周 4 天的要求，且起始时间与 2027 年 1 月起的岗位时间一致。"
+  },
+  {
+   "id": "split-r1-V3-C2-04-R1",
+   "kind": "right",
+   "arm": "split",
+   "run": 1,
+   "resume": "V3-C2-04",
+   "req": "R1",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "简历显示教育背景为浙江工商大学工商管理专业，目前大二在读。",
+   "quotes": [
+    "浙江工商大学　工商管理　大二在读"
+   ],
+   "comparison": "工商管理专业在读，满足该专业要求。"
+  },
+  {
+   "id": "split-r1-V3-C2-04-R2",
+   "kind": "right",
+   "arm": "split",
+   "run": 1,
+   "resume": "V3-C2-04",
+   "req": "R2",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "在学生会外联部给赞助商安排拜访时间，约见 5 家商家。",
+   "quotes": [
+    "学生会外联部：给赞助商安排拜访时间，约见 5 家商家"
+   ],
+   "comparison": "有为他人安排拜访和约见的经历，涉及 5 家商家，满足要求。"
+  },
+  {
+   "id": "split-r1-V3-C2-04-R5",
+   "kind": "right",
+   "arm": "split",
+   "run": 1,
+   "resume": "V3-C2-04",
+   "req": "R5",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "在家教中心做前台时，按中心的个人信息保护规定登记学员和家长信息。",
+   "quotes": [
+    "在家教中心做前台：按中心的个人信息保护规定登记学员和家长信息"
+   ],
+   "comparison": "按个人信息保护规定处理学员和家长信息，满足该要求。"
+  },
+  {
+   "id": "split-r1-V3-C2-05-R1",
+   "kind": "right",
+   "arm": "split",
+   "run": 1,
+   "resume": "V3-C2-05",
+   "req": "R1",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "陈雨欣的教育背景为浙江大学心理学专业本科在读，目前大三。",
+   "quotes": [
+    "心理学｜本科在读（大三）"
+   ],
+   "comparison": "心理学专业在读，满足相近专业在读的要求。"
+  },
+  {
+   "id": "split-r1-V3-C2-05-R2",
+   "kind": "right",
+   "arm": "split",
+   "run": 1,
+   "resume": "V3-C2-05",
+   "req": "R2",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "在蓉城教育实习期间，为各校区校长安排候选人面试，每周约 20 场。",
+   "quotes": [
+    "为各校区校长安排候选人面试，每周约 20 场"
+   ],
+   "comparison": "简历显示她为他人安排过候选人面试，每周约 20 场，满足安排面试的要求。"
+  },
+  {
+   "id": "split-r1-V3-C2-05-R3",
+   "kind": "right",
+   "arm": "split",
+   "run": 1,
+   "resume": "V3-C2-05",
+   "req": "R3",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "在蓉城教育实习期间，在北森招聘系统里更新候选人状态。",
+   "quotes": [
+    "在北森招聘系统里更新候选人状态"
+   ],
+   "comparison": "她使用北森招聘系统管理候选人状态，满足用招聘系统管理候选人信息的要求。"
+  },
+  {
+   "id": "split-r1-V3-C2-05-R6",
+   "kind": "right",
+   "arm": "split",
+   "run": 1,
+   "resume": "V3-C2-05",
+   "req": "R6",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "简历写明到岗时间为 2027 年 1 月起，每周 4 天。",
+   "quotes": [
+    "2027 年 1 月起，每周 4 天"
+   ],
+   "comparison": "每周可到岗 4 天，满足每周实习 4 天及以上的要求。"
+  },
+  {
+   "id": "split-r1-V3-C2-06-R3",
+   "kind": "right",
+   "arm": "split",
+   "run": 1,
+   "resume": "V3-C2-06",
+   "req": "R3",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "简历显示候选人用招聘系统（Moka）筛选和跟进应聘者。",
+   "quotes": [
+    "用招聘系统（Moka）筛选和跟进应聘者"
+   ],
+   "comparison": "使用招聘系统Moka管理应聘者，满足用招聘系统管理候选人信息的要求。"
+  },
+  {
+   "id": "split-r1-V3-C2-06-R4",
+   "kind": "right",
+   "arm": "split",
+   "run": 1,
+   "resume": "V3-C2-06",
+   "req": "R4",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "简历显示候选人撰写物业项目的招聘文案，并发在BOSS直聘。",
+   "quotes": [
+    "撰写物业项目的招聘文案，发在 BOSS 直聘"
+   ],
+   "comparison": "撰写过对外发布的招聘文案，满足写过对外文案的要求。"
+  },
+  {
+   "id": "split-r1-V3-C2-06-R5",
+   "kind": "right",
+   "arm": "split",
+   "run": 1,
+   "resume": "V3-C2-06",
+   "req": "R5",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "简历显示候选人按公司个人信息保护制度管理员工档案。",
+   "quotes": [
+    "按公司个人信息保护制度管理员工档案"
+   ],
+   "comparison": "按个人信息保护制度处理员工档案，满足按保密或个人信息保护要求处理个人信息的要求。"
+  },
+  {
+   "id": "split-r1-V3-E1-01-R1",
+   "kind": "right",
+   "arm": "split",
+   "run": 1,
+   "resume": "V3-E1-01",
+   "req": "R1",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "Education shows a BSc (Hons) Data Science programme in year 3 of 4 with expected graduation in Jun 2028.",
+   "quotes": [
+    "BSc (Hons) Data Science, yr 3 of 4 — exp. grad. Jun 2028"
+   ],
+   "comparison": "Being in year 3 of 4 with expected graduation in Jun 2028 shows the candidate is currently enrolled and not yet graduated, which meets R1."
+  },
+  {
+   "id": "split-r1-V3-E1-01-R2",
+   "kind": "right",
+   "arm": "split",
+   "run": 1,
+   "resume": "V3-E1-01",
+   "req": "R2",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "As an Analytics Intern, the candidate pulled order data with PostgreSQL queries for the weekly ops review.",
+   "quotes": [
+    "pulled order data with PostgreSQL queries for the weekly ops review"
+   ],
+   "comparison": "PostgreSQL queries are SQL, and they were used in an internship role rather than only listed as a skill, which meets R2."
+  },
+  {
+   "id": "split-r1-V3-E1-01-R3",
+   "kind": "right",
+   "arm": "split",
+   "run": 1,
+   "resume": "V3-E1-01",
+   "req": "R3",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "As an Analytics Intern, the candidate built a Power BI dashboard tracking late orders by courier, which ops leads filter by week.",
+   "quotes": [
+    "built a Power BI dashboard tracking late orders by courier; ops leads filter it by week"
+   ],
+   "comparison": "A Power BI dashboard that users filter is an interactive dashboard, not a static chart, which meets R3."
+  },
+  {
+   "id": "split-r1-V3-E1-01-R4",
+   "kind": "right",
+   "arm": "split",
+   "run": 1,
+   "resume": "V3-E1-01",
+   "req": "R4",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "The Analytics Intern role at Kedai Runcit Online Sdn Bhd ran from Mar '25 to Sep '25.",
+   "quotes": [
+    "Analytics Intern — Kedai Runcit Online Sdn Bhd (Shah Alam)          Mar '25 – Sep '25"
+   ],
+   "comparison": "Mar '25 to Sep '25 is six months by subtraction and seven months counting both ends, which meets the 6-month minimum in R4."
+  },
+  {
+   "id": "split-r1-V3-E1-01-R5",
+   "kind": "right",
+   "arm": "split",
+   "run": 1,
+   "resume": "V3-E1-01",
+   "req": "R5",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "The candidate is available Jan 2027 to May 2027, Monday to Thursday, which is 4 days a week.",
+   "quotes": [
+    "Jan 2027 → May 2027, Mon–Thu (4 days/wk)"
+   ],
+   "comparison": "Four days a week from Jan 2027 to May 2027 covers about four to five months, which meets the requirement of at least 4 days a week for at least 3 months in R5."
+  },
+  {
+   "id": "split-r1-V3-E1-01-R6",
+   "kind": "right",
+   "arm": "split",
+   "run": 1,
+   "resume": "V3-E1-01",
+   "req": "R6",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "As an Analytics Intern, the candidate presented the late-delivery findings to the customer service supervisors, described as a non-technical team.",
+   "quotes": [
+    "presented the late-delivery findings to the customer service supervisors (non-technical team)"
+   ],
+   "comparison": "Presenting findings to customer service supervisors, a non-technical audience, meets R6."
+  },
+  {
+   "id": "split-r1-V3-E1-02-R1",
+   "kind": "right",
+   "arm": "split",
+   "run": 1,
+   "resume": "V3-E1-02",
+   "req": "R1",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "Enrolled in the part-time Master of Business Analytics at Multimedia University, in year 1 of 2, with expected completion Dec 2027.",
+   "quotes": [
+    "Master of Business Analytics (part-time), Multimedia University",
+    "Year 1 of 2 · started Feb 2026 · expected completion Dec 2027"
+   ],
+   "comparison": "The resume shows current enrolment in a master's programme with completion expected in Dec 2027, so the candidate has not yet graduated and meets the requirement."
+  },
+  {
+   "id": "split-r1-V3-E1-02-R2",
+   "kind": "right",
+   "arm": "split",
+   "run": 1,
+   "resume": "V3-E1-02",
+   "req": "R2",
+   "trap": null,
+   "check": "numbers_not_in_quote",
+   "resume_fact": "Wrote SQL queries on a 1M-row retail dataset to find repeat buyers in the BA6012 Retail Analytics course project.",
+   "quotes": [
+    "wrote SQL queries on a 1M-row retail dataset to find repeat buyers"
+   ],
+   "comparison": "The SQL use is described under course projects rather than a skills list, which meets the requirement for SQL use in a project."
+  },
+  {
+   "id": "split-r1-V3-E1-02-R3",
+   "kind": "right",
+   "arm": "split",
+   "run": 1,
+   "resume": "V3-E1-02",
+   "req": "R3",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "Built an interactive Tableau Public dashboard of repeat-purchase rates, with filters by state and month.",
+   "quotes": [
+    "built an interactive Tableau Public dashboard of repeat-purchase rates, with filters by state and month"
+   ],
+   "comparison": "An interactive Tableau dashboard with filters is shown, which meets the requirement for a dashboard or interactive report rather than static charts."
+  },
+  {
+   "id": "split-r1-V3-E1-02-R4",
+   "kind": "right",
+   "arm": "split",
+   "run": 1,
+   "resume": "V3-E1-02",
+   "req": "R4",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "Worked as an Audit Associate at Lim & Partners Chartered Accountants from 2023/08 to 2025/02.",
+   "quotes": [
+    "2023/08 – 2025/02",
+    "Audit Associate, Lim & Partners Chartered Accountants"
+   ],
+   "comparison": "The role runs from 2023/08 to 2025/02, which is about 18 months and exceeds the required 6 months of work experience."
+  },
+  {
+   "id": "split-r1-V3-E1-02-R5",
+   "kind": "right",
+   "arm": "split",
+   "run": 1,
+   "resume": "V3-E1-02",
+   "req": "R5",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "Available 4 days a week (Tue-Fri) from Jan to Jun 2027.",
+   "quotes": [
+    "Available: 4 days a week (Tue-Fri), Jan to Jun 2027"
+   ],
+   "comparison": "Availability of 4 days a week for Jan to Jun 2027, about 6 months, meets the requirement of at least 4 days a week for at least 3 months."
+  },
+  {
+   "id": "split-r1-V3-E1-02-R6",
+   "kind": "right",
+   "arm": "split",
+   "run": 1,
+   "resume": "V3-E1-02",
+   "req": "R6",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "Presented the duplicate-payment analysis to the client's managing director and office manager.",
+   "quotes": [
+    "presented the duplicate-payment analysis to the client's managing director and office manager"
+   ],
+   "comparison": "Presenting to a managing director and office manager is presenting to non-technical managers, which meets the requirement."
+  },
+  {
+   "id": "split-r1-V3-E1-03-R2",
+   "kind": "right",
+   "arm": "split",
+   "run": 1,
+   "resume": "V3-E1-03",
+   "req": "R2",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "At Sinar Freight, the candidate worked as an Operations Analyst Intern from Jan 2025 to Aug 2025 and wrote SQL queries in BigQuery to count failed deliveries per hub each week.",
+   "quotes": [
+    "Operations Analyst Intern, Sinar Freight   Jan 2025 – Aug 2025",
+    "Wrote SQL queries in BigQuery to count failed deliveries per hub each week."
+   ],
+   "comparison": "SQL use is described under work experience at Sinar Freight, which meets the requirement that SQL be used in a job or internship rather than only listed in skills."
+  },
+  {
+   "id": "split-r1-V3-E1-03-R4",
+   "kind": "right",
+   "arm": "split",
+   "run": 1,
+   "resume": "V3-E1-03",
+   "req": "R4",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "The candidate's Operations Analyst Intern role at Sinar Freight ran from Jan 2025 to Aug 2025, which is the only work or internship experience listed.",
+   "quotes": [
+    "Operations Analyst Intern, Sinar Freight   Jan 2025 – Aug 2025"
+   ],
+   "comparison": "Jan 2025 to Aug 2025 spans 8 months, which exceeds the required 6 months of work or internship experience."
+  },
+  {
+   "id": "split-r1-V3-E1-03-R5",
+   "kind": "right",
+   "arm": "split",
+   "run": 1,
+   "resume": "V3-E1-03",
+   "req": "R5",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "The candidate is available Monday–Friday from January 2027 for six months.",
+   "quotes": [
+    "Monday–Friday from January 2027, for six months."
+   ],
+   "comparison": "Monday–Friday is 5 days a week, which meets the 4-day minimum, and six months exceeds the 3-month minimum."
+  },
+  {
+   "id": "split-r1-V3-E1-03-R6",
+   "kind": "right",
+   "arm": "split",
+   "run": 1,
+   "resume": "V3-E1-03",
+   "req": "R6",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "The candidate presented the monthly failed-delivery summary to the hub managers at Sinar Freight.",
+   "quotes": [
+    "Presented the monthly failed-delivery summary to the hub managers."
+   ],
+   "comparison": "Hub managers are non-technical operational audiences, so this shows presenting analysis results to a non-technical audience as required."
+  },
+  {
+   "id": "split-r1-V3-E1-04-R1",
+   "kind": "right",
+   "arm": "split",
+   "run": 1,
+   "resume": "V3-E1-04",
+   "req": "R1",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "Enrolled in Multimedia University's Bachelor of Computer Science (Data Science) with expected graduation Nov 2027.",
+   "quotes": [
+    "Multimedia University, Bachelor of Computer Science (Data Science)",
+    "Expected graduation: Nov 2027"
+   ],
+   "comparison": "The resume shows a current bachelor's programme with graduation still in the future (Nov 2027), which meets the enrolment requirement."
+  },
+  {
+   "id": "split-r1-V3-E1-04-R3",
+   "kind": "right",
+   "arm": "split",
+   "run": 1,
+   "resume": "V3-E1-04",
+   "req": "R3",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "At Pantai Mart, built a Looker Studio report with filters for store and week, used by the area managers.",
+   "quotes": [
+    "built a Looker Studio report with filters for store and week, used by the area managers"
+   ],
+   "comparison": "A Looker Studio report with filters is an interactive dashboard rather than a static chart, which meets the dashboard requirement."
+  },
+  {
+   "id": "split-r1-V3-E1-04-R5",
+   "kind": "right",
+   "arm": "split",
+   "run": 1,
+   "resume": "V3-E1-04",
+   "req": "R5",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "Availability is listed as Mon–Thu, January–April 2027.",
+   "quotes": [
+    "Mon–Thu, January–April 2027"
+   ],
+   "comparison": "Mon–Thu is 4 days a week, and January–April 2027 covers 4 months, which meets the requirement of at least 4 days a week for at least 3 months."
+  },
+  {
+   "id": "split-r1-V3-E1-05-R1",
+   "kind": "right",
+   "arm": "split",
+   "run": 1,
+   "resume": "V3-E1-05",
+   "req": "R1",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "Enrolled in the B.Econ (Econometrics) programme at National University of Singapore, 3rd year, graduating 2027 (expected).",
+   "quotes": [
+    "National University of Singapore — B.Econ (Econometrics), 3rd year, graduating 2027 (expected)"
+   ],
+   "comparison": "The candidate is in the 3rd year of a bachelor's degree and has not yet graduated, which meets the current-enrolment requirement."
+  },
+  {
+   "id": "split-r1-V3-E1-05-R2",
+   "kind": "right",
+   "arm": "split",
+   "run": 1,
+   "resume": "V3-E1-05",
+   "req": "R2",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "Wrote MySQL queries to compare prices across 300 sellers during the Pricing Analyst Intern role at Gerai Digital.",
+   "quotes": [
+    "Wrote MySQL queries to compare prices across 300 sellers"
+   ],
+   "comparison": "SQL use is described under work experience (MySQL queries in an internship), which meets the requirement."
+  },
+  {
+   "id": "split-r1-V3-E1-05-R4",
+   "kind": "right",
+   "arm": "split",
+   "run": 1,
+   "resume": "V3-E1-05",
+   "req": "R4",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "Pricing Analyst Intern at Gerai Digital (Feb 2025 – Aug 2025) and part-time Data Entry Assistant at Klinik Ana (Sep 2025 – Dec 2025).",
+   "quotes": [
+    "Pricing Analyst Intern, Gerai Digital (Feb 2025 – Aug 2025)",
+    "Data Entry Assistant (part-time), Klinik Ana (Sep 2025 – Dec 2025)"
+   ],
+   "comparison": "Feb 2025 to Aug 2025 is 7 months and Sep 2025 to Dec 2025 is 4 months, totalling about 11 months, which exceeds the 6-month minimum."
+  },
+  {
+   "id": "split-r1-V3-E1-05-R6",
+   "kind": "right",
+   "arm": "split",
+   "run": 1,
+   "resume": "V3-E1-05",
+   "req": "R6",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "Walked the sales managers through the price-gap findings every month.",
+   "quotes": [
+    "Walked the sales managers through the price-gap findings every month"
+   ],
+   "comparison": "Presenting findings monthly to sales managers, who are non-technical stakeholders, meets the requirement to present analysis to a non-technical audience."
+  },
+  {
+   "id": "split-r1-V3-E1-06-R1",
+   "kind": "right",
+   "arm": "split",
+   "run": 1,
+   "resume": "V3-E1-06",
+   "req": "R1",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "Currently enrolled in a Bachelor of Science in Actuarial Science at Multimedia University, in Year 2, for 2025 – 2029.",
+   "quotes": [
+    "Multimedia University | Bachelor of Science in Actuarial Science | Year 2 | 2025 – 2029"
+   ],
+   "comparison": "The resume shows an ongoing bachelor's programme in Year 2 with an end date of 2029, so the candidate has not yet graduated, which meets R1."
+  },
+  {
+   "id": "split-r1-V3-E1-06-R3",
+   "kind": "right",
+   "arm": "split",
+   "run": 1,
+   "resume": "V3-E1-06",
+   "req": "R3",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "Built a Tableau dashboard of fleet fuel use with a filter by depot and a monthly trend view.",
+   "quotes": [
+    "Built a Tableau dashboard of fleet fuel use with a filter by depot and a monthly trend view"
+   ],
+   "comparison": "A filterable Tableau dashboard is an interactive report, which meets R3's requirement for at least one dashboard."
+  },
+  {
+   "id": "split-r1-V3-E1-06-R4",
+   "kind": "right",
+   "arm": "split",
+   "run": 1,
+   "resume": "V3-E1-06",
+   "req": "R4",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "Worked as a Business Intelligence Intern at Rakan Logistik from 01/2025 to 08/2025.",
+   "quotes": [
+    "Business Intelligence Intern | Rakan Logistik | 01/2025 – 08/2025"
+   ],
+   "comparison": "The period January through August 2025 covers 8 months inclusive, which exceeds the 6-month minimum in R4."
+  },
+  {
+   "id": "split-r1-V3-E2-01-R1",
+   "kind": "right",
+   "arm": "split",
+   "run": 1,
+   "resume": "V3-E2-01",
+   "req": "R1",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "Enrolled in B.BA (Hons) Human Resource Mgmt at National University of Singapore, Year 2 (2025–2028).",
+   "quotes": [
+    "B.BA (Hons) Human Resource Mgmt, National University of Singapore — Year 2 (2025–2028)"
+   ],
+   "comparison": "The resume shows current study in human resource management, which meets the requirement for a currently studied HR field."
+  },
+  {
+   "id": "split-r1-V3-E2-01-R2",
+   "kind": "right",
+   "arm": "split",
+   "run": 1,
+   "resume": "V3-E2-01",
+   "req": "R2",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "Coordinated interview slots with 40+ candidates via Calendly and phone while a Recruitment Intern at Saujana Staffing.",
+   "quotes": [
+    "coordinated interview slots w/ 40+ candidates via Calendly & phone"
+   ],
+   "comparison": "Scheduling interview slots with 40+ external candidates meets the requirement of scheduling interviews with external people."
+  },
+  {
+   "id": "split-r1-V3-E2-01-R3",
+   "kind": "right",
+   "arm": "split",
+   "run": 1,
+   "resume": "V3-E2-01",
+   "req": "R3",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "Kept a candidate tracker in Google Sheets, updated with stage, interviewer and outcome.",
+   "quotes": [
+    "kept the candidate tracker (Google Sheets) up to date: stage, interviewer, outcome"
+   ],
+   "comparison": "Maintaining a candidate tracker in a spreadsheet meets the requirement of tracking candidates in an ATS or spreadsheet."
+  },
+  {
+   "id": "split-r1-V3-E2-01-R4",
+   "kind": "right",
+   "arm": "split",
+   "run": 1,
+   "resume": "V3-E2-01",
+   "req": "R4",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "Drafted 12 job posts for LinkedIn and Jobstreet.",
+   "quotes": [
+    "drafted 12 job posts for LinkedIn and Jobstreet"
+   ],
+   "comparison": "Drafting 12 public job posts on LinkedIn and Jobstreet meets the requirement for written recruitment copy."
+  },
+  {
+   "id": "split-r1-V3-E2-01-R5",
+   "kind": "right",
+   "arm": "split",
+   "run": 1,
+   "resume": "V3-E2-01",
+   "req": "R5",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "Signed an NDA and handled candidate records under the company's PDPA policy.",
+   "quotes": [
+    "signed an NDA; handled candidate records under the company's PDPA policy"
+   ],
+   "comparison": "Handling candidate records under a PDPA policy and an NDA meets the requirement for handling confidential personal data under a privacy rule."
+  },
+  {
+   "id": "split-r1-V3-E2-01-R6",
+   "kind": "right",
+   "arm": "split",
+   "run": 1,
+   "resume": "V3-E2-01",
+   "req": "R6",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "Available Tue–Fri (4 days/week) from Jan–Jun 2027.",
+   "quotes": [
+    "Tue–Fri (4 days/week), Jan–Jun 2027"
+   ],
+   "comparison": "Availability of 4 days per week meets the requirement of at least 4 days a week, and the period covers the January 2027 start."
+  },
+  {
+   "id": "split-r1-V3-E2-02-R1",
+   "kind": "right",
+   "arm": "split",
+   "run": 1,
+   "resume": "V3-E2-02",
+   "req": "R1",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "Priya Nair is in the final year of a BSc Psychology at Multimedia University, with expected graduation in Aug 2027.",
+   "quotes": [
+    "BSc Psychology @ Multimedia University, final year, expected graduation Aug 2027"
+   ],
+   "comparison": "A current psychology degree is a closely related field to the required human resources, business or psychology studies, so the requirement is met."
+  },
+  {
+   "id": "split-r1-V3-E2-02-R2",
+   "kind": "right",
+   "arm": "split",
+   "run": 1,
+   "resume": "V3-E2-02",
+   "req": "R2",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "As a Research Assistant, the candidate booked lab sessions with ~60 study participants from outside the university.",
+   "quotes": [
+    "booked lab sessions with ~60 study participants from outside the university"
+   ],
+   "comparison": "Booking sessions with about 60 external study participants is scheduling appointments with external people, which meets the requirement."
+  },
+  {
+   "id": "split-r1-V3-E2-02-R3",
+   "kind": "right",
+   "arm": "split",
+   "run": 1,
+   "resume": "V3-E2-02",
+   "req": "R3",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "The candidate logged sign-ups and screening answers in an Excel applicant sheet, recording eligible, not eligible and no-show outcomes.",
+   "quotes": [
+    "logged sign-ups and screening answers in an Excel applicant sheet (eligible / not eligible / no-show)"
+   ],
+   "comparison": "Tracking applicants in an Excel spreadsheet meets the ATS-or-spreadsheet requirement."
+  },
+  {
+   "id": "split-r1-V3-E2-02-R4",
+   "kind": "right",
+   "arm": "split",
+   "run": 1,
+   "resume": "V3-E2-02",
+   "req": "R4",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "The candidate wrote the recruitment posts for the lab's Instagram.",
+   "quotes": [
+    "wrote the recruitment posts for the lab's Instagram"
+   ],
+   "comparison": "Writing recruitment posts for a public Instagram account is public-facing copy, which meets the requirement."
+  },
+  {
+   "id": "split-r1-V3-E2-02-R5",
+   "kind": "right",
+   "arm": "split",
+   "run": 1,
+   "resume": "V3-E2-02",
+   "req": "R5",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "The candidate ran all sessions under the ethics committee's confidentiality rules, with consent forms locked away and names replaced with IDs.",
+   "quotes": [
+    "ran all sessions under the ethics committee's confidentiality rules",
+    "consent forms locked away, names replaced with IDs"
+   ],
+   "comparison": "Handling participant personal data under an ethics committee's confidentiality rules meets the privacy or confidentiality requirement."
+  },
+  {
+   "id": "split-r1-V3-E2-02-R6",
+   "kind": "right",
+   "arm": "split",
+   "run": 1,
+   "resume": "V3-E2-02",
+   "req": "R6",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "The candidate is available Mon–Fri from 4 Jan 2027.",
+   "quotes": [
+    "Available Mon–Fri from 4 Jan 2027."
+   ],
+   "comparison": "Availability Monday to Friday is 5 days a week, which exceeds the required minimum of 4 days a week."
+  },
+  {
+   "id": "split-r1-V3-E2-03-R3",
+   "kind": "right",
+   "arm": "split",
+   "run": 1,
+   "resume": "V3-E2-03",
+   "req": "R3",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "Entered job applicants into the clinic's ATS (Recruitee) and moved them through the stages at Bayu Dental Group.",
+   "quotes": [
+    "entered job applicants into the clinic's ATS (Recruitee) and moved them through the stages"
+   ],
+   "comparison": "Entering applicants into Recruitee and moving them through stages is tracking candidates in an applicant tracking system, which meets the requirement."
+  },
+  {
+   "id": "split-r1-V3-E2-03-R4",
+   "kind": "right",
+   "arm": "split",
+   "run": 1,
+   "resume": "V3-E2-03",
+   "req": "R4",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "Wrote the job ads for two dental assistant openings on Hiredly at Bayu Dental Group.",
+   "quotes": [
+    "wrote the job ads for two dental assistant openings on Hiredly"
+   ],
+   "comparison": "Writing public job ads on Hiredly is public-facing recruitment copy, which meets the requirement."
+  },
+  {
+   "id": "split-r1-V3-E2-03-R5",
+   "kind": "right",
+   "arm": "split",
+   "run": 1,
+   "resume": "V3-E2-03",
+   "req": "R5",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "Handled patient and applicant records under the clinic's confidentiality policy at Bayu Dental Group.",
+   "quotes": [
+    "handled patient and applicant records under the clinic's confidentiality policy"
+   ],
+   "comparison": "Handling patient and applicant records under a confidentiality policy shows handling confidential personal data under a confidentiality rule, which meets the requirement."
+  },
+  {
+   "id": "split-r1-V3-E2-03-R6",
+   "kind": "right",
+   "arm": "split",
+   "run": 1,
+   "resume": "V3-E2-03",
+   "req": "R6",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "Available 4 days a week (Mon–Thu), Jan–Apr 2027.",
+   "quotes": [
+    "4 days a week (Mon–Thu), Jan–Apr 2027"
+   ],
+   "comparison": "Availability of 4 days a week covers the minimum of at least 4 days a week required, and the Jan–Apr 2027 window overlaps the January 2027 start."
+  },
+  {
+   "id": "split-r1-V3-E2-04-R1",
+   "kind": "right",
+   "arm": "split",
+   "run": 1,
+   "resume": "V3-E2-04",
+   "req": "R1",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "Emma Hughes is in Year 2 of a Bachelor of Business (Management) at Multimedia University, with expected graduation in 2028.",
+   "quotes": [
+    "Multimedia University — Bachelor of Business (Management), Year 2, expected graduation 2028"
+   ],
+   "comparison": "Business (Management) is a business field and she is currently studying it, so this meets the requirement."
+  },
+  {
+   "id": "split-r1-V3-E2-04-R2",
+   "kind": "right",
+   "arm": "split",
+   "run": 1,
+   "resume": "V3-E2-04",
+   "req": "R2",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "At Klinik Sejahtera she phoned patients to schedule follow-up appointments with the doctors.",
+   "quotes": [
+    "phoned patients to schedule follow-up appointments with the doctors"
+   ],
+   "comparison": "Scheduling appointments with patients, who are external people, meets the requirement for scheduled external appointments."
+  },
+  {
+   "id": "split-r1-V3-E2-04-R3",
+   "kind": "right",
+   "arm": "split",
+   "run": 1,
+   "resume": "V3-E2-04",
+   "req": "R3",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "She tracked walk-in job applicants for nurse roles in a shared spreadsheet.",
+   "quotes": [
+    "tracked walk-in job applicants for nurse roles in a shared spreadsheet"
+   ],
+   "comparison": "Tracking applicants in a spreadsheet meets the requirement for tracking candidates in an ATS or a spreadsheet."
+  },
+  {
+   "id": "split-r1-V3-E2-05-R1",
+   "kind": "right",
+   "arm": "split",
+   "run": 1,
+   "resume": "V3-E2-05",
+   "req": "R1",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "The resume lists a Bachelor of Psychology at the National University of Singapore, currently in its 2nd year.",
+   "quotes": [
+    "Bachelor of Psychology, National University of Singapore, 2nd year"
+   ],
+   "comparison": "The candidate is currently studying psychology, which is one of the accepted fields for R1."
+  },
+  {
+   "id": "split-r1-V3-E2-05-R4",
+   "kind": "right",
+   "arm": "split",
+   "run": 1,
+   "resume": "V3-E2-05",
+   "req": "R4",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "The resume says the candidate wrote the club's recruitment posts and event captions for Instagram.",
+   "quotes": [
+    "Wrote the club's recruitment posts and event captions for Instagram"
+   ],
+   "comparison": "Writing recruitment posts and public Instagram captions meets the requirement for written public-facing copy."
+  },
+  {
+   "id": "split-r1-V3-E2-05-R5",
+   "kind": "right",
+   "arm": "split",
+   "run": 1,
+   "resume": "V3-E2-05",
+   "req": "R5",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "The resume says the candidate, as a Befrienders hotline volunteer, handled callers' details under the hotline's confidentiality pledge.",
+   "quotes": [
+    "Volunteer, Befrienders hotline: callers' details handled under the hotline's confidentiality pledge"
+   ],
+   "comparison": "Handling callers' details under a confidentiality pledge meets the requirement for handling confidential personal data under a confidentiality rule."
+  },
+  {
+   "id": "split-r1-V3-E2-05-R6",
+   "kind": "right",
+   "arm": "split",
+   "run": 1,
+   "resume": "V3-E2-05",
+   "req": "R6",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "The resume states availability as Monday to Thursday, January to May 2027.",
+   "quotes": [
+    "AVAILABILITY: Monday to Thursday, Jan–May 2027"
+   ],
+   "comparison": "Monday to Thursday is four days a week, which meets the requirement of at least 4 days a week."
+  },
+  {
+   "id": "split-r1-V3-E2-06-R1",
+   "kind": "right",
+   "arm": "split",
+   "run": 1,
+   "resume": "V3-E2-06",
+   "req": "R1",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "The resume lists a Bachelor of Business Administration at Multimedia University, currently in Year 3 with expected completion in 2027.",
+   "quotes": [
+    "Multimedia University · Bachelor of Business Administration · Year 3 · exp. 2027"
+   ],
+   "comparison": "Business Administration is a business field and the candidate is currently studying it, so this meets the requirement to be studying HR, business, psychology or a closely related field."
+  },
+  {
+   "id": "split-r1-V3-E2-06-R2",
+   "kind": "right",
+   "arm": "split",
+   "run": 1,
+   "resume": "V3-E2-06",
+   "req": "R2",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "As an HR Intern at Seri Medika Clinics, the candidate set up interviews between clinic managers and nurse candidates by phone and email.",
+   "quotes": [
+    "set up interviews between clinic managers and nurse candidates by phone and email"
+   ],
+   "comparison": "Arranging interviews with nurse candidates, who are external people, meets the requirement to have scheduled interviews or appointments with external people."
+  },
+  {
+   "id": "split-r1-V3-E2-06-R5",
+   "kind": "right",
+   "arm": "split",
+   "run": 1,
+   "resume": "V3-E2-06",
+   "req": "R5",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "As an HR Intern at Seri Medika Clinics, the candidate handled staff files under the clinic's PDPA rules.",
+   "quotes": [
+    "handled staff files under the clinic's PDPA rules"
+   ],
+   "comparison": "Handling staff files under PDPA, a personal data privacy rule, meets the requirement to have handled confidential personal data under a privacy or confidentiality rule."
+  },
+  {
+   "id": "split-r2-V3-C1-01-R1",
+   "kind": "right",
+   "arm": "split",
+   "run": 2,
+   "resume": "V3-C1-01",
+   "req": "R1",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "教育背景为浙江大学新闻传播学，写明大三在读（2024.9-2028.6）。",
+   "quotes": [
+    "大三在读（2024.9-2028.6）"
+   ],
+   "comparison": "简历显示仍在读本科，大三在读，满足尚未毕业的要求。"
+  },
+  {
+   "id": "split-r2-V3-C1-01-R2",
+   "kind": "right",
+   "arm": "split",
+   "run": 2,
+   "resume": "V3-C1-01",
+   "req": "R2",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "实习经历中写有每周用SQL拉一次留存数据，按渠道拆分，写进周报。",
+   "quotes": [
+    "每周用SQL拉一次留存数据，按渠道拆分，写进周报"
+   ],
+   "comparison": "该SQL数据分析工作出现在实习经历中，不只是技能栏，满足要求。"
+  },
+  {
+   "id": "split-r2-V3-C1-01-R3",
+   "kind": "right",
+   "arm": "split",
+   "run": 2,
+   "resume": "V3-C1-01",
+   "req": "R3",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "有用户运营实习生的经历，任职于小橘猫宠物App。",
+   "quotes": [
+    "用户运营实习生 @ 小橘猫宠物App"
+   ],
+   "comparison": "用户运营属于用户运营方向，且为实习经历，满足至少一段内容或用户运营实习的要求。"
+  },
+  {
+   "id": "split-r2-V3-C1-01-R4",
+   "kind": "right",
+   "arm": "split",
+   "run": 2,
+   "resume": "V3-C1-01",
+   "req": "R4",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "用户运营实习的时间为25年3月—25年7月。",
+   "quotes": [
+    "25年3月—25年7月"
+   ],
+   "comparison": "25年3月至25年7月约为5个月，超过要求的累计不少于3个月。"
+  },
+  {
+   "id": "split-r2-V3-C1-01-R5",
+   "kind": "right",
+   "arm": "split",
+   "run": 2,
+   "resume": "V3-C1-01",
+   "req": "R5",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "到岗说明为2027年1月起每周5天，可实习4个月以上。",
+   "quotes": [
+    "2027年1月起每周5天，可实习4个月以上"
+   ],
+   "comparison": "每周5天超过要求的每周4天及以上，可实习4个月以上超过要求的3个月以上。"
+  },
+  {
+   "id": "split-r2-V3-C1-01-R6",
+   "kind": "right",
+   "arm": "split",
+   "run": 2,
+   "resume": "V3-C1-01",
+   "req": "R6",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "五一活动结束后写过活动复盘，内容包括拉新成本、次留和问题清单。",
+   "quotes": [
+    "五一活动结束后写了活动复盘：拉新成本、次留、问题清单"
+   ],
+   "comparison": "写过活动效果复盘，满足做过A/B测试或活动效果复盘的要求。"
+  },
+  {
+   "id": "split-r2-V3-C1-02-R1",
+   "kind": "right",
+   "arm": "split",
+   "run": 2,
+   "resume": "V3-C1-02",
+   "req": "R1",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "简历显示陈雨欣为硕士研究生在读，预计2028年6月毕业。",
+   "quotes": [
+    "硕士研究生在读",
+    "预计2028年6月毕业"
+   ],
+   "comparison": "简历显示为在读硕士且尚未毕业，满足本科或硕士在读（尚未毕业）的要求。"
+  },
+  {
+   "id": "split-r2-V3-C1-02-R2",
+   "kind": "right",
+   "arm": "split",
+   "run": 2,
+   "resume": "V3-C1-02",
+   "req": "R2",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "在知了短视频的内容运营实习中，用Excel数据透视表按选题统计完播率。",
+   "quotes": [
+    "用Excel数据透视表按选题统计完播率"
+   ],
+   "comparison": "这是在实习经历中使用Excel数据透视表做数据分析，不只是写在技能栏里，满足要求。"
+  },
+  {
+   "id": "split-r2-V3-C1-02-R3",
+   "kind": "right",
+   "arm": "split",
+   "run": 2,
+   "resume": "V3-C1-02",
+   "req": "R3",
+   "trap": null,
+   "check": "numbers_not_in_quote",
+   "resume_fact": "简历列有内容运营实习生的实习经历，单位为知了短视频，时间为2025/07 ~ 2025/11。",
+   "quotes": [
+    "内容运营实习生",
+    "知了短视频"
+   ],
+   "comparison": "该段实习为内容运营方向，满足至少一段内容运营或用户运营实习经历的要求。"
+  },
+  {
+   "id": "split-r2-V3-C1-02-R4",
+   "kind": "right",
+   "arm": "split",
+   "run": 2,
+   "resume": "V3-C1-02",
+   "req": "R4",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "简历列有两段实习，分别为2025/07 ~ 2025/11（内容运营实习生）和2024/12 ~ 2025/02（市场助理，寒假）。",
+   "quotes": [
+    "2025/07 ~ 2025/11",
+    "2024/12 ~ 2025/02"
+   ],
+   "comparison": "2025/07至2025/11约5个月，2024/12至2025/02约3个月，合计约8个月，超过要求的不少于3个月。"
+  },
+  {
+   "id": "split-r2-V3-C1-02-R5",
+   "kind": "right",
+   "arm": "split",
+   "run": 2,
+   "resume": "V3-C1-02",
+   "req": "R5",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "简历写明到岗时间为每周一至周四，2027.01-2027.05。",
+   "quotes": [
+    "每周一至周四",
+    "2027.01-2027.05"
+   ],
+   "comparison": "每周一至周四为4天，到岗期为2027年1月至5月，约5个月，满足每周4天及以上且持续3个月以上的要求。"
+  },
+  {
+   "id": "split-r2-V3-C1-02-R6",
+   "kind": "right",
+   "arm": "split",
+   "run": 2,
+   "resume": "V3-C1-02",
+   "req": "R6",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "在知了短视频实习中，对两版封面标题做A/B测试，第二版点击率高。",
+   "quotes": [
+    "对两版封面标题做A/B测试"
+   ],
+   "comparison": "简历明确写有A/B测试的实际工作，满足做过A/B测试或活动效果复盘的要求。"
+  },
+  {
+   "id": "split-r2-V3-C1-03-R2",
+   "kind": "right",
+   "arm": "split",
+   "run": 2,
+   "resume": "V3-C1-03",
+   "req": "R2",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "在用户运营实习中用SQL统计各商圈的复购率并做成周报。",
+   "quotes": [
+    "用 SQL 统计各商圈的复购率，做成周报"
+   ],
+   "comparison": "该实习经历中实际使用SQL做数据分析，满足在实习中使用SQL的要求。"
+  },
+  {
+   "id": "split-r2-V3-C1-03-R3",
+   "kind": "right",
+   "arm": "split",
+   "run": 2,
+   "resume": "V3-C1-03",
+   "req": "R3",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "担任用户运营实习生，实习单位为饭团外卖（成都），时间为2024.07–2024.12。",
+   "quotes": [
+    "用户运营实习生　饭团外卖（成都）　2024.07–2024.12",
+    "负责会员群的日常运营和活动通知"
+   ],
+   "comparison": "该实习属于用户运营方向，满足至少一段内容或用户运营实习经历的要求。"
+  },
+  {
+   "id": "split-r2-V3-C1-03-R4",
+   "kind": "right",
+   "arm": "split",
+   "run": 2,
+   "resume": "V3-C1-03",
+   "req": "R4",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "实习经历时间为2024.07–2024.12。",
+   "quotes": [
+    "用户运营实习生　饭团外卖（成都）　2024.07–2024.12"
+   ],
+   "comparison": "2024.07至2024.12约为6个月，超过要求的累计不少于3个月。"
+  },
+  {
+   "id": "split-r2-V3-C1-03-R5",
+   "kind": "right",
+   "arm": "split",
+   "run": 2,
+   "resume": "V3-C1-03",
+   "req": "R5",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "2027 年 1 月起每周 5 天，可实习 6 个月。",
+   "quotes": [
+    "2027 年 1 月起每周 5 天，可实习 6 个月"
+   ],
+   "comparison": "简历写明每周5天、可实习6个月，满足每周4天及以上且持续3个月以上的要求。"
+  },
+  {
+   "id": "split-r2-V3-C1-04-R1",
+   "kind": "right",
+   "arm": "split",
+   "run": 2,
+   "resume": "V3-C1-04",
+   "req": "R1",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "简历写明其为浙江工商大学电子商务本科在读，预计2027.06毕业。",
+   "quotes": [
+    "本科在读，预计 2027.06 毕业"
+   ],
+   "comparison": "简历显示为本科在读且尚未毕业，满足R1的在读要求。"
+  },
+  {
+   "id": "split-r2-V3-C1-04-R3",
+   "kind": "right",
+   "arm": "split",
+   "run": 2,
+   "resume": "V3-C1-04",
+   "req": "R3",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "简历列有内容运营实习生一段经历，在青檬读书，时间为2025.07.07–2025.08.15。",
+   "quotes": [
+    "内容运营实习生｜青檬读书｜6 周（2025.07.07–2025.08.15）"
+   ],
+   "comparison": "该经历属于内容运营方向，满足R3对至少一段内容或用户运营实习的要求。"
+  },
+  {
+   "id": "split-r2-V3-C1-04-R6",
+   "kind": "right",
+   "arm": "split",
+   "run": 2,
+   "resume": "V3-C1-04",
+   "req": "R6",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "简历写明暑期书单活动结束后做了效果复盘，复盘内容包括阅读量和涨粉。",
+   "quotes": [
+    "暑期书单活动结束后做了效果复盘（阅读量、涨粉）"
+   ],
+   "comparison": "该条目明确是活动效果复盘，满足R6对活动效果复盘的要求。"
+  },
+  {
+   "id": "split-r2-V3-C1-05-R1",
+   "kind": "right",
+   "arm": "split",
+   "run": 2,
+   "resume": "V3-C1-05",
+   "req": "R1",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "陈浩宇是浙江大学广告学专业大二在读学生。",
+   "quotes": [
+    "浙江大学　广告学　大二在读"
+   ],
+   "comparison": "简历显示其为本科在读、尚未毕业，满足本科或硕士在读的要求。"
+  },
+  {
+   "id": "split-r2-V3-C1-05-R2",
+   "kind": "right",
+   "arm": "split",
+   "run": 2,
+   "resume": "V3-C1-05",
+   "req": "R2",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "在市场部实习中用数据透视表汇总各门店每月的物料费用。",
+   "quotes": [
+    "用数据透视表汇总各门店每月的物料费用"
+   ],
+   "comparison": "该数据透视表用于实习工作中的费用汇总分析，属于在实习中使用Excel数据透视表做数据分析，满足要求。"
+  },
+  {
+   "id": "split-r2-V3-C1-05-R4",
+   "kind": "right",
+   "arm": "split",
+   "run": 2,
+   "resume": "V3-C1-05",
+   "req": "R4",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "实习经历时间为2025.06—2025.10。",
+   "quotes": [
+    "2025.06—2025.10"
+   ],
+   "comparison": "从2025年6月到10月共5个月，超过要求的累计不少于3个月。"
+  },
+  {
+   "id": "split-r2-V3-C1-05-R5",
+   "kind": "right",
+   "arm": "split",
+   "run": 2,
+   "resume": "V3-C1-05",
+   "req": "R5",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "到岗时间为周二至周五，2027年1月到5月。",
+   "quotes": [
+    "周二至周五，2027 年 1 月到 5 月"
+   ],
+   "comparison": "周二至周五即每周4天，到岗时间为2027年1月至5月共5个月，满足每周4天及以上且持续3个月以上的要求。"
+  },
+  {
+   "id": "split-r2-V3-C1-06-R1",
+   "kind": "right",
+   "arm": "split",
+   "run": 2,
+   "resume": "V3-C1-06",
+   "req": "R1",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "简历显示本科为数据科学与大数据技术，入学时间为2023.09，结束时间为2027.06，目前在读。",
+   "quotes": [
+    "本科　2023.09-2027.06（在读）"
+   ],
+   "comparison": "简历写明本科在读且预计2027.06结束，符合尚未毕业的要求。"
+  },
+  {
+   "id": "split-r2-V3-C1-06-R4",
+   "kind": "right",
+   "arm": "split",
+   "run": 2,
+   "resume": "V3-C1-06",
+   "req": "R4",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "简历的实习经历为数据分析实习生，蓝鲸物流，时间为2025.03-2025.08。",
+   "quotes": [
+    "数据分析实习生，蓝鲸物流，2025.03-2025.08"
+   ],
+   "comparison": "2025.03至2025.08为6个月，超过要求的不少于3个月。"
+  },
+  {
+   "id": "split-r2-V3-C1-06-R6",
+   "kind": "right",
+   "arm": "split",
+   "run": 2,
+   "resume": "V3-C1-06",
+   "req": "R6",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "简历写做过一次“新旧派单规则”的A/B测试，对比两组的准时率。",
+   "quotes": [
+    "做过一次“新旧派单规则”的 A/B 测试，对比两组的准时率"
+   ],
+   "comparison": "简历明确写了做过A/B测试，满足要求中“A/B测试或活动效果复盘”之一。"
+  },
+  {
+   "id": "split-r2-V3-C2-01-R1",
+   "kind": "right",
+   "arm": "split",
+   "run": 2,
+   "resume": "V3-C2-01",
+   "req": "R1",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "陈雨欣就读于浙江大学人力资源管理本科，目前大三（2024-2028）。",
+   "quotes": [
+    "浙江大学 人力资源管理 本科 大三（2024-2028）"
+   ],
+   "comparison": "简历显示其为人力资源管理专业在读本科生，满足在读专业要求。"
+  },
+  {
+   "id": "split-r2-V3-C2-01-R2",
+   "kind": "right",
+   "arm": "split",
+   "run": 2,
+   "resume": "V3-C2-01",
+   "req": "R2",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "在黔通人力担任招聘实习生期间，每天电话邀约候选人面试，约 15 人/天。",
+   "quotes": [
+    "每天电话邀约候选人面试，约 15 人/天"
+   ],
+   "comparison": "简历显示其每天为候选人安排面试，约15人/天，满足为他人安排面试的要求。"
+  },
+  {
+   "id": "split-r2-V3-C2-01-R3",
+   "kind": "right",
+   "arm": "split",
+   "run": 2,
+   "resume": "V3-C2-01",
+   "req": "R3",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "在黔通人力实习期间，用飞书多维表格管理候选人进度（初筛/面试/offer）。",
+   "quotes": [
+    "用飞书多维表格管理候选人进度（初筛/面试/offer）"
+   ],
+   "comparison": "简历显示其用表格管理候选人信息和进度，满足用表格或招聘系统管理候选人信息的要求。"
+  },
+  {
+   "id": "split-r2-V3-C2-01-R4",
+   "kind": "right",
+   "arm": "split",
+   "run": 2,
+   "resume": "V3-C2-01",
+   "req": "R4",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "在黔通人力实习期间写了 6 篇校招推文，发在公司公众号。",
+   "quotes": [
+    "写了 6 篇校招推文，发在公司公众号"
+   ],
+   "comparison": "简历显示其撰写了6篇对外发布的推文，满足写过对外文案的要求。"
+  },
+  {
+   "id": "split-r2-V3-C2-01-R5",
+   "kind": "right",
+   "arm": "split",
+   "run": 2,
+   "resume": "V3-C2-01",
+   "req": "R5",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "入职时签了保密协议，候选人简历只在内部系统里查看，不外传。",
+   "quotes": [
+    "入职签了保密协议，候选人简历只在内部系统里查看，不外传"
+   ],
+   "comparison": "简历显示其签署保密协议并在内部系统处理候选人简历、不外传，满足按保密要求处理个人信息的要求。"
+  },
+  {
+   "id": "split-r2-V3-C2-01-R6",
+   "kind": "right",
+   "arm": "split",
+   "run": 2,
+   "resume": "V3-C2-01",
+   "req": "R6",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "到岗安排为每周 4 天（周一到周四），2027.1-2027.6。",
+   "quotes": [
+    "每周 4 天（周一到周四），2027.1-2027.6"
+   ],
+   "comparison": "简历显示每周可到岗4天，满足每周4天及以上的要求。"
+  },
+  {
+   "id": "split-r2-V3-C2-02-R1",
+   "kind": "right",
+   "arm": "split",
+   "run": 2,
+   "resume": "V3-C2-02",
+   "req": "R1",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "简历显示该候选人为浙江工商大学应用心理学硕士在读（研二）。",
+   "quotes": [
+    "应用心理学　硕士在读（研二）"
+   ],
+   "comparison": "应用心理学硕士在读，属于要求中的心理学专业在读。"
+  },
+  {
+   "id": "split-r2-V3-C2-02-R2",
+   "kind": "right",
+   "arm": "split",
+   "run": 2,
+   "resume": "V3-C2-02",
+   "req": "R2",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "简历显示其在心理学实验室担任助理，帮导师约被试来实验室做实验，约 30 人。",
+   "quotes": [
+    "帮导师约被试来实验室做实验，约 30 人"
+   ],
+   "comparison": "为导师安排约 30 名被试的到场实验，符合为他人安排预约的要求。"
+  },
+  {
+   "id": "split-r2-V3-C2-02-R3",
+   "kind": "right",
+   "arm": "split",
+   "run": 2,
+   "resume": "V3-C2-02",
+   "req": "R3",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "简历显示其把被试报名信息记在 Excel 里，包括是否符合条件和到场情况。",
+   "quotes": [
+    "被试报名信息记在 Excel 里（是否符合条件、到场情况）"
+   ],
+   "comparison": "用 Excel 表格管理被试报名并筛选是否符合条件，属于用表格管理应聘者式信息；但对象是被试而非招聘候选人，略有差异。"
+  },
+  {
+   "id": "split-r2-V3-C2-02-R4",
+   "kind": "right",
+   "arm": "split",
+   "run": 2,
+   "resume": "V3-C2-02",
+   "req": "R4",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "简历显示其在校研究生会宣传部撰写招新推文 3 篇。",
+   "quotes": [
+    "撰写招新推文 3 篇"
+   ],
+   "comparison": "撰写 3 篇招新推文，满足写过对外招聘文案或公众号推文的要求。"
+  },
+  {
+   "id": "split-r2-V3-C2-02-R5",
+   "kind": "right",
+   "arm": "split",
+   "run": 2,
+   "resume": "V3-C2-02",
+   "req": "R5",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "简历显示其按实验室伦理要求，将被试信息去标识化后存档。",
+   "quotes": [
+    "按实验室伦理要求，被试信息去标识化后存档"
+   ],
+   "comparison": "按伦理要求对被试信息去标识化处理，满足按保密或个人信息保护要求处理个人信息的要求。"
+  },
+  {
+   "id": "split-r2-V3-C2-02-R6",
+   "kind": "right",
+   "arm": "split",
+   "run": 2,
+   "resume": "V3-C2-02",
+   "req": "R6",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "简历显示其每周可实习 5 天，2027 年 1 月起到岗。",
+   "quotes": [
+    "每周可实习 5 天，2027 年 1 月起"
+   ],
+   "comparison": "每周可实习 5 天，达到每周 4 天及以上的要求。"
+  },
+  {
+   "id": "split-r2-V3-C2-03-R3",
+   "kind": "right",
+   "arm": "split",
+   "run": 2,
+   "resume": "V3-C2-03",
+   "req": "R3",
+   "trap": null,
+   "check": "numbers_not_in_quote",
+   "resume_fact": "2025.07-2025.09在某科技公司担任人事行政实习生，用Excel记录应聘者的投递渠道和面试结果。",
+   "quotes": [
+    "用 Excel 记录应聘者的投递渠道和面试结果"
+   ],
+   "comparison": "用Excel记录应聘者投递渠道和面试结果，属于用表格管理应聘者信息，满足该要求。"
+  },
+  {
+   "id": "split-r2-V3-C2-03-R4",
+   "kind": "right",
+   "arm": "split",
+   "run": 2,
+   "resume": "V3-C2-03",
+   "req": "R4",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "简历写明为公司公众号写过招聘推文2篇。",
+   "quotes": [
+    "写过公司公众号的招聘推文 2 篇"
+   ],
+   "comparison": "为公司公众号撰写了2篇招聘推文，属于对外文案，满足该要求。"
+  },
+  {
+   "id": "split-r2-V3-C2-03-R5",
+   "kind": "right",
+   "arm": "split",
+   "run": 2,
+   "resume": "V3-C2-03",
+   "req": "R5",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "简历写明按公司保密制度处理员工花名册。",
+   "quotes": [
+    "按公司保密制度处理员工花名册"
+   ],
+   "comparison": "按保密制度处理员工花名册属于依保密要求处理个人信息，满足该要求。"
+  },
+  {
+   "id": "split-r2-V3-C2-03-R6",
+   "kind": "right",
+   "arm": "split",
+   "run": 2,
+   "resume": "V3-C2-03",
+   "req": "R6",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "简历写明到岗时间为周一至周五，2027 年 1 月起。",
+   "quotes": [
+    "到岗：周一至周五，2027 年 1 月起"
+   ],
+   "comparison": "周一至周五即每周5天到岗，高于要求的每周4天及以上，满足该要求。"
+  },
+  {
+   "id": "split-r2-V3-C2-04-R1",
+   "kind": "right",
+   "arm": "split",
+   "run": 2,
+   "resume": "V3-C2-04",
+   "req": "R1",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "简历显示该候选人就读于浙江工商大学，专业为工商管理，目前大二在读。",
+   "quotes": [
+    "浙江工商大学　工商管理　大二在读"
+   ],
+   "comparison": "工商管理专业在读，符合要求R1中列出的专业范围。"
+  },
+  {
+   "id": "split-r2-V3-C2-04-R2",
+   "kind": "right",
+   "arm": "split",
+   "run": 2,
+   "resume": "V3-C2-04",
+   "req": "R2",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "在学生会外联部，该候选人给赞助商安排拜访时间，约见了 5 家商家。",
+   "quotes": [
+    "给赞助商安排拜访时间，约见 5 家商家"
+   ],
+   "comparison": "简历明确写有为赞助商安排拜访时间并约见商家的经历，符合为他人安排会议或预约的要求。"
+  },
+  {
+   "id": "split-r2-V3-C2-04-R5",
+   "kind": "right",
+   "arm": "split",
+   "run": 2,
+   "resume": "V3-C2-04",
+   "req": "R5",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "在家教中心做前台时，该候选人按中心的个人信息保护规定登记学员和家长信息。",
+   "quotes": [
+    "在家教中心做前台：按中心的个人信息保护规定登记学员和家长信息"
+   ],
+   "comparison": "简历写明按个人信息保护规定处理学员和家长信息，符合R5要求。"
+  },
+  {
+   "id": "split-r2-V3-C2-05-R1",
+   "kind": "right",
+   "arm": "split",
+   "run": 2,
+   "resume": "V3-C2-05",
+   "req": "R1",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "陈雨欣的教育经历为浙江大学心理学本科在读（大三）。",
+   "quotes": [
+    "浙江大学｜心理学｜本科在读（大三）"
+   ],
+   "comparison": "心理学属于要求的相近专业，且为本科在读，满足R1。"
+  },
+  {
+   "id": "split-r2-V3-C2-05-R2",
+   "kind": "right",
+   "arm": "split",
+   "run": 2,
+   "resume": "V3-C2-05",
+   "req": "R2",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "简历写道为各校区校长安排候选人面试，每周约 20 场。",
+   "quotes": [
+    "为各校区校长安排候选人面试，每周约 20 场"
+   ],
+   "comparison": "该经历是为他人安排面试，且有每周约 20 场的规模，满足R2。"
+  },
+  {
+   "id": "split-r2-V3-C2-05-R3",
+   "kind": "right",
+   "arm": "split",
+   "run": 2,
+   "resume": "V3-C2-05",
+   "req": "R3",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "简历写道在北森招聘系统里更新候选人状态。",
+   "quotes": [
+    "在北森招聘系统里更新候选人状态"
+   ],
+   "comparison": "北森是招聘系统，该经历是用其管理候选人信息，满足R3。"
+  },
+  {
+   "id": "split-r2-V3-C2-05-R6",
+   "kind": "right",
+   "arm": "split",
+   "run": 2,
+   "resume": "V3-C2-05",
+   "req": "R6",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "简历写道到岗时间为2027年1月起，每周4天。",
+   "quotes": [
+    "【到岗】2027 年 1 月起，每周 4 天"
+   ],
+   "comparison": "每周4天满足该岗位每周可实习4天及以上的要求，满足R6。"
+  },
+  {
+   "id": "split-r2-V3-C2-06-R3",
+   "kind": "right",
+   "arm": "split",
+   "run": 2,
+   "resume": "V3-C2-06",
+   "req": "R3",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "简历显示候选人在锦江物业用招聘系统（Moka）筛选和跟进应聘者。",
+   "quotes": [
+    "用招聘系统（Moka）筛选和跟进应聘者"
+   ],
+   "comparison": "使用Moka招聘系统筛选和跟进应聘者，符合用招聘系统管理应聘者信息的要求。"
+  },
+  {
+   "id": "split-r2-V3-C2-06-R4",
+   "kind": "right",
+   "arm": "split",
+   "run": 2,
+   "resume": "V3-C2-06",
+   "req": "R4",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "简历显示候选人撰写过物业项目的招聘文案，并发在BOSS直聘。",
+   "quotes": [
+    "撰写物业项目的招聘文案，发在 BOSS 直聘"
+   ],
+   "comparison": "撰写并发布过招聘文案，符合写过招聘文案或对外文案的要求。"
+  },
+  {
+   "id": "split-r2-V3-C2-06-R5",
+   "kind": "right",
+   "arm": "split",
+   "run": 2,
+   "resume": "V3-C2-06",
+   "req": "R5",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "简历显示候选人按公司个人信息保护制度管理员工档案。",
+   "quotes": [
+    "按公司个人信息保护制度管理员工档案"
+   ],
+   "comparison": "按个人信息保护制度管理员工档案，符合按保密或个人信息保护要求处理个人信息的要求。"
+  },
+  {
+   "id": "split-r2-V3-E1-01-R1",
+   "kind": "right",
+   "arm": "split",
+   "run": 2,
+   "resume": "V3-E1-01",
+   "req": "R1",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "Education is BSc (Hons) Data Science, yr 3 of 4, with expected graduation Jun 2028.",
+   "quotes": [
+    "BSc (Hons) Data Science, yr 3 of 4 — exp. grad. Jun 2028"
+   ],
+   "comparison": "The resume shows he is in year 3 of a 4-year degree and has not graduated, which meets the requirement to be currently enrolled."
+  },
+  {
+   "id": "split-r2-V3-E1-01-R2",
+   "kind": "right",
+   "arm": "split",
+   "run": 2,
+   "resume": "V3-E1-01",
+   "req": "R2",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "In his Analytics Intern role he pulled order data with PostgreSQL queries for the weekly ops review.",
+   "quotes": [
+    "pulled order data with PostgreSQL queries for the weekly ops review"
+   ],
+   "comparison": "PostgreSQL is a SQL database, and the SQL use is described under work experience, which meets the requirement."
+  },
+  {
+   "id": "split-r2-V3-E1-01-R3",
+   "kind": "right",
+   "arm": "split",
+   "run": 2,
+   "resume": "V3-E1-01",
+   "req": "R3",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "He built a Power BI dashboard tracking late orders by courier, which ops leads filter by week.",
+   "quotes": [
+    "built a Power BI dashboard tracking late orders by courier; ops leads filter it by week"
+   ],
+   "comparison": "A filterable Power BI dashboard is an interactive report, which meets the requirement and is not a static chart."
+  },
+  {
+   "id": "split-r2-V3-E1-01-R4",
+   "kind": "right",
+   "arm": "split",
+   "run": 2,
+   "resume": "V3-E1-01",
+   "req": "R4",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "His Analytics Intern role at Kedai Runcit Online Sdn Bhd ran from Mar '25 to Sep '25.",
+   "quotes": [
+    "Analytics Intern",
+    "Mar '25 – Sep '25"
+   ],
+   "comparison": "March to September 2025 is 6 months elapsed (7 months inclusive), which meets the 6-month minimum even without counting the tutoring role."
+  },
+  {
+   "id": "split-r2-V3-E1-01-R5",
+   "kind": "right",
+   "arm": "split",
+   "run": 2,
+   "resume": "V3-E1-01",
+   "req": "R5",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "He is available Mon–Thu (4 days/wk) from Jan 2027 to May 2027.",
+   "quotes": [
+    "Jan 2027 → May 2027, Mon–Thu (4 days/wk)"
+   ],
+   "comparison": "Four days a week for about 4 months (Jan to May 2027) meets the requirement of at least 4 days a week for at least 3 months."
+  },
+  {
+   "id": "split-r2-V3-E1-01-R6",
+   "kind": "right",
+   "arm": "split",
+   "run": 2,
+   "resume": "V3-E1-01",
+   "req": "R6",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "He presented the late-delivery findings to the customer service supervisors, described as a non-technical team.",
+   "quotes": [
+    "presented the late-delivery findings to the customer service supervisors (non-technical team)"
+   ],
+   "comparison": "Presenting analysis findings to supervisors on a non-technical team meets the requirement to present to a non-technical audience."
+  },
+  {
+   "id": "split-r2-V3-E1-02-R1",
+   "kind": "right",
+   "arm": "split",
+   "run": 2,
+   "resume": "V3-E1-02",
+   "req": "R1",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "Emma is in year 1 of a 2-year part-time Master of Business Analytics at Multimedia University, started Feb 2026, with expected completion Dec 2027.",
+   "quotes": [
+    "Master of Business Analytics (part-time), Multimedia University",
+    "Year 1 of 2 · started Feb 2026 · expected completion Dec 2027"
+   ],
+   "comparison": "The resume shows an ongoing master's programme with completion expected in Dec 2027, so the candidate is enrolled and not yet graduated, which meets R1."
+  },
+  {
+   "id": "split-r2-V3-E1-02-R2",
+   "kind": "right",
+   "arm": "split",
+   "run": 2,
+   "resume": "V3-E1-02",
+   "req": "R2",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "Emma wrote SQL queries on a 1M-row retail dataset to find repeat buyers in a course project.",
+   "quotes": [
+    "wrote SQL queries on a 1M-row retail dataset to find repeat buyers"
+   ],
+   "comparison": "The SQL use is described under course projects rather than only in a skills list, which meets R2."
+  },
+  {
+   "id": "split-r2-V3-E1-02-R3",
+   "kind": "right",
+   "arm": "split",
+   "run": 2,
+   "resume": "V3-E1-02",
+   "req": "R3",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "Emma built an interactive Tableau Public dashboard of repeat-purchase rates, with filters by state and month.",
+   "quotes": [
+    "built an interactive Tableau Public dashboard of repeat-purchase rates, with filters by state and month"
+   ],
+   "comparison": "An interactive Tableau dashboard with filters is a dashboard rather than a static chart, which meets R3."
+  },
+  {
+   "id": "split-r2-V3-E1-02-R4",
+   "kind": "right",
+   "arm": "split",
+   "run": 2,
+   "resume": "V3-E1-02",
+   "req": "R4",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "Emma worked as an Audit Associate at Lim & Partners Chartered Accountants from 2023/08 to 2025/02.",
+   "quotes": [
+    "2023/08 – 2025/02",
+    "Audit Associate, Lim & Partners Chartered Accountants"
+   ],
+   "comparison": "The role runs from 2023/08 to 2025/02, which is 18 months and well above the 6-month minimum in R4, so it is met."
+  },
+  {
+   "id": "split-r2-V3-E1-02-R5",
+   "kind": "right",
+   "arm": "split",
+   "run": 2,
+   "resume": "V3-E1-02",
+   "req": "R5",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "Emma is available 4 days a week (Tue-Fri) from Jan to Jun 2027.",
+   "quotes": [
+    "Available: 4 days a week (Tue-Fri), Jan to Jun 2027 — my classes are on Saturdays"
+   ],
+   "comparison": "4 days a week for Jan to Jun 2027 is 6 months, which exceeds the 4 days a week for at least 3 months in R5, so it is met."
+  },
+  {
+   "id": "split-r2-V3-E1-02-R6",
+   "kind": "right",
+   "arm": "split",
+   "run": 2,
+   "resume": "V3-E1-02",
+   "req": "R6",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "Emma presented the duplicate-payment analysis to the client's managing director and office manager.",
+   "quotes": [
+    "presented the duplicate-payment analysis to the client's managing director and office manager"
+   ],
+   "comparison": "Presenting analysis to a managing director and office manager is a non-technical business audience, which meets R6."
+  },
+  {
+   "id": "split-r2-V3-E1-03-R2",
+   "kind": "right",
+   "arm": "split",
+   "run": 2,
+   "resume": "V3-E1-03",
+   "req": "R2",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "Under Operations Analyst Intern at Sinar Freight, the candidate wrote SQL queries in BigQuery to count failed deliveries per hub each week.",
+   "quotes": [
+    "Wrote SQL queries in BigQuery to count failed deliveries per hub each week."
+   ],
+   "comparison": "SQL use is described in a job experience entry, which meets the requirement that SQL be shown in a job, internship or project rather than only in a skills list."
+  },
+  {
+   "id": "split-r2-V3-E1-03-R4",
+   "kind": "right",
+   "arm": "split",
+   "run": 2,
+   "resume": "V3-E1-03",
+   "req": "R4",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "The candidate's Operations Analyst Intern role at Sinar Freight ran from Jan 2025 – Aug 2025.",
+   "quotes": [
+    "Jan 2025 – Aug 2025"
+   ],
+   "comparison": "The Jan 2025 to Aug 2025 internship spans 8 months, which exceeds the required 6 months of work or internship experience."
+  },
+  {
+   "id": "split-r2-V3-E1-03-R5",
+   "kind": "right",
+   "arm": "split",
+   "run": 2,
+   "resume": "V3-E1-03",
+   "req": "R5",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "The candidate is available Monday–Friday from January 2027 for six months.",
+   "quotes": [
+    "Monday–Friday from January 2027, for six months."
+   ],
+   "comparison": "Availability of five days a week for six months meets the requirement of at least 4 days a week for at least 3 months."
+  },
+  {
+   "id": "split-r2-V3-E1-03-R6",
+   "kind": "right",
+   "arm": "split",
+   "run": 2,
+   "resume": "V3-E1-03",
+   "req": "R6",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "The candidate presented the monthly failed-delivery summary to the hub managers.",
+   "quotes": [
+    "Presented the monthly failed-delivery summary to the hub managers."
+   ],
+   "comparison": "Presenting to hub managers, who are non-technical operational audiences like the managers the requirement names, meets the requirement to have presented analysis to a non-technical audience."
+  },
+  {
+   "id": "split-r2-V3-E1-04-R1",
+   "kind": "right",
+   "arm": "split",
+   "run": 2,
+   "resume": "V3-E1-04",
+   "req": "R1",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "Multimedia University Bachelor of Computer Science (Data Science) student with expected graduation Nov 2027.",
+   "quotes": [
+    "Multimedia University, Bachelor of Computer Science (Data Science)",
+    "Expected graduation: Nov 2027"
+   ],
+   "comparison": "The resume shows enrolment in a bachelor's programme with graduation not yet reached, which meets the requirement."
+  },
+  {
+   "id": "split-r2-V3-E1-04-R3",
+   "kind": "right",
+   "arm": "split",
+   "run": 2,
+   "resume": "V3-E1-04",
+   "req": "R3",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "Built a Looker Studio report with filters for store and week during the Pantai Mart Data Intern role, used by the area managers.",
+   "quotes": [
+    "built a Looker Studio report with filters for store and week, used by the area managers"
+   ],
+   "comparison": "An interactive Looker Studio report with filters meets the requirement for a dashboard or interactive report, which is not a static chart."
+  },
+  {
+   "id": "split-r2-V3-E1-04-R5",
+   "kind": "right",
+   "arm": "split",
+   "run": 2,
+   "resume": "V3-E1-04",
+   "req": "R5",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "Available Mon–Thu, January–April 2027.",
+   "quotes": [
+    "Mon–Thu, January–April 2027"
+   ],
+   "comparison": "Four days a week for four months meets the requirement of at least 4 days a week for at least 3 months."
+  },
+  {
+   "id": "split-r2-V3-E1-05-R1",
+   "kind": "right",
+   "arm": "split",
+   "run": 2,
+   "resume": "V3-E1-05",
+   "req": "R1",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "The candidate is in the 3rd year of a B.Econ (Econometrics) at the National University of Singapore, graduating 2027 (expected).",
+   "quotes": [
+    "National University of Singapore — B.Econ (Econometrics), 3rd year, graduating 2027 (expected)"
+   ],
+   "comparison": "The candidate is still enrolled in a bachelor's programme and has not yet graduated, which meets the requirement."
+  },
+  {
+   "id": "split-r2-V3-E1-05-R2",
+   "kind": "right",
+   "arm": "split",
+   "run": 2,
+   "resume": "V3-E1-05",
+   "req": "R2",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "As Pricing Analyst Intern at Gerai Digital, the candidate wrote MySQL queries to compare prices across 300 sellers.",
+   "quotes": [
+    "Wrote MySQL queries to compare prices across 300 sellers"
+   ],
+   "comparison": "SQL (MySQL) was used in a internship role described under experience, which meets the requirement."
+  },
+  {
+   "id": "split-r2-V3-E1-05-R4",
+   "kind": "right",
+   "arm": "split",
+   "run": 2,
+   "resume": "V3-E1-05",
+   "req": "R4",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "The candidate worked as Pricing Analyst Intern at Gerai Digital (Feb 2025 – Aug 2025) and as Data Entry Assistant (part-time) at Klinik Ana (Sep 2025 – Dec 2025).",
+   "quotes": [
+    "Pricing Analyst Intern, Gerai Digital (Feb 2025 – Aug 2025)",
+    "Data Entry Assistant (part-time), Klinik Ana (Sep 2025 – Dec 2025)"
+   ],
+   "comparison": "The internship runs about 7 months (Feb to Aug 2025) and the part-time job about 4 months (Sep to Dec 2025), a total of about 11 months, which exceeds the 6-month minimum."
+  },
+  {
+   "id": "split-r2-V3-E1-05-R6",
+   "kind": "right",
+   "arm": "split",
+   "run": 2,
+   "resume": "V3-E1-05",
+   "req": "R6",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "As Pricing Analyst Intern, the candidate walked the sales managers through the price-gap findings every month.",
+   "quotes": [
+    "Walked the sales managers through the price-gap findings every month"
+   ],
+   "comparison": "Presenting findings to sales managers, who are non-technical audiences, meets the requirement."
+  },
+  {
+   "id": "split-r2-V3-E1-06-R1",
+   "kind": "right",
+   "arm": "split",
+   "run": 2,
+   "resume": "V3-E1-06",
+   "req": "R1",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "Enrolled in a Bachelor of Science in Actuarial Science at Multimedia University, Year 2, 2025 – 2029.",
+   "quotes": [
+    "Multimedia University | Bachelor of Science in Actuarial Science | Year 2 | 2025 – 2029"
+   ],
+   "comparison": "The resume shows an ongoing bachelor's programme in Year 2 with an end date of 2029, so the candidate has not yet graduated and meets the enrolment requirement."
+  },
+  {
+   "id": "split-r2-V3-E1-06-R3",
+   "kind": "right",
+   "arm": "split",
+   "run": 2,
+   "resume": "V3-E1-06",
+   "req": "R3",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "Built a Tableau dashboard of fleet fuel use with a filter by depot and a monthly trend view.",
+   "quotes": [
+    "Built a Tableau dashboard of fleet fuel use with a filter by depot and a monthly trend view"
+   ],
+   "comparison": "A Tableau dashboard with a depot filter is an interactive dashboard, which meets the requirement and is not a static chart."
+  },
+  {
+   "id": "split-r2-V3-E1-06-R4",
+   "kind": "right",
+   "arm": "split",
+   "run": 2,
+   "resume": "V3-E1-06",
+   "req": "R4",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "Business Intelligence Intern at Rakan Logistik, 01/2025 – 08/2025.",
+   "quotes": [
+    "Business Intelligence Intern | Rakan Logistik | 01/2025 – 08/2025"
+   ],
+   "comparison": "January through August 2025 is 8 months inclusive, which exceeds the required minimum of 6 months of internship experience."
+  },
+  {
+   "id": "split-r2-V3-E2-01-R1",
+   "kind": "right",
+   "arm": "split",
+   "run": 2,
+   "resume": "V3-E2-01",
+   "req": "R1",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "The resume lists a B.BA (Hons) Human Resource Mgmt degree at National University of Singapore, in Year 2 (2025–2028).",
+   "quotes": [
+    "B.BA (Hons) Human Resource Mgmt, National University of Singapore — Year 2 (2025–2028)"
+   ],
+   "comparison": "Studying Human Resource Management at the second year of a degree satisfies the requirement to currently study HR or a closely related field."
+  },
+  {
+   "id": "split-r2-V3-E2-01-R2",
+   "kind": "right",
+   "arm": "split",
+   "run": 2,
+   "resume": "V3-E2-01",
+   "req": "R2",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "The resume states the candidate coordinated interview slots with 40+ candidates via Calendly and phone at Saujana Staffing.",
+   "quotes": [
+    "coordinated interview slots w/ 40+ candidates via Calendly & phone"
+   ],
+   "comparison": "Coordinating interview slots with 40+ external candidates shows scheduling interviews with external people, which meets the requirement."
+  },
+  {
+   "id": "split-r2-V3-E2-01-R3",
+   "kind": "right",
+   "arm": "split",
+   "run": 2,
+   "resume": "V3-E2-01",
+   "req": "R3",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "The resume states the candidate kept a candidate tracker in Google Sheets, updated with stage, interviewer and outcome.",
+   "quotes": [
+    "kept the candidate tracker (Google Sheets) up to date: stage, interviewer, outcome"
+   ],
+   "comparison": "Maintaining a candidate tracker in a spreadsheet meets the requirement to track candidates in an ATS or a spreadsheet."
+  },
+  {
+   "id": "split-r2-V3-E2-01-R4",
+   "kind": "right",
+   "arm": "split",
+   "run": 2,
+   "resume": "V3-E2-01",
+   "req": "R4",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "The resume states the candidate drafted 12 job posts for LinkedIn and Jobstreet.",
+   "quotes": [
+    "drafted 12 job posts for LinkedIn and Jobstreet"
+   ],
+   "comparison": "Drafting 12 public job posts on LinkedIn and Jobstreet meets the requirement to have written job postings or public-facing copy."
+  },
+  {
+   "id": "split-r2-V3-E2-01-R5",
+   "kind": "right",
+   "arm": "split",
+   "run": 2,
+   "resume": "V3-E2-01",
+   "req": "R5",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "The resume states the candidate signed an NDA and handled candidate records under the company's PDPA policy.",
+   "quotes": [
+    "signed an NDA; handled candidate records under the company's PDPA policy"
+   ],
+   "comparison": "Handling candidate records under an NDA and a PDPA policy shows handling confidential personal data under a privacy rule, which meets the requirement."
+  },
+  {
+   "id": "split-r2-V3-E2-01-R6",
+   "kind": "right",
+   "arm": "split",
+   "run": 2,
+   "resume": "V3-E2-01",
+   "req": "R6",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "The resume states availability for Tue–Fri (4 days/week) for Jan–Jun 2027.",
+   "quotes": [
+    "Tue–Fri (4 days/week), Jan–Jun 2027"
+   ],
+   "comparison": "Four days a week meets the requirement of at least 4 days a week, and the Jan–Jun 2027 window covers the January 2027 start."
+  },
+  {
+   "id": "split-r2-V3-E2-02-R1",
+   "kind": "right",
+   "arm": "split",
+   "run": 2,
+   "resume": "V3-E2-02",
+   "req": "R1",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "Priya Nair is in the final year of a BSc Psychology at Multimedia University, with expected graduation in Aug 2027.",
+   "quotes": [
+    "BSc Psychology @ Multimedia University, final year, expected graduation Aug 2027"
+   ],
+   "comparison": "A BSc in Psychology that is currently in its final year satisfies the requirement to be currently studying psychology or a closely related field."
+  },
+  {
+   "id": "split-r2-V3-E2-02-R2",
+   "kind": "right",
+   "arm": "split",
+   "run": 2,
+   "resume": "V3-E2-02",
+   "req": "R2",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "As Research Assistant at the Cognition Lab, the candidate booked lab sessions with ~60 study participants from outside the university.",
+   "quotes": [
+    "booked lab sessions with ~60 study participants from outside the university"
+   ],
+   "comparison": "Booking sessions with about 60 external study participants directly shows scheduling appointments with external people, as the requirement asks."
+  },
+  {
+   "id": "split-r2-V3-E2-02-R3",
+   "kind": "right",
+   "arm": "split",
+   "run": 2,
+   "resume": "V3-E2-02",
+   "req": "R3",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "The candidate logged sign-ups and screening answers in an Excel applicant sheet, marking participants as eligible, not eligible or no-show.",
+   "quotes": [
+    "logged sign-ups and screening answers in an Excel applicant sheet (eligible / not eligible / no-show)"
+   ],
+   "comparison": "Tracking applicants in an Excel applicant sheet matches the requirement to track candidates in an ATS or a spreadsheet."
+  },
+  {
+   "id": "split-r2-V3-E2-02-R4",
+   "kind": "right",
+   "arm": "split",
+   "run": 2,
+   "resume": "V3-E2-02",
+   "req": "R4",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "The candidate wrote the recruitment posts for the lab's Instagram.",
+   "quotes": [
+    "wrote the recruitment posts for the lab's Instagram"
+   ],
+   "comparison": "Writing recruitment posts for a public Instagram account is public-facing copy, which meets the requirement."
+  },
+  {
+   "id": "split-r2-V3-E2-02-R5",
+   "kind": "right",
+   "arm": "split",
+   "run": 2,
+   "resume": "V3-E2-02",
+   "req": "R5",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "The candidate ran all sessions under the ethics committee's confidentiality rules, with consent forms locked away and names replaced with IDs.",
+   "quotes": [
+    "ran all sessions under the ethics committee's confidentiality rules; consent forms locked away, names replaced with IDs"
+   ],
+   "comparison": "Handling participants' personal data under ethics committee confidentiality rules meets the requirement for handling confidential personal data under a privacy or confidentiality rule."
+  },
+  {
+   "id": "split-r2-V3-E2-02-R6",
+   "kind": "right",
+   "arm": "split",
+   "run": 2,
+   "resume": "V3-E2-02",
+   "req": "R6",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "The candidate is available Mon–Fri from 4 Jan 2027.",
+   "quotes": [
+    "Available Mon–Fri from 4 Jan 2027."
+   ],
+   "comparison": "Availability Monday to Friday is 5 days a week, which is more than the required minimum of 4 days a week."
+  },
+  {
+   "id": "split-r2-V3-E2-03-R3",
+   "kind": "right",
+   "arm": "split",
+   "run": 2,
+   "resume": "V3-E2-03",
+   "req": "R3",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "The candidate entered job applicants into the clinic's ATS (Recruitee) and moved them through the stages at Bayu Dental Group.",
+   "quotes": [
+    "entered job applicants into the clinic's ATS (Recruitee) and moved them through the stages"
+   ],
+   "comparison": "Tracking applicants through stages in the Recruitee ATS directly meets the requirement to track candidates in an ATS or spreadsheet."
+  },
+  {
+   "id": "split-r2-V3-E2-03-R4",
+   "kind": "right",
+   "arm": "split",
+   "run": 2,
+   "resume": "V3-E2-03",
+   "req": "R4",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "The candidate wrote the job ads for two dental assistant openings on Hiredly.",
+   "quotes": [
+    "wrote the job ads for two dental assistant openings on Hiredly"
+   ],
+   "comparison": "Writing public job ads for two openings on Hiredly meets the requirement to have written job postings or public-facing copy."
+  },
+  {
+   "id": "split-r2-V3-E2-03-R5",
+   "kind": "right",
+   "arm": "split",
+   "run": 2,
+   "resume": "V3-E2-03",
+   "req": "R5",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "The candidate handled patient and applicant records under the clinic's confidentiality policy.",
+   "quotes": [
+    "handled patient and applicant records under the clinic's confidentiality policy"
+   ],
+   "comparison": "Handling patient and applicant records under a confidentiality policy meets the requirement to handle confidential personal data under a privacy or confidentiality rule."
+  },
+  {
+   "id": "split-r2-V3-E2-03-R6",
+   "kind": "right",
+   "arm": "split",
+   "run": 2,
+   "resume": "V3-E2-03",
+   "req": "R6",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "The candidate is available 4 days a week (Mon–Thu), Jan–Apr 2027.",
+   "quotes": [
+    "4 days a week (Mon–Thu), Jan–Apr 2027"
+   ],
+   "comparison": "Availability of 4 days a week meets the requirement of at least 4 days a week and covers the January 2027 start."
+  },
+  {
+   "id": "split-r2-V3-E2-04-R1",
+   "kind": "right",
+   "arm": "split",
+   "run": 2,
+   "resume": "V3-E2-04",
+   "req": "R1",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "The resume lists a Bachelor of Business (Management) at Multimedia University, in Year 2 with expected graduation in 2028.",
+   "quotes": [
+    "Multimedia University — Bachelor of Business (Management), Year 2, expected graduation 2028"
+   ],
+   "comparison": "A current business degree in its second year satisfies the requirement to be studying business or a closely related field."
+  },
+  {
+   "id": "split-r2-V3-E2-04-R2",
+   "kind": "right",
+   "arm": "split",
+   "run": 2,
+   "resume": "V3-E2-04",
+   "req": "R2",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "As Front Desk Intern at Klinik Sejahtera, the candidate phoned patients to schedule follow-up appointments with the doctors.",
+   "quotes": [
+    "phoned patients to schedule follow-up appointments with the doctors"
+   ],
+   "comparison": "Scheduling follow-up appointments with patients, who are external people, meets the requirement to have scheduled appointments with external people."
+  },
+  {
+   "id": "split-r2-V3-E2-04-R3",
+   "kind": "right",
+   "arm": "split",
+   "run": 2,
+   "resume": "V3-E2-04",
+   "req": "R3",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "The candidate tracked walk-in job applicants for nurse roles in a shared spreadsheet.",
+   "quotes": [
+    "tracked walk-in job applicants for nurse roles in a shared spreadsheet"
+   ],
+   "comparison": "Tracking applicants in a shared spreadsheet meets the requirement to track candidates in an ATS or a spreadsheet."
+  },
+  {
+   "id": "split-r2-V3-E2-05-R1",
+   "kind": "right",
+   "arm": "split",
+   "run": 2,
+   "resume": "V3-E2-05",
+   "req": "R1",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "Bachelor of Psychology at National University of Singapore, 2nd year.",
+   "quotes": [
+    "Bachelor of Psychology, National University of Singapore, 2nd year"
+   ],
+   "comparison": "The candidate is currently enrolled in a psychology degree, which is a listed field, so R1 is met."
+  },
+  {
+   "id": "split-r2-V3-E2-05-R4",
+   "kind": "right",
+   "arm": "split",
+   "run": 2,
+   "resume": "V3-E2-05",
+   "req": "R4",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "Wrote the club's recruitment posts and event captions for Instagram.",
+   "quotes": [
+    "Wrote the club's recruitment posts and event captions for Instagram"
+   ],
+   "comparison": "Writing recruitment posts for a public Instagram account directly matches the requirement, so R4 is met."
+  },
+  {
+   "id": "split-r2-V3-E2-05-R5",
+   "kind": "right",
+   "arm": "split",
+   "run": 2,
+   "resume": "V3-E2-05",
+   "req": "R5",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "Volunteered on a Befrienders hotline where callers' details were handled under the hotline's confidentiality pledge.",
+   "quotes": [
+    "callers' details handled under the hotline's confidentiality pledge"
+   ],
+   "comparison": "Handling callers' details under a confidentiality pledge shows handling confidential personal data under a confidentiality rule, so R5 is met."
+  },
+  {
+   "id": "split-r2-V3-E2-05-R6",
+   "kind": "right",
+   "arm": "split",
+   "run": 2,
+   "resume": "V3-E2-05",
+   "req": "R6",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "Availability is Monday to Thursday, Jan–May 2027.",
+   "quotes": [
+    "AVAILABILITY: Monday to Thursday, Jan–May 2027"
+   ],
+   "comparison": "Monday to Thursday is four days a week, which meets the minimum of at least 4 days, so R6 is met."
+  },
+  {
+   "id": "split-r2-V3-E2-06-R1",
+   "kind": "right",
+   "arm": "split",
+   "run": 2,
+   "resume": "V3-E2-06",
+   "req": "R1",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "Nur Aisyah binti Ahmad is studying a Bachelor of Business Administration at Multimedia University, in Year 3, with expected completion in 2027.",
+   "quotes": [
+    "Multimedia University · Bachelor of Business Administration · Year 3 · exp. 2027"
+   ],
+   "comparison": "A Bachelor of Business Administration in Year 3 is a current business-related study programme, which meets the requirement to be currently studying business or a closely related field."
+  },
+  {
+   "id": "split-r2-V3-E2-06-R2",
+   "kind": "right",
+   "arm": "split",
+   "run": 2,
+   "resume": "V3-E2-06",
+   "req": "R2",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "As HR Intern at Seri Medika Clinics, from 03/2025 to 07/2025, the candidate set up interviews between clinic managers and nurse candidates by phone and email.",
+   "quotes": [
+    "HR Intern · Seri Medika Clinics · 03/2025 – 07/2025",
+    "set up interviews between clinic managers and nurse candidates by phone and email"
+   ],
+   "comparison": "Scheduling interviews with nurse candidates, who are external people, meets the requirement to have scheduled interviews or appointments with external people."
+  },
+  {
+   "id": "split-r2-V3-E2-06-R5",
+   "kind": "right",
+   "arm": "split",
+   "run": 2,
+   "resume": "V3-E2-06",
+   "req": "R5",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "As HR Intern at Seri Medika Clinics, from 03/2025 to 07/2025, the candidate handled staff files under the clinic's PDPA rules.",
+   "quotes": [
+    "HR Intern · Seri Medika Clinics · 03/2025 – 07/2025",
+    "handled staff files under the clinic's PDPA rules"
+   ],
+   "comparison": "Handling staff files under PDPA rules shows handling confidential personal data under a privacy rule, which meets the requirement."
+  },
+  {
+   "id": "split-self-r1-V3-C1-01-R1",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 1,
+   "resume": "V3-C1-01",
+   "req": "R1",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "教育背景为浙江大学新闻传播学，大三在读（2024.9-2028.6）。",
+   "quotes": [
+    "大三在读（2024.9-2028.6）"
+   ],
+   "comparison": "The resume shows the candidate is a current undergraduate (大三在读) who has not graduated, which satisfies the requirement of being enrolled and not yet graduated."
+  },
+  {
+   "id": "split-self-r1-V3-C1-01-R2",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 1,
+   "resume": "V3-C1-01",
+   "req": "R2",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "在用户运营实习中每周用SQL拉一次留存数据，按渠道拆分，写进周报。",
+   "quotes": [
+    "每周用SQL拉一次留存数据，按渠道拆分，写进周报"
+   ],
+   "comparison": "The SQL use is described as a weekly task within an internship, not just a skills-list entry, so it meets the requirement of data analysis with SQL or pivot tables in an internship or project."
+  },
+  {
+   "id": "split-self-r1-V3-C1-01-R3",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 1,
+   "resume": "V3-C1-01",
+   "req": "R3",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "担任用户运营实习生，任职于小橘猫宠物App，负责新用户社群的日常运营。",
+   "quotes": [
+    "用户运营实习生 @ 小橘猫宠物App",
+    "负责新用户社群（3个群，约1500人）的日常运营"
+   ],
+   "comparison": "A user-operations internship at 小橘猫宠物App with daily operation of a new-user community meets the requirement of at least one user- or content-operations internship."
+  },
+  {
+   "id": "split-self-r1-V3-C1-01-R4",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 1,
+   "resume": "V3-C1-01",
+   "req": "R4",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "用户运营实习经历时间为25年3月—25年7月。",
+   "quotes": [
+    "25年3月—25年7月"
+   ],
+   "comparison": "The March to July 2025 internship spans about 5 months (4 months by simple date difference), which is more than the required cumulative 3 months."
+  },
+  {
+   "id": "split-self-r1-V3-C1-01-R5",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 1,
+   "resume": "V3-C1-01",
+   "req": "R5",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "到岗时间为2027年1月起，每周5天，可实习4个月以上。",
+   "quotes": [
+    "2027年1月起每周5天，可实习4个月以上"
+   ],
+   "comparison": "Being available 5 days per week, which is at least the required 4 days, for more than 4 months, which exceeds the required 3 months of continuous availability."
+  },
+  {
+   "id": "split-self-r1-V3-C1-01-R6",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 1,
+   "resume": "V3-C1-01",
+   "req": "R6",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "五一活动结束后写了活动复盘，内容包括拉新成本、次留、问题清单。",
+   "quotes": [
+    "五一活动结束后写了活动复盘：拉新成本、次留、问题清单"
+   ],
+   "comparison": "Writing a post-event review of the May Day campaign with acquisition cost, next-day retention and issue list meets the requirement of event performance review."
+  },
+  {
+   "id": "split-self-r1-V3-C1-02-R1",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 1,
+   "resume": "V3-C1-02",
+   "req": "R1",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "教育栏写明为浙江工商大学管理科学与工程硕士研究生在读，2025级，预计2028年6月毕业。",
+   "quotes": [
+    "硕士研究生在读 2025级（预计2028年6月毕业）"
+   ],
+   "comparison": "简历显示为硕士在读且尚未毕业（预计2028年6月毕业），满足R1的在读要求。"
+  },
+  {
+   "id": "split-self-r1-V3-C1-02-R2",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 1,
+   "resume": "V3-C1-02",
+   "req": "R2",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "在内容运营实习中用Excel数据透视表按选题统计完播率。",
+   "quotes": [
+    "用Excel数据透视表按选题统计完播率，每周给编辑组"
+   ],
+   "comparison": "该数据透视表分析是在实习经历中完成的，不只是技能栏列举，满足R2。"
+  },
+  {
+   "id": "split-self-r1-V3-C1-02-R3",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 1,
+   "resume": "V3-C1-02",
+   "req": "R3",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "2025/07 ~ 2025/11 担任内容运营实习生，单位为知了短视频。",
+   "quotes": [
+    "2025/07 ~ 2025/11",
+    "内容运营实习生"
+   ],
+   "comparison": "这段内容运营实习经历满足R3要求的至少一段内容运营方向实习。"
+  },
+  {
+   "id": "split-self-r1-V3-C1-02-R4",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 1,
+   "resume": "V3-C1-02",
+   "req": "R4",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "两段实习分别为2025/07 ~ 2025/11和2024/12 ~ 2025/02。",
+   "quotes": [
+    "2025/07 ~ 2025/11",
+    "2024/12 ~ 2025/02"
+   ],
+   "comparison": "2025/07至2025/11约5个月，加上2024/12至2025/02约3个月，累计约8个月，超过R4要求的3个月。"
+  },
+  {
+   "id": "split-self-r1-V3-C1-02-R5",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 1,
+   "resume": "V3-C1-02",
+   "req": "R5",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "到岗时间为每周一至周四，2027.01-2027.05。",
+   "quotes": [
+    "每周一至周四，2027.01-2027.05"
+   ],
+   "comparison": "周一至周四为每周4天，2027.01至2027.05约5个月，满足R5要求的每周4天及以上且持续3个月以上。"
+  },
+  {
+   "id": "split-self-r1-V3-C1-02-R6",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 1,
+   "resume": "V3-C1-02",
+   "req": "R6",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "在知了短视频实习中对两版封面标题做过A/B测试。",
+   "quotes": [
+    "对两版封面标题做A/B测试，第二版点击率高"
+   ],
+   "comparison": "做过A/B测试并比较了点击率结果，满足R6的A/B测试要求。"
+  },
+  {
+   "id": "split-self-r1-V3-C1-03-R2",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 1,
+   "resume": "V3-C1-03",
+   "req": "R2",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "在饭团外卖的实习中用 SQL 统计各商圈的复购率，做成周报。",
+   "quotes": [
+    "用 SQL 统计各商圈的复购率，做成周报"
+   ],
+   "comparison": "该条是在实习经历中实际使用SQL做数据分析，满足在实习中用Excel数据透视表或SQL做过分析的要求。"
+  },
+  {
+   "id": "split-self-r1-V3-C1-03-R3",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 1,
+   "resume": "V3-C1-03",
+   "req": "R3",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "担任用户运营实习生，任职于饭团外卖（成都），时间为 2024.07–2024.12。",
+   "quotes": [
+    "用户运营实习生　饭团外卖（成都）　2024.07–2024.12",
+    "负责会员群的日常运营和活动通知"
+   ],
+   "comparison": "用户运营实习经历属于用户运营方向，满足至少一段内容或用户运营实习经历的要求。"
+  },
+  {
+   "id": "split-self-r1-V3-C1-03-R4",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 1,
+   "resume": "V3-C1-03",
+   "req": "R4",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "实习经历为用户运营实习生，时间为 2024.07–2024.12。",
+   "quotes": [
+    "用户运营实习生　饭团外卖（成都）　2024.07–2024.12"
+   ],
+   "comparison": "2024.07至2024.12约为6个月，超过要求的累计不少于3个月。"
+  },
+  {
+   "id": "split-self-r1-V3-C1-03-R5",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 1,
+   "resume": "V3-C1-03",
+   "req": "R5",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "到岗时间为 2027 年 1 月起每周 5 天，可实习 6 个月。",
+   "quotes": [
+    "2027 年 1 月起每周 5 天，可实习 6 个月"
+   ],
+   "comparison": "每周5天超过每周4天及以上的要求，可实习6个月超过持续3个月以上的要求。"
+  },
+  {
+   "id": "split-self-r1-V3-C1-04-R1",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 1,
+   "resume": "V3-C1-04",
+   "req": "R1",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "浙江工商大学电子商务本科在读，预计2027.06毕业。",
+   "quotes": [
+    "浙江工商大学 电子商务 本科在读，预计 2027.06 毕业"
+   ],
+   "comparison": "简历显示本科在读、预计2027.06毕业，尚未毕业，满足本科在读的要求。"
+  },
+  {
+   "id": "split-self-r1-V3-C1-04-R3",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 1,
+   "resume": "V3-C1-04",
+   "req": "R3",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "担任内容运营实习生，任职于青檬读书，时长6周（2025.07.07–2025.08.15）。",
+   "quotes": [
+    "内容运营实习生｜青檬读书｜6 周（2025.07.07–2025.08.15）"
+   ],
+   "comparison": "有一段青檬读书的内容运营实习经历，满足内容运营方向实习经历的要求。"
+  },
+  {
+   "id": "split-self-r1-V3-C1-04-R6",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 1,
+   "resume": "V3-C1-04",
+   "req": "R6",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "暑期书单活动结束后做了效果复盘（阅读量、涨粉）。",
+   "quotes": [
+    "暑期书单活动结束后做了效果复盘（阅读量、涨粉）"
+   ],
+   "comparison": "做过书单活动的效果复盘，覆盖阅读量和涨粉指标，满足活动效果复盘的要求。"
+  },
+  {
+   "id": "split-self-r1-V3-C1-05-R1",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 1,
+   "resume": "V3-C1-05",
+   "req": "R1",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "教育经历为浙江大学广告学大二在读。",
+   "quotes": [
+    "【教育】浙江大学　广告学　大二在读"
+   ],
+   "comparison": "简历显示目前为大二在读本科生，尚未毕业，满足本科在读的要求。"
+  },
+  {
+   "id": "split-self-r1-V3-C1-05-R2",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 1,
+   "resume": "V3-C1-05",
+   "req": "R2",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "在市场部实习中用数据透视表汇总各门店每月的物料费用。",
+   "quotes": [
+    "用数据透视表汇总各门店每月的物料费用"
+   ],
+   "comparison": "该数据透视表用法出现在实习经历中而非仅在技能栏，满足在实习中使用Excel数据透视表做数据分析的要求。"
+  },
+  {
+   "id": "split-self-r1-V3-C1-05-R4",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 1,
+   "resume": "V3-C1-05",
+   "req": "R4",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "实习经历为市场部实习生，山城火锅连锁，2025.06—2025.10。",
+   "quotes": [
+    "市场部实习生　山城火锅连锁　2025.06—2025.10"
+   ],
+   "comparison": "2025.06至2025.10约为5个月，超过要求的累计不少于3个月。"
+  },
+  {
+   "id": "split-self-r1-V3-C1-05-R5",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 1,
+   "resume": "V3-C1-05",
+   "req": "R5",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "到岗时间为周二至周五，2027 年 1 月到 5 月。",
+   "quotes": [
+    "【到岗】周二至周五，2027 年 1 月到 5 月"
+   ],
+   "comparison": "周二至周五为每周4天，2027年1月到5月约5个月，满足每周4天且持续3个月以上的要求。"
+  },
+  {
+   "id": "split-self-r1-V3-C1-06-R1",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 1,
+   "resume": "V3-C1-06",
+   "req": "R1",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "浙江工商大学数据科学与大数据技术本科，2023.09-2027.06（在读）。",
+   "quotes": [
+    "本科　2023.09-2027.06（在读）"
+   ],
+   "comparison": "The resume shows a bachelor's degree still in progress (2023.09-2027.06, 在读), which satisfies the requirement of being an undergraduate or master's student who has not yet graduated."
+  },
+  {
+   "id": "split-self-r1-V3-C1-06-R4",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 1,
+   "resume": "V3-C1-06",
+   "req": "R4",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "数据分析实习生，蓝鲸物流，2025.03-2025.08。",
+   "quotes": [
+    "数据分析实习生，蓝鲸物流，2025.03-2025.08"
+   ],
+   "comparison": "The single internship runs from 2025.03 to 2025.08, about 6 months, which exceeds the required cumulative 3 months."
+  },
+  {
+   "id": "split-self-r1-V3-C1-06-R6",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 1,
+   "resume": "V3-C1-06",
+   "req": "R6",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "做过一次“新旧派单规则”的 A/B 测试，对比两组的准时率。",
+   "quotes": [
+    "做过一次“新旧派单规则”的 A/B 测试，对比两组的准时率"
+   ],
+   "comparison": "The resume describes running one A/B test comparing on-time rates between old and new dispatch rules, which meets the requirement of having done an A/B test."
+  },
+  {
+   "id": "split-self-r1-V3-C2-01-R1",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 1,
+   "resume": "V3-C2-01",
+   "req": "R1",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "教育经历为浙江大学人力资源管理本科，目前大三（2024-2028）。",
+   "quotes": [
+    "浙江大学 人力资源管理 本科 大三（2024-2028）"
+   ],
+   "comparison": "The candidate is an undergraduate in 人力资源管理 (human resource management), which matches the required field of study."
+  },
+  {
+   "id": "split-self-r1-V3-C2-01-R2",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 1,
+   "resume": "V3-C2-01",
+   "req": "R2",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "2025.07-2025.10在黔通人力担任招聘实习生，每天电话邀约候选人面试，约 15 人/天。",
+   "quotes": [
+    "2025.07-2025.10 招聘实习生 黔通人力",
+    "每天电话邀约候选人面试，约 15 人/天"
+   ],
+   "comparison": "The candidate scheduled interviews for about 15 candidates per day by phone, which meets the requirement to have arranged interviews for others."
+  },
+  {
+   "id": "split-self-r1-V3-C2-01-R3",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 1,
+   "resume": "V3-C2-01",
+   "req": "R3",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "用飞书多维表格管理候选人进度（初筛/面试/offer）。",
+   "quotes": [
+    "用飞书多维表格管理候选人进度（初筛/面试/offer）"
+   ],
+   "comparison": "The candidate tracked candidate progress through stages in a Feishu multi-dimensional spreadsheet, which meets the requirement to manage candidate information with a spreadsheet or ATS."
+  },
+  {
+   "id": "split-self-r1-V3-C2-01-R4",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 1,
+   "resume": "V3-C2-01",
+   "req": "R4",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "写了 6 篇校招推文，发在公司公众号。",
+   "quotes": [
+    "写了 6 篇校招推文，发在公司公众号"
+   ],
+   "comparison": "The candidate wrote 6 campus recruiting posts published on the company's official account, which meets the requirement to have written recruitment or public-facing copy."
+  },
+  {
+   "id": "split-self-r1-V3-C2-01-R5",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 1,
+   "resume": "V3-C2-01",
+   "req": "R5",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "入职签了保密协议，候选人简历只在内部系统里查看，不外传。",
+   "quotes": [
+    "入职签了保密协议，候选人简历只在内部系统里查看，不外传"
+   ],
+   "comparison": "The candidate signed a confidentiality agreement and kept candidate resumes within internal systems without external sharing, which meets the requirement to handle personal information under confidentiality rules."
+  },
+  {
+   "id": "split-self-r1-V3-C2-01-R6",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 1,
+   "resume": "V3-C2-01",
+   "req": "R6",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "到岗安排为每周 4 天（周一到周四），2027.1-2027.6。",
+   "quotes": [
+    "每周 4 天（周一到周四），2027.1-2027.6"
+   ],
+   "comparison": "The candidate is available 4 days per week (Monday to Thursday), which meets the requirement of at least 4 days per week."
+  },
+  {
+   "id": "split-self-r1-V3-C2-02-R1",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 1,
+   "resume": "V3-C2-02",
+   "req": "R1",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "简历显示刘子轩为浙江工商大学应用心理学硕士在读（研二）。",
+   "quotes": [
+    "教育：浙江工商大学　应用心理学　硕士在读（研二）"
+   ],
+   "comparison": "应用心理学硕士在读属于要求中的心理学专业在读，满足R1。"
+  },
+  {
+   "id": "split-self-r1-V3-C2-02-R2",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 1,
+   "resume": "V3-C2-02",
+   "req": "R2",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "刘子轩在心理学实验室助理工作中帮导师约被试来实验室做实验，约 30 人。",
+   "quotes": [
+    "帮导师约被试来实验室做实验，约 30 人"
+   ],
+   "comparison": "为被试安排来实验室的预约，涉及约 30 人，满足R2中为被试安排预约的要求。"
+  },
+  {
+   "id": "split-self-r1-V3-C2-02-R4",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 1,
+   "resume": "V3-C2-02",
+   "req": "R4",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "刘子轩在校研究生会宣传部撰写招新推文 3 篇。",
+   "quotes": [
+    "校研究生会宣传部：撰写招新推文 3 篇"
+   ],
+   "comparison": "撰写3篇面向学生的招新推文，属于对外文案，满足R4。"
+  },
+  {
+   "id": "split-self-r1-V3-C2-02-R5",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 1,
+   "resume": "V3-C2-02",
+   "req": "R5",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "刘子轩按实验室伦理要求，将被试信息去标识化后存档。",
+   "quotes": [
+    "按实验室伦理要求，被试信息去标识化后存档"
+   ],
+   "comparison": "按伦理要求对被试个人信息去标识化处理，满足R5的个人信息保护要求。"
+  },
+  {
+   "id": "split-self-r1-V3-C2-02-R6",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 1,
+   "resume": "V3-C2-02",
+   "req": "R6",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "简历写明刘子轩每周可实习 5 天，2027 年 1 月起。",
+   "quotes": [
+    "每周可实习 5 天，2027 年 1 月起"
+   ],
+   "comparison": "每周可实习5天，超过要求的4天，满足R6。"
+  },
+  {
+   "id": "split-self-r1-V3-C2-03-R3",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 1,
+   "resume": "V3-C2-03",
+   "req": "R3",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "用 Excel 记录应聘者的投递渠道和面试结果。",
+   "quotes": [
+    "用 Excel 记录应聘者的投递渠道和面试结果"
+   ],
+   "comparison": "用 Excel 管理应聘者投递渠道和面试结果，属于用表格管理应聘者信息，满足要求。"
+  },
+  {
+   "id": "split-self-r1-V3-C2-03-R4",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 1,
+   "resume": "V3-C2-03",
+   "req": "R4",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "写过公司公众号的招聘推文 2 篇。",
+   "quotes": [
+    "写过公司公众号的招聘推文 2 篇"
+   ],
+   "comparison": "撰写过 2 篇公司公众号招聘推文，属于对外文案，满足要求。"
+  },
+  {
+   "id": "split-self-r1-V3-C2-03-R5",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 1,
+   "resume": "V3-C2-03",
+   "req": "R5",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "按公司保密制度处理员工花名册。",
+   "quotes": [
+    "按公司保密制度处理员工花名册"
+   ],
+   "comparison": "按保密制度处理员工花名册，属于按保密要求处理个人信息，满足要求。"
+  },
+  {
+   "id": "split-self-r1-V3-C2-03-R6",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 1,
+   "resume": "V3-C2-03",
+   "req": "R6",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "到岗：周一至周五，2027 年 1 月起。",
+   "quotes": [
+    "到岗：周一至周五，2027 年 1 月起"
+   ],
+   "comparison": "周一至周五即每周可实习 5 天，超过要求的 4 天及以上，满足要求。"
+  },
+  {
+   "id": "split-self-r1-V3-C2-04-R1",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 1,
+   "resume": "V3-C2-04",
+   "req": "R1",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "教育经历为浙江工商大学工商管理专业，目前大二在读。",
+   "quotes": [
+    "浙江工商大学　工商管理　大二在读"
+   ],
+   "comparison": "简历显示目前在读工商管理专业，满足人力资源、心理学、工商管理或相近专业在读的要求。"
+  },
+  {
+   "id": "split-self-r1-V3-C2-04-R2",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 1,
+   "resume": "V3-C2-04",
+   "req": "R2",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "在学生会外联部给赞助商安排拜访时间，约见 5 家商家。",
+   "quotes": [
+    "学生会外联部：给赞助商安排拜访时间，约见 5 家商家"
+   ],
+   "comparison": "简历显示为赞助商安排拜访时间并约见5家商家，满足为他人安排面试、会议或预约的要求。"
+  },
+  {
+   "id": "split-self-r1-V3-C2-04-R5",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 1,
+   "resume": "V3-C2-04",
+   "req": "R5",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "在家教中心做前台时，按中心的个人信息保护规定登记学员和家长信息。",
+   "quotes": [
+    "在家教中心做前台：按中心的个人信息保护规定登记学员和家长信息"
+   ],
+   "comparison": "简历显示按个人信息保护规定处理学员和家长信息，满足按保密或个人信息保护要求处理个人信息的要求。"
+  },
+  {
+   "id": "split-self-r1-V3-C2-05-R1",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 1,
+   "resume": "V3-C2-05",
+   "req": "R1",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "陈雨欣为浙江大学心理学专业本科在读（大三）。",
+   "quotes": [
+    "浙江大学｜心理学｜本科在读（大三）"
+   ],
+   "comparison": "心理学是岗位列出的相近专业之一，且简历显示其为本科在读（大三），满足R1。"
+  },
+  {
+   "id": "split-self-r1-V3-C2-05-R2",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 1,
+   "resume": "V3-C2-05",
+   "req": "R2",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "在蓉城教育实习期间为各校区校长安排候选人面试，每周约 20 场。",
+   "quotes": [
+    "为各校区校长安排候选人面试，每周约 20 场"
+   ],
+   "comparison": "该经历是为他人（校长）安排面试，每周约 20 场，满足R2的安排面试要求。"
+  },
+  {
+   "id": "split-self-r1-V3-C2-05-R3",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 1,
+   "resume": "V3-C2-05",
+   "req": "R3",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "在北森招聘系统里更新过候选人状态。",
+   "quotes": [
+    "在北森招聘系统里更新候选人状态"
+   ],
+   "comparison": "北森是招聘系统（ATS），简历显示其用该系统更新候选人状态，满足R3。"
+  },
+  {
+   "id": "split-self-r1-V3-C2-05-R6",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 1,
+   "resume": "V3-C2-05",
+   "req": "R6",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "到岗时间为2027年1月起，每周可到岗4天。",
+   "quotes": [
+    "2027 年 1 月起，每周 4 天"
+   ],
+   "comparison": "简历写明每周4天可到岗，等于岗位要求的每周4天及以上，满足R6。"
+  },
+  {
+   "id": "split-self-r1-V3-C2-06-R3",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 1,
+   "resume": "V3-C2-06",
+   "req": "R3",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "在锦江物业担任人力资源助理（全职），用招聘系统（Moka）筛选和跟进应聘者。",
+   "quotes": [
+    "用招聘系统（Moka）筛选和跟进应聘者"
+   ],
+   "comparison": "用招聘系统Moka筛选和跟进应聘者，满足用招聘系统管理应聘者信息的要求。"
+  },
+  {
+   "id": "split-self-r1-V3-C2-06-R4",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 1,
+   "resume": "V3-C2-06",
+   "req": "R4",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "撰写物业项目的招聘文案，发在 BOSS 直聘。",
+   "quotes": [
+    "撰写物业项目的招聘文案，发在 BOSS 直聘"
+   ],
+   "comparison": "撰写并对外发布招聘文案，满足写过对外文案的要求。"
+  },
+  {
+   "id": "split-self-r1-V3-C2-06-R5",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 1,
+   "resume": "V3-C2-06",
+   "req": "R5",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "按公司个人信息保护制度管理员工档案。",
+   "quotes": [
+    "按公司个人信息保护制度管理员工档案"
+   ],
+   "comparison": "按公司个人信息保护制度管理员工档案，满足按保密或个人信息保护要求处理个人信息的要求。"
+  },
+  {
+   "id": "split-self-r1-V3-E1-01-R1",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 1,
+   "resume": "V3-E1-01",
+   "req": "R1",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "National University of Singapore — BSc (Hons) Data Science, yr 3 of 4 — exp. grad. Jun 2028",
+   "quotes": [
+    "National University of Singapore — BSc (Hons) Data Science, yr 3 of 4 — exp. grad. Jun 2028"
+   ],
+   "comparison": "The resume shows he is in year 3 of a 4-year bachelor's degree with expected graduation in Jun 2028, so he is currently enrolled and not yet graduated."
+  },
+  {
+   "id": "split-self-r1-V3-E1-01-R2",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 1,
+   "resume": "V3-E1-01",
+   "req": "R2",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "Analytics Intern role at Kedai Runcit Online Sdn Bhd included pulling order data with PostgreSQL queries for the weekly ops review.",
+   "quotes": [
+    "pulled order data with PostgreSQL queries for the weekly ops review"
+   ],
+   "comparison": "PostgreSQL queries are SQL, and they were used in a work internship bullet under experience, not just a skills list."
+  },
+  {
+   "id": "split-self-r1-V3-E1-01-R3",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 1,
+   "resume": "V3-E1-01",
+   "req": "R3",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "Built a Power BI dashboard tracking late orders by courier, which ops leads filter by week.",
+   "quotes": [
+    "built a Power BI dashboard tracking late orders by courier; ops leads filter it by week"
+   ],
+   "comparison": "A Power BI dashboard that ops leads filter interactively is an interactive dashboard, not a static chart, so it meets the requirement."
+  },
+  {
+   "id": "split-self-r1-V3-E1-01-R4",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 1,
+   "resume": "V3-E1-01",
+   "req": "R4",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "Analytics Intern at Kedai Runcit Online Sdn Bhd, Mar '25 – Sep '25.",
+   "quotes": [
+    "Analytics Intern — Kedai Runcit Online Sdn Bhd (Shah Alam)          Mar '25 – Sep '25"
+   ],
+   "comparison": "Mar '25 to Sep '25 is 6 months by month difference and 7 months counting both ends, which meets the requirement of at least 6 months of internship experience."
+  },
+  {
+   "id": "split-self-r1-V3-E1-01-R5",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 1,
+   "resume": "V3-E1-01",
+   "req": "R5",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "Availability: Jan 2027 → May 2027, Mon–Thu (4 days/wk).",
+   "quotes": [
+    "Jan 2027 → May 2027, Mon–Thu (4 days/wk)"
+   ],
+   "comparison": "He is available 4 days a week (Mon–Thu) from Jan 2027 to May 2027, which is 5 months and meets the at-least-4-days-for-3-months requirement."
+  },
+  {
+   "id": "split-self-r1-V3-E1-01-R6",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 1,
+   "resume": "V3-E1-01",
+   "req": "R6",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "Presented the late-delivery findings to the customer service supervisors (non-technical team).",
+   "quotes": [
+    "presented the late-delivery findings to the customer service supervisors (non-technical team)"
+   ],
+   "comparison": "Presenting findings to customer service supervisors, described as a non-technical team, meets the requirement of presenting to a non-technical audience such as managers."
+  },
+  {
+   "id": "split-self-r1-V3-E1-02-R1",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 1,
+   "resume": "V3-E1-02",
+   "req": "R1",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "Currently enrolled in the Master of Business Analytics (part-time) at Multimedia University, Year 1 of 2, with expected completion in Dec 2027.",
+   "quotes": [
+    "Master of Business Analytics (part-time), Multimedia University",
+    "Year 1 of 2 · started Feb 2026 · expected completion Dec 2027"
+   ],
+   "comparison": "The resume shows an ongoing master's programme with expected completion in Dec 2027, so the candidate has not yet graduated and meets the enrolment requirement."
+  },
+  {
+   "id": "split-self-r1-V3-E1-02-R2",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 1,
+   "resume": "V3-E1-02",
+   "req": "R2",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "Wrote SQL queries on a 1M-row retail dataset to find repeat buyers in a course project.",
+   "quotes": [
+    "wrote SQL queries on a 1M-row retail dataset to find repeat buyers"
+   ],
+   "comparison": "SQL use is described under course projects, which the posting accepts as experience, so this meets the SQL requirement."
+  },
+  {
+   "id": "split-self-r1-V3-E1-02-R3",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 1,
+   "resume": "V3-E1-02",
+   "req": "R3",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "Built an interactive Tableau Public dashboard of repeat-purchase rates, with filters by state and month, in a course project.",
+   "quotes": [
+    "built an interactive Tableau Public dashboard of repeat-purchase rates, with filters by state and month"
+   ],
+   "comparison": "An interactive Tableau dashboard with filters is exactly the kind of dashboard R3 asks for, so this meets the requirement."
+  },
+  {
+   "id": "split-self-r1-V3-E1-02-R4",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 1,
+   "resume": "V3-E1-02",
+   "req": "R4",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "Worked as Audit Associate at Lim & Partners Chartered Accountants from 2023/08 – 2025/02.",
+   "quotes": [
+    "2023/08 – 2025/02",
+    "Audit Associate, Lim & Partners Chartered Accountants"
+   ],
+   "comparison": "August 2023 to February 2025 is about 18 months of work experience, well above the 6-month minimum."
+  },
+  {
+   "id": "split-self-r1-V3-E1-02-R5",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 1,
+   "resume": "V3-E1-02",
+   "req": "R5",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "Available 4 days a week (Tue-Fri), Jan to Jun 2027.",
+   "quotes": [
+    "Available: 4 days a week (Tue-Fri), Jan to Jun 2027"
+   ],
+   "comparison": "Four days a week for Jan to Jun 2027 is about 6 months, which meets the 4 days a week for at least 3 months requirement."
+  },
+  {
+   "id": "split-self-r1-V3-E1-02-R6",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 1,
+   "resume": "V3-E1-02",
+   "req": "R6",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "Presented the duplicate-payment analysis to the client's managing director and office manager as an Audit Associate.",
+   "quotes": [
+    "presented the duplicate-payment analysis to the client's managing director and office manager"
+   ],
+   "comparison": "A managing director and office manager are non-technical managers, so this meets the presentation requirement."
+  },
+  {
+   "id": "split-self-r1-V3-E1-03-R2",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 1,
+   "resume": "V3-E1-03",
+   "req": "R2",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "Wrote SQL queries in BigQuery to count failed deliveries per hub each week as an Operations Analyst Intern at Sinar Freight.",
+   "quotes": [
+    "Wrote SQL queries in BigQuery to count failed deliveries per hub each week."
+   ],
+   "comparison": "SQL use is described under work experience at Sinar Freight, which satisfies the requirement that it not be only a skills list."
+  },
+  {
+   "id": "split-self-r1-V3-E1-03-R4",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 1,
+   "resume": "V3-E1-03",
+   "req": "R4",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "The Operations Analyst Intern role at Sinar Freight is dated Jan 2025 – Aug 2025.",
+   "quotes": [
+    "Jan 2025 – Aug 2025"
+   ],
+   "comparison": "January to August 2025 is about 7 months of internship experience, which exceeds the required 6 months."
+  },
+  {
+   "id": "split-self-r1-V3-E1-03-R5",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 1,
+   "resume": "V3-E1-03",
+   "req": "R5",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "Available Monday–Friday from January 2027, for six months.",
+   "quotes": [
+    "Monday–Friday from January 2027, for six months."
+   ],
+   "comparison": "Monday to Friday is 5 days a week, which exceeds the 4 days required, and six months exceeds the 3 months required."
+  },
+  {
+   "id": "split-self-r1-V3-E1-03-R6",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 1,
+   "resume": "V3-E1-03",
+   "req": "R6",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "Presented the monthly failed-delivery summary to the hub managers at Sinar Freight.",
+   "quotes": [
+    "Presented the monthly failed-delivery summary to the hub managers."
+   ],
+   "comparison": "Presenting to hub managers, who are non-technical managers, matches the requirement's example audience."
+  },
+  {
+   "id": "split-self-r1-V3-E1-04-R1",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 1,
+   "resume": "V3-E1-04",
+   "req": "R1",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "Education lists a Bachelor of Computer Science (Data Science) at Multimedia University with expected graduation Nov 2027.",
+   "quotes": [
+    "Expected graduation: Nov 2027"
+   ],
+   "comparison": "The candidate is still enrolled, with graduation expected in Nov 2027, which satisfies the requirement of not yet having graduated."
+  },
+  {
+   "id": "split-self-r1-V3-E1-04-R3",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 1,
+   "resume": "V3-E1-04",
+   "req": "R3",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "Built a Looker Studio report with filters for store and week, used by the area managers.",
+   "quotes": [
+    "built a Looker Studio report with filters for store and week, used by the area managers"
+   ],
+   "comparison": "A filterable Looker Studio report is an interactive dashboard, which meets the requirement that static charts do not count."
+  },
+  {
+   "id": "split-self-r1-V3-E1-04-R5",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 1,
+   "resume": "V3-E1-04",
+   "req": "R5",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "Availability is Mon–Thu, January–April 2027.",
+   "quotes": [
+    "Mon–Thu, January–April 2027"
+   ],
+   "comparison": "Mon–Thu is 4 days a week and January–April is 4 months, which meets the minimum of 4 days a week for at least 3 months."
+  },
+  {
+   "id": "split-self-r1-V3-E1-05-R1",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 1,
+   "resume": "V3-E1-05",
+   "req": "R1",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "Enrolled in B.Econ (Econometrics) at National University of Singapore, 3rd year, graduating 2027 (expected).",
+   "quotes": [
+    "National University of Singapore — B.Econ (Econometrics), 3rd year, graduating 2027 (expected)"
+   ],
+   "comparison": "The resume shows the candidate is a 3rd-year student still enrolled in a bachelor's programme and not yet graduated, which satisfies the requirement."
+  },
+  {
+   "id": "split-self-r1-V3-E1-05-R2",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 1,
+   "resume": "V3-E1-05",
+   "req": "R2",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "Wrote MySQL queries as Pricing Analyst Intern at Gerai Digital, comparing prices across 300 sellers.",
+   "quotes": [
+    "Wrote MySQL queries to compare prices across 300 sellers"
+   ],
+   "comparison": "SQL (MySQL) was used in a job described under experience, with 300 sellers covered, which satisfies the requirement."
+  },
+  {
+   "id": "split-self-r1-V3-E1-05-R4",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 1,
+   "resume": "V3-E1-05",
+   "req": "R4",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "Pricing Analyst Intern at Gerai Digital from Feb 2025 to Aug 2025.",
+   "quotes": [
+    "Pricing Analyst Intern, Gerai Digital (Feb 2025 – Aug 2025)"
+   ],
+   "comparison": "Feb to Aug 2025 is 7 months inclusive (6 months by simple subtraction), meeting the 6-month minimum, and the part-time Data Entry role at Klinik Ana from Sep to Dec 2025 adds further experience."
+  },
+  {
+   "id": "split-self-r1-V3-E1-05-R6",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 1,
+   "resume": "V3-E1-05",
+   "req": "R6",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "Walked the sales managers through the price-gap findings every month as Pricing Analyst Intern.",
+   "quotes": [
+    "Walked the sales managers through the price-gap findings every month"
+   ],
+   "comparison": "Presenting findings monthly to sales managers, who are non-technical audiences, satisfies the requirement."
+  },
+  {
+   "id": "split-self-r1-V3-E1-06-R1",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 1,
+   "resume": "V3-E1-06",
+   "req": "R1",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "Enrolled in Bachelor of Science in Actuarial Science at Multimedia University, Year 2, 2025 – 2029.",
+   "quotes": [
+    "Multimedia University | Bachelor of Science in Actuarial Science | Year 2 | 2025 – 2029"
+   ],
+   "comparison": "The resume shows a current bachelor's programme in Year 2 running to 2029, so the candidate is enrolled and not yet graduated, which meets R1."
+  },
+  {
+   "id": "split-self-r1-V3-E1-06-R3",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 1,
+   "resume": "V3-E1-06",
+   "req": "R3",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "Built a Tableau dashboard of fleet fuel use with a filter by depot and a monthly trend view.",
+   "quotes": [
+    "Built a Tableau dashboard of fleet fuel use with a filter by depot and a monthly trend view"
+   ],
+   "comparison": "A Tableau dashboard with a depot filter is an interactive report rather than a static chart, which meets R3."
+  },
+  {
+   "id": "split-self-r1-V3-E1-06-R4",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 1,
+   "resume": "V3-E1-06",
+   "req": "R4",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "Business Intelligence Intern at Rakan Logistik, 01/2025 – 08/2025.",
+   "quotes": [
+    "Business Intelligence Intern | Rakan Logistik | 01/2025 – 08/2025"
+   ],
+   "comparison": "January through August 2025 is 8 months of internship, which exceeds the 6-month minimum in R4."
+  },
+  {
+   "id": "split-self-r1-V3-E2-01-R1",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 1,
+   "resume": "V3-E2-01",
+   "req": "R1",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "Currently in Year 2 of a B.BA (Hons) Human Resource Mgmt degree at National University of Singapore (2025–2028).",
+   "quotes": [
+    "B.BA (Hons) Human Resource Mgmt, National University of Singapore — Year 2 (2025–2028)"
+   ],
+   "comparison": "The resume shows a current HR degree in Year 2 (2025–2028), which meets the requirement to be currently studying human resources."
+  },
+  {
+   "id": "split-self-r1-V3-E2-01-R2",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 1,
+   "resume": "V3-E2-01",
+   "req": "R2",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "Coordinated interview slots with 40+ candidates via Calendly & phone as a Recruitment Intern at Saujana Staffing.",
+   "quotes": [
+    "coordinated interview slots w/ 40+ candidates via Calendly & phone"
+   ],
+   "comparison": "Scheduling interview slots with 40+ external candidates meets the requirement to have scheduled interviews with external people."
+  },
+  {
+   "id": "split-self-r1-V3-E2-01-R3",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 1,
+   "resume": "V3-E2-01",
+   "req": "R3",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "Kept a candidate tracker in Google Sheets, updated for stage, interviewer and outcome.",
+   "quotes": [
+    "kept the candidate tracker (Google Sheets) up to date: stage, interviewer, outcome"
+   ],
+   "comparison": "Maintaining a Google Sheets candidate tracker meets the requirement to track candidates in an ATS or a spreadsheet."
+  },
+  {
+   "id": "split-self-r1-V3-E2-01-R4",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 1,
+   "resume": "V3-E2-01",
+   "req": "R4",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "Drafted 12 job posts for LinkedIn and Jobstreet.",
+   "quotes": [
+    "drafted 12 job posts for LinkedIn and Jobstreet"
+   ],
+   "comparison": "Drafting 12 public job posts on LinkedIn and Jobstreet meets the requirement to have written job postings."
+  },
+  {
+   "id": "split-self-r1-V3-E2-01-R5",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 1,
+   "resume": "V3-E2-01",
+   "req": "R5",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "Signed an NDA and handled candidate records under the company's PDPA policy.",
+   "quotes": [
+    "signed an NDA; handled candidate records under the company's PDPA policy"
+   ],
+   "comparison": "Handling candidate records under a PDPA policy and an NDA meets the requirement to have handled confidential personal data under a privacy rule."
+  },
+  {
+   "id": "split-self-r1-V3-E2-01-R6",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 1,
+   "resume": "V3-E2-01",
+   "req": "R6",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "Available Tue–Fri (4 days/week), Jan–Jun 2027.",
+   "quotes": [
+    "Tue–Fri (4 days/week), Jan–Jun 2027"
+   ],
+   "comparison": "Availability of 4 days/week meets the requirement of at least 4 days a week."
+  },
+  {
+   "id": "split-self-r1-V3-E2-02-R1",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 1,
+   "resume": "V3-E2-02",
+   "req": "R1",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "Studying BSc Psychology at Multimedia University, final year, expected graduation Aug 2027.",
+   "quotes": [
+    "BSc Psychology @ Multimedia University, final year, expected graduation Aug 2027"
+   ],
+   "comparison": "A currently enrolled psychology degree (final year, graduating Aug 2027) matches the requirement to be currently studying psychology."
+  },
+  {
+   "id": "split-self-r1-V3-E2-02-R2",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 1,
+   "resume": "V3-E2-02",
+   "req": "R2",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "Booked lab sessions with ~60 study participants from outside the university, recruited via Facebook ads.",
+   "quotes": [
+    "booked lab sessions with ~60 study participants from outside the university (recruited via Facebook ads)"
+   ],
+   "comparison": "Booking sessions with about 60 external study participants is a direct example of scheduling appointments with external people, as the requirement asks."
+  },
+  {
+   "id": "split-self-r1-V3-E2-02-R3",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 1,
+   "resume": "V3-E2-02",
+   "req": "R3",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "Logged sign-ups and screening answers in an Excel applicant sheet.",
+   "quotes": [
+    "logged sign-ups and screening answers in an Excel applicant sheet (eligible / not eligible / no-show)"
+   ],
+   "comparison": "Tracking applicants in an Excel applicant sheet satisfies the requirement, since a spreadsheet is an accepted tracking method."
+  },
+  {
+   "id": "split-self-r1-V3-E2-02-R4",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 1,
+   "resume": "V3-E2-02",
+   "req": "R4",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "Wrote the recruitment posts for the lab's Instagram.",
+   "quotes": [
+    "wrote the recruitment posts for the lab's Instagram"
+   ],
+   "comparison": "Writing recruitment posts for a public Instagram account is public-facing recruitment copy, which meets the requirement."
+  },
+  {
+   "id": "split-self-r1-V3-E2-02-R5",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 1,
+   "resume": "V3-E2-02",
+   "req": "R5",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "Ran all sessions under the ethics committee's confidentiality rules, with consent forms locked away and names replaced with IDs.",
+   "quotes": [
+    "ran all sessions under the ethics committee's confidentiality rules; consent forms locked away, names replaced with IDs"
+   ],
+   "comparison": "Handling participant personal data under ethics committee confidentiality rules meets the requirement for a privacy or confidentiality rule."
+  },
+  {
+   "id": "split-self-r1-V3-E2-02-R6",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 1,
+   "resume": "V3-E2-02",
+   "req": "R6",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "Available Mon–Fri from 4 Jan 2027.",
+   "quotes": [
+    "Available Mon–Fri from 4 Jan 2027."
+   ],
+   "comparison": "Mon–Fri is five days a week, which exceeds the minimum of 4 days a week."
+  },
+  {
+   "id": "split-self-r1-V3-E2-03-R3",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 1,
+   "resume": "V3-E2-03",
+   "req": "R3",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "Entered job applicants into the clinic's ATS (Recruitee) and moved them through the stages.",
+   "quotes": [
+    "entered job applicants into the clinic's ATS (Recruitee) and moved them through the stages"
+   ],
+   "comparison": "This shows direct tracking of applicants through an applicant tracking system, which meets the requirement."
+  },
+  {
+   "id": "split-self-r1-V3-E2-03-R4",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 1,
+   "resume": "V3-E2-03",
+   "req": "R4",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "Wrote the job ads for two dental assistant openings on Hiredly.",
+   "quotes": [
+    "wrote the job ads for two dental assistant openings on Hiredly"
+   ],
+   "comparison": "Writing public job ads for two openings on Hiredly is public-facing recruitment copy, which meets the requirement."
+  },
+  {
+   "id": "split-self-r1-V3-E2-03-R5",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 1,
+   "resume": "V3-E2-03",
+   "req": "R5",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "Handled patient and applicant records under the clinic's confidentiality policy.",
+   "quotes": [
+    "handled patient and applicant records under the clinic's confidentiality policy"
+   ],
+   "comparison": "Handling records under a confidentiality policy shows handling confidential personal data under a privacy rule, which meets the requirement."
+  },
+  {
+   "id": "split-self-r1-V3-E2-03-R6",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 1,
+   "resume": "V3-E2-03",
+   "req": "R6",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "Available 4 days a week (Mon–Thu), Jan–Apr 2027.",
+   "quotes": [
+    "4 days a week (Mon–Thu), Jan–Apr 2027"
+   ],
+   "comparison": "Four days a week meets the requirement of at least 4 days a week."
+  },
+  {
+   "id": "split-self-r1-V3-E2-04-R1",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 1,
+   "resume": "V3-E2-04",
+   "req": "R1",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "Emma Hughes is in Year 2 of a Bachelor of Business (Management) at Multimedia University, with expected graduation 2028.",
+   "quotes": [
+    "Multimedia University — Bachelor of Business (Management), Year 2, expected graduation 2028"
+   ],
+   "comparison": "Business is a listed field and she is currently enrolled in Year 2 of the degree, which satisfies the requirement to be currently studying business."
+  },
+  {
+   "id": "split-self-r1-V3-E2-04-R2",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 1,
+   "resume": "V3-E2-04",
+   "req": "R2",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "At Klinik Sejahtera, Emma phoned patients to schedule follow-up appointments with the doctors.",
+   "quotes": [
+    "phoned patients to schedule follow-up appointments with the doctors"
+   ],
+   "comparison": "Scheduling follow-up appointments with patients is scheduling appointments with external people, which meets the requirement."
+  },
+  {
+   "id": "split-self-r1-V3-E2-04-R3",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 1,
+   "resume": "V3-E2-04",
+   "req": "R3",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "At Klinik Sejahtera, Emma tracked walk-in job applicants for nurse roles in a shared spreadsheet.",
+   "quotes": [
+    "tracked walk-in job applicants for nurse roles in a shared spreadsheet"
+   ],
+   "comparison": "Tracking job applicants in a shared spreadsheet meets the requirement to track candidates in an ATS or spreadsheet."
+  },
+  {
+   "id": "split-self-r1-V3-E2-05-R1",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 1,
+   "resume": "V3-E2-05",
+   "req": "R1",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "Currently in 2nd year of a Bachelor of Psychology at National University of Singapore.",
+   "quotes": [
+    "Bachelor of Psychology, National University of Singapore, 2nd year"
+   ],
+   "comparison": "A Bachelor of Psychology in its 2nd year is a currently studied field matching the required psychology or related field."
+  },
+  {
+   "id": "split-self-r1-V3-E2-05-R4",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 1,
+   "resume": "V3-E2-05",
+   "req": "R4",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "Wrote the club's recruitment posts and event captions for Instagram.",
+   "quotes": [
+    "Wrote the club's recruitment posts and event captions for Instagram"
+   ],
+   "comparison": "Writing recruitment posts for a public Instagram account matches the requirement to have written job postings or public-facing copy."
+  },
+  {
+   "id": "split-self-r1-V3-E2-05-R5",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 1,
+   "resume": "V3-E2-05",
+   "req": "R5",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "Volunteered on a Befrienders hotline, where callers' details were handled under the hotline's confidentiality pledge.",
+   "quotes": [
+    "Volunteer, Befrienders hotline: callers' details handled under the hotline's confidentiality pledge"
+   ],
+   "comparison": "Handling callers' details under a confidentiality pledge shows experience with confidential personal data under a confidentiality rule."
+  },
+  {
+   "id": "split-self-r1-V3-E2-05-R6",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 1,
+   "resume": "V3-E2-05",
+   "req": "R6",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "Availability is Monday to Thursday, Jan–May 2027.",
+   "quotes": [
+    "AVAILABILITY: Monday to Thursday, Jan–May 2027"
+   ],
+   "comparison": "Monday to Thursday is four days a week, which meets the requirement of at least 4 days, and the window covers the January 2027 start."
+  },
+  {
+   "id": "split-self-r1-V3-E2-06-R1",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 1,
+   "resume": "V3-E2-06",
+   "req": "R1",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "Currently in Year 3 of a Bachelor of Business Administration at Multimedia University, with exp. 2027.",
+   "quotes": [
+    "Multimedia University · Bachelor of Business Administration · Year 3 · exp. 2027"
+   ],
+   "comparison": "The resume shows an ongoing business degree (Bachelor of Business Administration, Year 3, expected 2027), which meets the requirement to be currently studying business."
+  },
+  {
+   "id": "split-self-r1-V3-E2-06-R2",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 1,
+   "resume": "V3-E2-06",
+   "req": "R2",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "As HR Intern at Seri Medika Clinics, 03/2025 – 07/2025, set up interviews between clinic managers and nurse candidates by phone and email.",
+   "quotes": [
+    "HR Intern · Seri Medika Clinics · 03/2025 – 07/2025",
+    "set up interviews between clinic managers and nurse candidates by phone and email"
+   ],
+   "comparison": "Scheduling interviews between clinic managers and external nurse candidates by phone and email meets the requirement to have scheduled interviews with external people."
+  },
+  {
+   "id": "split-self-r1-V3-E2-06-R5",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 1,
+   "resume": "V3-E2-06",
+   "req": "R5",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "As HR Intern at Seri Medika Clinics, handled staff files under the clinic's PDPA rules.",
+   "quotes": [
+    "handled staff files under the clinic's PDPA rules"
+   ],
+   "comparison": "Handling staff files under PDPA privacy rules meets the requirement to have handled confidential personal data under a privacy rule."
+  },
+  {
+   "id": "split-self-r2-V3-C1-01-R1",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 2,
+   "resume": "V3-C1-01",
+   "req": "R1",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "教育背景为浙江大学新闻传播学，状态为大三在读（2024.9-2028.6）。",
+   "quotes": [
+    "大三在读（2024.9-2028.6）"
+   ],
+   "comparison": "The resume shows the candidate is a current undergraduate (大三在读, 2024.9-2028.6), so the requirement of being an enrolled, not-yet-graduated undergraduate or master's student is met."
+  },
+  {
+   "id": "split-self-r2-V3-C1-01-R2",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 2,
+   "resume": "V3-C1-01",
+   "req": "R2",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "实习经历中写有每周用SQL拉一次留存数据，按渠道拆分，写进周报。",
+   "quotes": [
+    "每周用SQL拉一次留存数据，按渠道拆分，写进周报"
+   ],
+   "comparison": "The SQL work is listed under the internship experience (not only in the skills section), which satisfies the requirement of data analysis via SQL or pivot tables in an internship or project."
+  },
+  {
+   "id": "split-self-r2-V3-C1-01-R3",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 2,
+   "resume": "V3-C1-01",
+   "req": "R3",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "实习经历为小橘猫宠物App的用户运营实习生。",
+   "quotes": [
+    "用户运营实习生 @ 小橘猫宠物App"
+   ],
+   "comparison": "A user operations internship at 小橘猫宠物App is user-operations experience, which meets the requirement for at least one content or user operations internship."
+  },
+  {
+   "id": "split-self-r2-V3-C1-01-R4",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 2,
+   "resume": "V3-C1-01",
+   "req": "R4",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "实习时间为25年3月—25年7月。",
+   "quotes": [
+    "25年3月—25年7月"
+   ],
+   "comparison": "March through July inclusive is 5 months of internship, which exceeds the required cumulative minimum of 3 months."
+  },
+  {
+   "id": "split-self-r2-V3-C1-01-R5",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 2,
+   "resume": "V3-C1-01",
+   "req": "R5",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "到岗安排为2027年1月起每周5天，可实习4个月以上。",
+   "quotes": [
+    "2027年1月起每周5天，可实习4个月以上"
+   ],
+   "comparison": "Availability of 5 days per week, with a commitment of more than 4 months, meets the requirement of at least 4 days per week for more than 3 consecutive months."
+  },
+  {
+   "id": "split-self-r2-V3-C1-01-R6",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 2,
+   "resume": "V3-C1-01",
+   "req": "R6",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "实习中五一活动结束后写了活动复盘，涵盖拉新成本、次留、问题清单。",
+   "quotes": [
+    "五一活动结束后写了活动复盘：拉新成本、次留、问题清单"
+   ],
+   "comparison": "Writing a post-event review of the May Day campaign covering acquisition cost, next-day retention and issue list meets the requirement of campaign effectiveness review."
+  },
+  {
+   "id": "split-self-r2-V3-C1-02-R1",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 2,
+   "resume": "V3-C1-02",
+   "req": "R1",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "教育栏写明为浙江工商大学管理科学与工程硕士研究生在读，2025级，预计2028年6月毕业。",
+   "quotes": [
+    "硕士研究生在读 2025级（预计2028年6月毕业）"
+   ],
+   "comparison": "简历显示为硕士在读且尚未毕业（预计2028年6月毕业），满足R1。"
+  },
+  {
+   "id": "split-self-r2-V3-C1-02-R2",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 2,
+   "resume": "V3-C1-02",
+   "req": "R2",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "在知了短视频的内容运营实习中，用Excel数据透视表按选题统计完播率。",
+   "quotes": [
+    "用Excel数据透视表按选题统计完播率"
+   ],
+   "comparison": "该Excel数据透视表用法出现在实习经历中而非仅在技能栏，满足R2。"
+  },
+  {
+   "id": "split-self-r2-V3-C1-02-R3",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 2,
+   "resume": "V3-C1-02",
+   "req": "R3",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "有内容运营实习生经历，任职于知了短视频，时间为2025/07 ~ 2025/11。",
+   "quotes": [
+    "内容运营实习生",
+    "2025/07 ~ 2025/11"
+   ],
+   "comparison": "内容运营实习生经历在知了短视频任职，满足R3的内容运营实习要求。"
+  },
+  {
+   "id": "split-self-r2-V3-C1-02-R4",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 2,
+   "resume": "V3-C1-02",
+   "req": "R4",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "实习经历包括2025/07 ~ 2025/11的内容运营实习生，以及2024/12 ~ 2025/02的市场助理（寒假）。",
+   "quotes": [
+    "2025/07 ~ 2025/11",
+    "2024/12 ~ 2025/02"
+   ],
+   "comparison": "前段约5个月（2025/07至2025/11）加上后段约3个月（2024/12至2025/02），合计约8个月，超过R4要求的3个月。"
+  },
+  {
+   "id": "split-self-r2-V3-C1-02-R5",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 2,
+   "resume": "V3-C1-02",
+   "req": "R5",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "到岗时间为每周一至周四，2027.01-2027.05。",
+   "quotes": [
+    "每周一至周四，2027.01-2027.05"
+   ],
+   "comparison": "每周一至周四即每周4天，到岗期为2027.01-2027.05共5个月，满足R5的每周4天且持续3个月以上。"
+  },
+  {
+   "id": "split-self-r2-V3-C1-02-R6",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 2,
+   "resume": "V3-C1-02",
+   "req": "R6",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "对两版封面标题做过A/B测试，第二版点击率高。",
+   "quotes": [
+    "对两版封面标题做A/B测试"
+   ],
+   "comparison": "实习中做过A/B测试并比较了两版点击率，满足R6。"
+  },
+  {
+   "id": "split-self-r2-V3-C1-03-R2",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 2,
+   "resume": "V3-C1-03",
+   "req": "R2",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "实习经历中用 SQL 统计各商圈的复购率，并做成周报。",
+   "quotes": [
+    "用 SQL 统计各商圈的复购率，做成周报"
+   ],
+   "comparison": "Using SQL in an internship to compute repeat-purchase rates by business district and produce a weekly report shows real data analysis beyond a skills-list entry, which meets the requirement."
+  },
+  {
+   "id": "split-self-r2-V3-C1-03-R3",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 2,
+   "resume": "V3-C1-03",
+   "req": "R3",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "有一段用户运营实习生经历，任职于饭团外卖（成都）。",
+   "quotes": [
+    "用户运营实习生"
+   ],
+   "comparison": "A user operations internship at 饭团外卖 is an internship in user operations, which meets the requirement for at least one user or content operations internship."
+  },
+  {
+   "id": "split-self-r2-V3-C1-03-R4",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 2,
+   "resume": "V3-C1-03",
+   "req": "R4",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "实习经历时间为 2024.07–2024.12。",
+   "quotes": [
+    "2024.07–2024.12"
+   ],
+   "comparison": "The single internship runs from 2024.07 to 2024.12, which is 6 months, more than the required cumulative 3 months."
+  },
+  {
+   "id": "split-self-r2-V3-C1-03-R5",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 2,
+   "resume": "V3-C1-03",
+   "req": "R5",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "到岗时间为 2027 年 1 月起每周 5 天，可实习 6 个月。",
+   "quotes": [
+    "2027 年 1 月起每周 5 天，可实习 6 个月"
+   ],
+   "comparison": "The candidate is available from January 2027 for 5 days per week and for 6 months, which meets the requirement of at least 4 days per week and more than 3 months."
+  },
+  {
+   "id": "split-self-r2-V3-C1-04-R1",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 2,
+   "resume": "V3-C1-04",
+   "req": "R1",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "教育：浙江工商大学电子商务本科在读，预计2027.06毕业。",
+   "quotes": [
+    "本科在读，预计 2027.06 毕业"
+   ],
+   "comparison": "The resume shows the candidate is an undergraduate still enrolled, expected to graduate in 2027.06, which satisfies the requirement to be a current student who has not yet graduated."
+  },
+  {
+   "id": "split-self-r2-V3-C1-04-R3",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 2,
+   "resume": "V3-C1-04",
+   "req": "R3",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "实习经历为内容运营实习生，在青檬读书，6 周（2025.07.07–2025.08.15）。",
+   "quotes": [
+    "内容运营实习生｜青檬读书｜6 周（2025.07.07–2025.08.15）"
+   ],
+   "comparison": "A 6-week content operations internship at 青檬读书 meets the requirement for at least one content or user operations internship."
+  },
+  {
+   "id": "split-self-r2-V3-C1-04-R6",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 2,
+   "resume": "V3-C1-04",
+   "req": "R6",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "暑期书单活动结束后做了效果复盘（阅读量、涨粉）。",
+   "quotes": [
+    "暑期书单活动结束后做了效果复盘（阅读量、涨粉）"
+   ],
+   "comparison": "The candidate reviewed the effectiveness of a summer book-list campaign using reads and follower growth, which meets the requirement for campaign effectiveness review."
+  },
+  {
+   "id": "split-self-r2-V3-C1-05-R1",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 2,
+   "resume": "V3-C1-05",
+   "req": "R1",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "教育经历为浙江大学广告学，大二在读。",
+   "quotes": [
+    "浙江大学　广告学　大二在读"
+   ],
+   "comparison": "该简历显示候选人为大二在读，尚未毕业，满足本科在读（尚未毕业）的要求。"
+  },
+  {
+   "id": "split-self-r2-V3-C1-05-R2",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 2,
+   "resume": "V3-C1-05",
+   "req": "R2",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "在市场部实习中用数据透视表汇总各门店每月的物料费用。",
+   "quotes": [
+    "用数据透视表汇总各门店每月的物料费用"
+   ],
+   "comparison": "数据透视表用于实习经历中的数据汇总，不是仅写在技能栏，满足在实习中使用Excel数据透视表做数据分析的要求。"
+  },
+  {
+   "id": "split-self-r2-V3-C1-05-R4",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 2,
+   "resume": "V3-C1-05",
+   "req": "R4",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "市场部实习生，山城火锅连锁，2025.06—2025.10。",
+   "quotes": [
+    "市场部实习生　山城火锅连锁　2025.06—2025.10"
+   ],
+   "comparison": "2025.06至2025.10约为5个月，超过要求的累计不少于3个月。"
+  },
+  {
+   "id": "split-self-r2-V3-C1-05-R5",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 2,
+   "resume": "V3-C1-05",
+   "req": "R5",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "到岗时间为周二至周五，2027 年 1 月到 5 月。",
+   "quotes": [
+    "【到岗】周二至周五，2027 年 1 月到 5 月"
+   ],
+   "comparison": "周二至周五为每周4天，2027年1月至5月持续约5个月，满足每周4天及以上且持续3个月以上的要求。"
+  },
+  {
+   "id": "split-self-r2-V3-C1-06-R1",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 2,
+   "resume": "V3-C1-06",
+   "req": "R1",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "简历显示该候选人为浙江工商大学数据科学与大数据技术本科在读，2023.09-2027.06（在读）。",
+   "quotes": [
+    "本科　2023.09-2027.06（在读）"
+   ],
+   "comparison": "The resume lists a bachelor's degree still in progress (2023.09-2027.06, 在读), which satisfies the requirement that the candidate is an undergraduate or master's student who has not yet graduated."
+  },
+  {
+   "id": "split-self-r2-V3-C1-06-R4",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 2,
+   "resume": "V3-C1-06",
+   "req": "R4",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "数据分析实习生，蓝鲸物流，2025.03-2025.08。",
+   "quotes": [
+    "数据分析实习生，蓝鲸物流，2025.03-2025.08"
+   ],
+   "comparison": "The single internship runs from 2025.03 to 2025.08, which is about 6 months, well above the required cumulative minimum of 3 months."
+  },
+  {
+   "id": "split-self-r2-V3-C1-06-R6",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 2,
+   "resume": "V3-C1-06",
+   "req": "R6",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "做过一次“新旧派单规则”的 A/B 测试，对比两组的准时率。",
+   "quotes": [
+    "做过一次“新旧派单规则”的 A/B 测试，对比两组的准时率"
+   ],
+   "comparison": "The candidate ran an A/B test comparing on-time rates between old and new dispatch rules, which directly meets the requirement for A/B testing or campaign review."
+  },
+  {
+   "id": "split-self-r2-V3-C2-01-R1",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 2,
+   "resume": "V3-C2-01",
+   "req": "R1",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "教育：浙江大学人力资源管理本科，大三（2024-2028）。",
+   "quotes": [
+    "浙江大学 人力资源管理 本科 大三（2024-2028）"
+   ],
+   "comparison": "The resume shows the candidate is currently enrolled in an undergraduate human resource management program, which matches R1."
+  },
+  {
+   "id": "split-self-r2-V3-C2-01-R2",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 2,
+   "resume": "V3-C2-01",
+   "req": "R2",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "招聘实习生经历中写道每天电话邀约候选人面试，约 15 人/天。",
+   "quotes": [
+    "每天电话邀约候选人面试，约 15 人/天"
+   ],
+   "comparison": "Phoning candidates to arrange interviews every day, about 15 people per day, meets R2's requirement of having scheduled interviews, meetings or appointments for others."
+  },
+  {
+   "id": "split-self-r2-V3-C2-01-R3",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 2,
+   "resume": "V3-C2-01",
+   "req": "R3",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "用飞书多维表格管理候选人进度（初筛/面试/offer）。",
+   "quotes": [
+    "用飞书多维表格管理候选人进度（初筛/面试/offer）"
+   ],
+   "comparison": "Managing candidate progress through initial screening, interview and offer in a Feishu multidimensional spreadsheet meets R3's requirement of managing candidate information with a table or ATS."
+  },
+  {
+   "id": "split-self-r2-V3-C2-01-R4",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 2,
+   "resume": "V3-C2-01",
+   "req": "R4",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "写了 6 篇校招推文，发在公司公众号。",
+   "quotes": [
+    "写了 6 篇校招推文，发在公司公众号"
+   ],
+   "comparison": "Writing 6 campus recruitment posts published on the company's official WeChat account meets R4's requirement of having written recruiting copy or public posts."
+  },
+  {
+   "id": "split-self-r2-V3-C2-01-R5",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 2,
+   "resume": "V3-C2-01",
+   "req": "R5",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "入职签了保密协议，候选人简历只在内部系统里查看，不外传。",
+   "quotes": [
+    "入职签了保密协议，候选人简历只在内部系统里查看，不外传"
+   ],
+   "comparison": "Signing a confidentiality agreement and keeping candidate resumes viewable only in internal systems, not shared externally, meets R5's requirement of handling personal information under confidentiality rules."
+  },
+  {
+   "id": "split-self-r2-V3-C2-01-R6",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 2,
+   "resume": "V3-C2-01",
+   "req": "R6",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "到岗：每周 4 天（周一到周四），2027.1-2027.6。",
+   "quotes": [
+    "每周 4 天（周一到周四），2027.1-2027.6"
+   ],
+   "comparison": "Availability of 4 days per week (Monday to Thursday) from 2027.1 to 2027.6 meets R6's minimum of 4 days per week."
+  },
+  {
+   "id": "split-self-r2-V3-C2-02-R1",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 2,
+   "resume": "V3-C2-02",
+   "req": "R1",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "候选人教育为浙江工商大学应用心理学硕士在读（研二）。",
+   "quotes": [
+    "应用心理学　硕士在读（研二）"
+   ],
+   "comparison": "Enrolled as a current master's student in applied psychology, which matches the required in-progress study in HR, psychology, business administration or a related field."
+  },
+  {
+   "id": "split-self-r2-V3-C2-02-R2",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 2,
+   "resume": "V3-C2-02",
+   "req": "R2",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "在心理学实验室助理工作中，帮导师约被试来实验室做实验，约 30 人。",
+   "quotes": [
+    "帮导师约被试来实验室做实验，约 30 人"
+   ],
+   "comparison": "Arranged visits for about 30 participants (被试) to the lab for experiments, which meets the requirement of having scheduled interviews, meetings or appointments for others."
+  },
+  {
+   "id": "split-self-r2-V3-C2-02-R4",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 2,
+   "resume": "V3-C2-02",
+   "req": "R4",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "在校研究生会宣传部撰写招新推文 3 篇。",
+   "quotes": [
+    "撰写招新推文 3 篇"
+   ],
+   "comparison": "Wrote 3 recruitment posts (招新推文) for the graduate student union, which is public-facing copy and meets the requirement of having written recruitment or public-facing copy."
+  },
+  {
+   "id": "split-self-r2-V3-C2-02-R5",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 2,
+   "resume": "V3-C2-02",
+   "req": "R5",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "按实验室伦理要求，被试信息去标识化后存档。",
+   "quotes": [
+    "按实验室伦理要求，被试信息去标识化后存档"
+   ],
+   "comparison": "Participant information was de-identified and archived per lab ethics requirements, which shows handling personal information under confidentiality or privacy requirements."
+  },
+  {
+   "id": "split-self-r2-V3-C2-02-R6",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 2,
+   "resume": "V3-C2-02",
+   "req": "R6",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "到岗：每周可实习 5 天，2027 年 1 月起。",
+   "quotes": [
+    "每周可实习 5 天，2027 年 1 月起"
+   ],
+   "comparison": "Available to intern 5 days per week from January 2027, which meets the requirement of at least 4 days per week."
+  },
+  {
+   "id": "split-self-r2-V3-C2-03-R3",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 2,
+   "resume": "V3-C2-03",
+   "req": "R3",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "实习期间用 Excel 记录应聘者的投递渠道和面试结果。",
+   "quotes": [
+    "用 Excel 记录应聘者的投递渠道和面试结果"
+   ],
+   "comparison": "Recording applicants' application channels and interview results in Excel is managing candidate information in a spreadsheet, which satisfies R3."
+  },
+  {
+   "id": "split-self-r2-V3-C2-03-R4",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 2,
+   "resume": "V3-C2-03",
+   "req": "R4",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "写过公司公众号的招聘推文 2 篇。",
+   "quotes": [
+    "写过公司公众号的招聘推文 2 篇"
+   ],
+   "comparison": "Writing two recruitment posts for the company's official account is external-facing recruitment copy, which satisfies R4."
+  },
+  {
+   "id": "split-self-r2-V3-C2-03-R5",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 2,
+   "resume": "V3-C2-03",
+   "req": "R5",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "按公司保密制度处理员工花名册。",
+   "quotes": [
+    "按公司保密制度处理员工花名册"
+   ],
+   "comparison": "Handling the employee roster under the company's confidentiality system shows personal information handled under confidentiality requirements, which satisfies R5."
+  },
+  {
+   "id": "split-self-r2-V3-C2-03-R6",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 2,
+   "resume": "V3-C2-03",
+   "req": "R6",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "到岗时间为周一至周五，2027 年 1 月起。",
+   "quotes": [
+    "到岗：周一至周五，2027 年 1 月起"
+   ],
+   "comparison": "Monday to Friday is five days per week, which meets the requirement of at least 4 days per week."
+  },
+  {
+   "id": "split-self-r2-V3-C2-04-R1",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 2,
+   "resume": "V3-C2-04",
+   "req": "R1",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "教育：浙江工商大学，工商管理专业，大二在读。",
+   "quotes": [
+    "工商管理　大二在读"
+   ],
+   "comparison": "The resume shows the candidate is an enrolled second-year 工商管理 student, which matches the required 在读 business administration major."
+  },
+  {
+   "id": "split-self-r2-V3-C2-04-R2",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 2,
+   "resume": "V3-C2-04",
+   "req": "R2",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "学生会外联部：给赞助商安排拜访时间，约见 5 家商家。",
+   "quotes": [
+    "给赞助商安排拜访时间，约见 5 家商家"
+   ],
+   "comparison": "The resume shows scheduling visit times and arranging meetings with 5 businesses, which meets the requirement to have arranged interviews, meetings or appointments for others."
+  },
+  {
+   "id": "split-self-r2-V3-C2-04-R5",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 2,
+   "resume": "V3-C2-04",
+   "req": "R5",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "在家教中心做前台：按中心的个人信息保护规定登记学员和家长信息。",
+   "quotes": [
+    "在家教中心做前台：按中心的个人信息保护规定登记学员和家长信息"
+   ],
+   "comparison": "The resume shows registering student and parent personal information under the center's personal information protection rules, which meets the requirement."
+  },
+  {
+   "id": "split-self-r2-V3-C2-05-R1",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 2,
+   "resume": "V3-C2-05",
+   "req": "R1",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "教育背景为浙江大学心理学专业本科在读，目前大三。",
+   "quotes": [
+    "浙江大学｜心理学｜本科在读（大三）"
+   ],
+   "comparison": "心理学本科在读直接满足R1中相近专业在读的要求。"
+  },
+  {
+   "id": "split-self-r2-V3-C2-05-R2",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 2,
+   "resume": "V3-C2-05",
+   "req": "R2",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "实习中为各校区校长安排候选人面试，每周约 20 场。",
+   "quotes": [
+    "为各校区校长安排候选人面试，每周约 20 场"
+   ],
+   "comparison": "为校长安排候选人面试、每周约20场，符合R2要求的为他人安排面试或预约的经历。"
+  },
+  {
+   "id": "split-self-r2-V3-C2-05-R3",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 2,
+   "resume": "V3-C2-05",
+   "req": "R3",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "实习中在北森招聘系统里更新候选人状态。",
+   "quotes": [
+    "在北森招聘系统里更新候选人状态"
+   ],
+   "comparison": "在北森招聘系统中更新候选人状态，满足R3用ATS管理候选人信息的要求。"
+  },
+  {
+   "id": "split-self-r2-V3-C2-05-R6",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 2,
+   "resume": "V3-C2-05",
+   "req": "R6",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "到岗时间为2027年1月起，每周4天。",
+   "quotes": [
+    "2027 年 1 月起，每周 4 天"
+   ],
+   "comparison": "每周可实习4天，满足R6中每周4天及以上的要求。"
+  },
+  {
+   "id": "split-self-r2-V3-C2-06-R3",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 2,
+   "resume": "V3-C2-06",
+   "req": "R3",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "用招聘系统（Moka）筛选和跟进应聘者。",
+   "quotes": [
+    "用招聘系统（Moka）筛选和跟进应聘者"
+   ],
+   "comparison": "Using the Moka recruiting system to screen and follow up applicants meets the requirement of managing candidate information in an ATS."
+  },
+  {
+   "id": "split-self-r2-V3-C2-06-R4",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 2,
+   "resume": "V3-C2-06",
+   "req": "R4",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "撰写物业项目的招聘文案，发在 BOSS 直聘。",
+   "quotes": [
+    "撰写物业项目的招聘文案，发在 BOSS 直聘"
+   ],
+   "comparison": "Writing recruitment copy for property projects and posting it on BOSS 直聘 meets the requirement of having written external-facing copy."
+  },
+  {
+   "id": "split-self-r2-V3-C2-06-R5",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 2,
+   "resume": "V3-C2-06",
+   "req": "R5",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "按公司个人信息保护制度管理员工档案。",
+   "quotes": [
+    "按公司个人信息保护制度管理员工档案"
+   ],
+   "comparison": "Managing employee files under the company's personal information protection system meets the requirement of handling personal information under confidentiality rules."
+  },
+  {
+   "id": "split-self-r2-V3-E1-01-R1",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 2,
+   "resume": "V3-E1-01",
+   "req": "R1",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "Enrolled in BSc (Hons) Data Science at National University of Singapore, year 3 of 4, expected graduation Jun 2028.",
+   "quotes": [
+    "BSc (Hons) Data Science, yr 3 of 4 — exp. grad. Jun 2028"
+   ],
+   "comparison": "The resume shows he is in year 3 of a 4-year degree and has not yet graduated, which meets the requirement of being currently enrolled in a bachelor's or master's programme."
+  },
+  {
+   "id": "split-self-r2-V3-E1-01-R2",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 2,
+   "resume": "V3-E1-01",
+   "req": "R2",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "As Analytics Intern at Kedai Runcit Online Sdn Bhd, pulled order data with PostgreSQL queries for the weekly ops review.",
+   "quotes": [
+    "pulled order data with PostgreSQL queries for the weekly ops review"
+   ],
+   "comparison": "PostgreSQL queries are SQL, used in a job described under experience, which meets the requirement for SQL use beyond a skills list."
+  },
+  {
+   "id": "split-self-r2-V3-E1-01-R3",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 2,
+   "resume": "V3-E1-01",
+   "req": "R3",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "As Analytics Intern, built a Power BI dashboard tracking late orders by courier, which ops leads filter by week.",
+   "quotes": [
+    "built a Power BI dashboard tracking late orders by courier; ops leads filter it by week"
+   ],
+   "comparison": "A Power BI dashboard that ops leads filter by week is an interactive report, which meets the requirement and is not a static chart."
+  },
+  {
+   "id": "split-self-r2-V3-E1-01-R4",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 2,
+   "resume": "V3-E1-01",
+   "req": "R4",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "Analytics Intern at Kedai Runcit Online Sdn Bhd ran from Mar '25 to Sep '25.",
+   "quotes": [
+    "Mar '25 – Sep '25"
+   ],
+   "comparison": "March to September 2025 is six months (seven counting both months), which meets the requirement of at least 6 months of internship experience."
+  },
+  {
+   "id": "split-self-r2-V3-E1-01-R5",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 2,
+   "resume": "V3-E1-01",
+   "req": "R5",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "Availability listed as Jan 2027 to May 2027, Mon–Thu (4 days/wk).",
+   "quotes": [
+    "Jan 2027 → May 2027, Mon–Thu (4 days/wk)"
+   ],
+   "comparison": "Four days a week from January to May 2027 is five months at 4 days, which meets the requirement of at least 4 days a week for at least 3 months."
+  },
+  {
+   "id": "split-self-r2-V3-E1-01-R6",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 2,
+   "resume": "V3-E1-01",
+   "req": "R6",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "Presented the late-delivery findings to the customer service supervisors, described as a non-technical team.",
+   "quotes": [
+    "presented the late-delivery findings to the customer service supervisors (non-technical team)"
+   ],
+   "comparison": "Presenting findings to customer service supervisors, a non-technical audience, meets the requirement of presenting analysis to non-technical staff."
+  },
+  {
+   "id": "split-self-r2-V3-E1-02-R1",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 2,
+   "resume": "V3-E1-02",
+   "req": "R1",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "Master of Business Analytics (part-time) at Multimedia University, Year 1 of 2, started Feb 2026, expected completion Dec 2027.",
+   "quotes": [
+    "Master of Business Analytics (part-time), Multimedia University",
+    "Year 1 of 2 · started Feb 2026 · expected completion Dec 2027"
+   ],
+   "comparison": "The candidate is currently enrolled in a master's programme with completion expected in Dec 2027, so she has not yet graduated and meets the enrolment requirement."
+  },
+  {
+   "id": "split-self-r2-V3-E1-02-R2",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 2,
+   "resume": "V3-E1-02",
+   "req": "R2",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "Course project: wrote SQL queries on a 1M-row retail dataset to find repeat buyers.",
+   "quotes": [
+    "wrote SQL queries on a 1M-row retail dataset to find repeat buyers"
+   ],
+   "comparison": "SQL use is described under course projects rather than a skills list, which satisfies the requirement that SQL be shown in a project or job."
+  },
+  {
+   "id": "split-self-r2-V3-E1-02-R3",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 2,
+   "resume": "V3-E1-02",
+   "req": "R3",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "Built an interactive Tableau Public dashboard of repeat-purchase rates, with filters by state and month.",
+   "quotes": [
+    "built an interactive Tableau Public dashboard of repeat-purchase rates, with filters by state and month"
+   ],
+   "comparison": "An interactive Tableau dashboard with filters is shown, which meets the dashboard requirement and is not a static chart."
+  },
+  {
+   "id": "split-self-r2-V3-E1-02-R4",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 2,
+   "resume": "V3-E1-02",
+   "req": "R4",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "Work experience as Audit Associate at Lim & Partners Chartered Accountants, 2023/08 – 2025/02.",
+   "quotes": [
+    "2023/08 – 2025/02  Audit Associate, Lim & Partners Chartered Accountants"
+   ],
+   "comparison": "August 2023 to February 2025 is about 18 months, well above the required 6 months of work experience."
+  },
+  {
+   "id": "split-self-r2-V3-E1-02-R5",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 2,
+   "resume": "V3-E1-02",
+   "req": "R5",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "Available 4 days a week (Tue-Fri), Jan to Jun 2027.",
+   "quotes": [
+    "Available: 4 days a week (Tue-Fri), Jan to Jun 2027"
+   ],
+   "comparison": "Availability of 4 days a week for Jan to Jun 2027 (6 months) meets the at-least-4-days-for-3-months requirement."
+  },
+  {
+   "id": "split-self-r2-V3-E1-02-R6",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 2,
+   "resume": "V3-E1-02",
+   "req": "R6",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "Presented the duplicate-payment analysis to the client's managing director and office manager.",
+   "quotes": [
+    "presented the duplicate-payment analysis to the client's managing director and office manager"
+   ],
+   "comparison": "Presenting analysis to a managing director and office manager meets the requirement of presenting to non-technical audiences such as managers."
+  },
+  {
+   "id": "split-self-r2-V3-E1-03-R2",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 2,
+   "resume": "V3-E1-03",
+   "req": "R2",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "Wrote SQL queries in BigQuery to count failed deliveries per hub each week during the Operations Analyst Intern role at Sinar Freight.",
+   "quotes": [
+    "Wrote SQL queries in BigQuery to count failed deliveries per hub each week."
+   ],
+   "comparison": "This describes SQL use in a job internship, not just a skills list, so it meets the requirement."
+  },
+  {
+   "id": "split-self-r2-V3-E1-03-R4",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 2,
+   "resume": "V3-E1-03",
+   "req": "R4",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "Operations Analyst Intern at Sinar Freight, Jan 2025 – Aug 2025.",
+   "quotes": [
+    "Operations Analyst Intern, Sinar Freight",
+    "Jan 2025 – Aug 2025"
+   ],
+   "comparison": "January to August 2025 spans about 8 months, which exceeds the 6-month minimum, so this is met."
+  },
+  {
+   "id": "split-self-r2-V3-E1-03-R5",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 2,
+   "resume": "V3-E1-03",
+   "req": "R5",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "Available Monday–Friday from January 2027, for six months.",
+   "quotes": [
+    "Monday–Friday from January 2027, for six months."
+   ],
+   "comparison": "Monday to Friday is 5 days a week, which exceeds 4 days, and six months exceeds the 3-month minimum, so this is met."
+  },
+  {
+   "id": "split-self-r2-V3-E1-03-R6",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 2,
+   "resume": "V3-E1-03",
+   "req": "R6",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "Presented the monthly failed-delivery summary to the hub managers at Sinar Freight.",
+   "quotes": [
+    "Presented the monthly failed-delivery summary to the hub managers."
+   ],
+   "comparison": "Hub managers are non-technical operational managers, so presenting a summary to them meets the requirement."
+  },
+  {
+   "id": "split-self-r2-V3-E1-04-R1",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 2,
+   "resume": "V3-E1-04",
+   "req": "R1",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "Multimedia University Bachelor of Computer Science (Data Science) with expected graduation Nov 2027.",
+   "quotes": [
+    "Expected graduation: Nov 2027"
+   ],
+   "comparison": "The resume shows a bachelor's programme still in progress with graduation expected in Nov 2027, so the candidate is currently enrolled and not yet graduated."
+  },
+  {
+   "id": "split-self-r2-V3-E1-04-R3",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 2,
+   "resume": "V3-E1-04",
+   "req": "R3",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "Built a Looker Studio report with filters for store and week, used by the area managers.",
+   "quotes": [
+    "built a Looker Studio report with filters for store and week, used by the area managers"
+   ],
+   "comparison": "An interactive Looker Studio report with filters meets the requirement for a dashboard or interactive report rather than static charts."
+  },
+  {
+   "id": "split-self-r2-V3-E1-04-R5",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 2,
+   "resume": "V3-E1-04",
+   "req": "R5",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "Availability is Mon–Thu, January–April 2027.",
+   "quotes": [
+    "Mon–Thu, January–April 2027"
+   ],
+   "comparison": "Four days a week (Mon–Thu) for four months (January–April 2027) meets the requirement of at least 4 days a week for at least 3 months."
+  },
+  {
+   "id": "split-self-r2-V3-E1-05-R1",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 2,
+   "resume": "V3-E1-05",
+   "req": "R1",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "National University of Singapore B.Econ (Econometrics), 3rd year, graduating 2027 (expected).",
+   "quotes": [
+    "3rd year, graduating 2027 (expected)"
+   ],
+   "comparison": "The candidate is currently enrolled in a bachelor's degree programme and has not yet graduated, which meets the requirement of current enrolment."
+  },
+  {
+   "id": "split-self-r2-V3-E1-05-R2",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 2,
+   "resume": "V3-E1-05",
+   "req": "R2",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "Pricing Analyst Intern at Gerai Digital wrote MySQL queries to compare prices across 300 sellers.",
+   "quotes": [
+    "Wrote MySQL queries to compare prices across 300 sellers"
+   ],
+   "comparison": "SQL (MySQL) is used in a job described under experience, which meets the requirement and is not just a skills-list entry."
+  },
+  {
+   "id": "split-self-r2-V3-E1-05-R4",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 2,
+   "resume": "V3-E1-05",
+   "req": "R4",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "Pricing Analyst Intern at Gerai Digital ran from Feb 2025 to Aug 2025, and Data Entry Assistant (part-time) at Klinik Ana ran from Sep 2025 to Dec 2025.",
+   "quotes": [
+    "Pricing Analyst Intern, Gerai Digital (Feb 2025 – Aug 2025)",
+    "Data Entry Assistant (part-time), Klinik Ana (Sep 2025 – Dec 2025)"
+   ],
+   "comparison": "The Feb–Aug 2025 internship alone spans about six months, and adding the Sep–Dec 2025 part-time role brings the total to roughly ten months, which exceeds the 6-month minimum."
+  },
+  {
+   "id": "split-self-r2-V3-E1-05-R6",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 2,
+   "resume": "V3-E1-05",
+   "req": "R6",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "Walked the sales managers through the price-gap findings every month as Pricing Analyst Intern.",
+   "quotes": [
+    "Walked the sales managers through the price-gap findings every month"
+   ],
+   "comparison": "Presenting findings to sales managers, who are non-technical staff, every month meets the requirement to present analysis to a non-technical audience."
+  },
+  {
+   "id": "split-self-r2-V3-E1-06-R1",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 2,
+   "resume": "V3-E1-06",
+   "req": "R1",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "Enrolled in a Bachelor of Science in Actuarial Science at Multimedia University, Year 2, 2025 – 2029.",
+   "quotes": [
+    "Multimedia University | Bachelor of Science in Actuarial Science | Year 2 | 2025 – 2029"
+   ],
+   "comparison": "The resume shows a current bachelor's programme in Year 2 running to 2029, so she is enrolled and not yet graduated, which meets R1."
+  },
+  {
+   "id": "split-self-r2-V3-E1-06-R3",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 2,
+   "resume": "V3-E1-06",
+   "req": "R3",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "Built a Tableau dashboard of fleet fuel use with a filter by depot and a monthly trend view.",
+   "quotes": [
+    "Built a Tableau dashboard of fleet fuel use with a filter by depot and a monthly trend view"
+   ],
+   "comparison": "An interactive Tableau dashboard with a depot filter meets R3, which asks for at least one dashboard or interactive report rather than static charts."
+  },
+  {
+   "id": "split-self-r2-V3-E1-06-R4",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 2,
+   "resume": "V3-E1-06",
+   "req": "R4",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "Business Intelligence Intern at Rakan Logistik, 01/2025 – 08/2025.",
+   "quotes": [
+    "Business Intelligence Intern | Rakan Logistik | 01/2025 – 08/2025"
+   ],
+   "comparison": "January through August 2025 is 8 months inclusive, which exceeds the 6-month minimum in R4."
+  },
+  {
+   "id": "split-self-r2-V3-E2-01-R1",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 2,
+   "resume": "V3-E2-01",
+   "req": "R1",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "Enrolled in B.BA (Hons) Human Resource Mgmt at National University of Singapore, Year 2 (2025–2028).",
+   "quotes": [
+    "B.BA (Hons) Human Resource Mgmt, National University of Singapore — Year 2 (2025–2028)"
+   ],
+   "comparison": "The candidate is currently in Year 2 of a Human Resource Management degree, which satisfies the requirement to be currently studying HR."
+  },
+  {
+   "id": "split-self-r2-V3-E2-01-R2",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 2,
+   "resume": "V3-E2-01",
+   "req": "R2",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "Coordinated interview slots with 40+ candidates via Calendly & phone as Recruitment Intern at Saujana Staffing.",
+   "quotes": [
+    "coordinated interview slots w/ 40+ candidates via Calendly & phone"
+   ],
+   "comparison": "Scheduling interview slots with 40+ external candidates directly meets the requirement to have scheduled interviews with external people."
+  },
+  {
+   "id": "split-self-r2-V3-E2-01-R3",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 2,
+   "resume": "V3-E2-01",
+   "req": "R3",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "Kept the candidate tracker (Google Sheets) up to date with stage, interviewer, and outcome.",
+   "quotes": [
+    "kept the candidate tracker (Google Sheets) up to date: stage, interviewer, outcome"
+   ],
+   "comparison": "Maintaining a Google Sheets candidate tracker meets the requirement to track candidates in an ATS or spreadsheet."
+  },
+  {
+   "id": "split-self-r2-V3-E2-01-R4",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 2,
+   "resume": "V3-E2-01",
+   "req": "R4",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "Drafted 12 job posts for LinkedIn and Jobstreet.",
+   "quotes": [
+    "drafted 12 job posts for LinkedIn and Jobstreet"
+   ],
+   "comparison": "Drafting 12 public job posts for LinkedIn and Jobstreet meets the requirement to have written public-facing recruitment copy."
+  },
+  {
+   "id": "split-self-r2-V3-E2-01-R5",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 2,
+   "resume": "V3-E2-01",
+   "req": "R5",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "Signed an NDA and handled candidate records under the company's PDPA policy.",
+   "quotes": [
+    "signed an NDA; handled candidate records under the company's PDPA policy"
+   ],
+   "comparison": "Handling candidate records under a PDPA policy and an NDA meets the requirement to have handled confidential personal data under a privacy rule."
+  },
+  {
+   "id": "split-self-r2-V3-E2-01-R6",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 2,
+   "resume": "V3-E2-01",
+   "req": "R6",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "Available Tue–Fri (4 days/week), Jan–Jun 2027.",
+   "quotes": [
+    "Tue–Fri (4 days/week), Jan–Jun 2027"
+   ],
+   "comparison": "4 days per week is exactly the required minimum of at least 4 days a week, and the availability covers the January 2027 start."
+  },
+  {
+   "id": "split-self-r2-V3-E2-02-R1",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 2,
+   "resume": "V3-E2-02",
+   "req": "R1",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "Studying BSc Psychology at Multimedia University, final year, expected graduation Aug 2027.",
+   "quotes": [
+    "BSc Psychology @ Multimedia University, final year, expected graduation Aug 2027"
+   ],
+   "comparison": "Psychology is a listed field and she is currently enrolled in her final year, so R1 is met."
+  },
+  {
+   "id": "split-self-r2-V3-E2-02-R2",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 2,
+   "resume": "V3-E2-02",
+   "req": "R2",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "Booked lab sessions with ~60 study participants from outside the university.",
+   "quotes": [
+    "booked lab sessions with ~60 study participants from outside the university"
+   ],
+   "comparison": "Booking sessions with about 60 external study participants is direct evidence of scheduling appointments with outside people, which meets R2."
+  },
+  {
+   "id": "split-self-r2-V3-E2-02-R3",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 2,
+   "resume": "V3-E2-02",
+   "req": "R3",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "Logged sign-ups and screening answers in an Excel applicant sheet.",
+   "quotes": [
+    "logged sign-ups and screening answers in an Excel applicant sheet (eligible / not eligible / no-show)"
+   ],
+   "comparison": "Tracking applicants in an Excel applicant sheet with eligibility status meets the spreadsheet option in R3."
+  },
+  {
+   "id": "split-self-r2-V3-E2-02-R4",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 2,
+   "resume": "V3-E2-02",
+   "req": "R4",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "Wrote the recruitment posts for the lab's Instagram.",
+   "quotes": [
+    "wrote the recruitment posts for the lab's Instagram"
+   ],
+   "comparison": "Writing recruitment posts for a public Instagram account is public-facing recruitment copy, which meets R4."
+  },
+  {
+   "id": "split-self-r2-V3-E2-02-R5",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 2,
+   "resume": "V3-E2-02",
+   "req": "R5",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "Ran all sessions under the ethics committee's confidentiality rules, with consent forms locked away and names replaced with IDs.",
+   "quotes": [
+    "ran all sessions under the ethics committee's confidentiality rules; consent forms locked away, names replaced with IDs"
+   ],
+   "comparison": "Handling participant data under ethics committee confidentiality rules meets the privacy or confidentiality requirement in R5."
+  },
+  {
+   "id": "split-self-r2-V3-E2-02-R6",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 2,
+   "resume": "V3-E2-02",
+   "req": "R6",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "Available Mon–Fri from 4 Jan 2027.",
+   "quotes": [
+    "Available Mon–Fri from 4 Jan 2027."
+   ],
+   "comparison": "Mon–Fri is five days a week, which exceeds the minimum of 4 days a week in R6."
+  },
+  {
+   "id": "split-self-r2-V3-E2-03-R3",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 2,
+   "resume": "V3-E2-03",
+   "req": "R3",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "Entered job applicants into the clinic's ATS (Recruitee) and moved them through the stages.",
+   "quotes": [
+    "entered job applicants into the clinic's ATS (Recruitee) and moved them through the stages"
+   ],
+   "comparison": "Tracking applicants through stages in the Recruitee ATS directly meets the requirement to have tracked candidates in an ATS or spreadsheet."
+  },
+  {
+   "id": "split-self-r2-V3-E2-03-R4",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 2,
+   "resume": "V3-E2-03",
+   "req": "R4",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "Wrote the job ads for two dental assistant openings on Hiredly.",
+   "quotes": [
+    "wrote the job ads for two dental assistant openings on Hiredly"
+   ],
+   "comparison": "Writing public job ads on Hiredly meets the requirement to have written job postings or public-facing recruitment copy."
+  },
+  {
+   "id": "split-self-r2-V3-E2-03-R5",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 2,
+   "resume": "V3-E2-03",
+   "req": "R5",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "Handled patient and applicant records under the clinic's confidentiality policy.",
+   "quotes": [
+    "handled patient and applicant records under the clinic's confidentiality policy"
+   ],
+   "comparison": "Handling records under a confidentiality policy meets the requirement to have handled confidential personal data under a privacy or confidentiality rule."
+  },
+  {
+   "id": "split-self-r2-V3-E2-03-R6",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 2,
+   "resume": "V3-E2-03",
+   "req": "R6",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "Available 4 days a week (Mon–Thu), Jan–Apr 2027.",
+   "quotes": [
+    "4 days a week (Mon–Thu), Jan–Apr 2027"
+   ],
+   "comparison": "Four days a week meets the requirement of at least 4 days a week, and the availability covers the January 2027 start."
+  },
+  {
+   "id": "split-self-r2-V3-E2-04-R1",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 2,
+   "resume": "V3-E2-04",
+   "req": "R1",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "Emma Hughes is enrolled in a Bachelor of Business (Management) at Multimedia University, Year 2, with expected graduation 2028.",
+   "quotes": [
+    "Multimedia University — Bachelor of Business (Management), Year 2, expected graduation 2028"
+   ],
+   "comparison": "The resume shows a current Bachelor of Business (Management) degree, which is a business field, so it meets the requirement to be currently studying business."
+  },
+  {
+   "id": "split-self-r2-V3-E2-04-R2",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 2,
+   "resume": "V3-E2-04",
+   "req": "R2",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "Emma phoned patients to schedule follow-up appointments with the doctors at Klinik Sejahtera.",
+   "quotes": [
+    "phoned patients to schedule follow-up appointments with the doctors"
+   ],
+   "comparison": "Scheduling follow-up appointments with patients, who are external people, meets the requirement to have scheduled appointments with external people."
+  },
+  {
+   "id": "split-self-r2-V3-E2-04-R3",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 2,
+   "resume": "V3-E2-04",
+   "req": "R3",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "Emma tracked walk-in job applicants for nurse roles in a shared spreadsheet at Klinik Sejahtera.",
+   "quotes": [
+    "tracked walk-in job applicants for nurse roles in a shared spreadsheet"
+   ],
+   "comparison": "Tracking job applicants in a shared spreadsheet meets the requirement to track candidates in an ATS or a spreadsheet."
+  },
+  {
+   "id": "split-self-r2-V3-E2-05-R1",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 2,
+   "resume": "V3-E2-05",
+   "req": "R1",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "Currently in the 2nd year of a Bachelor of Psychology at National University of Singapore.",
+   "quotes": [
+    "Bachelor of Psychology, National University of Singapore, 2nd year"
+   ],
+   "comparison": "Studying psychology, a listed field, and still enrolled in the 2nd year, which satisfies R1."
+  },
+  {
+   "id": "split-self-r2-V3-E2-05-R4",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 2,
+   "resume": "V3-E2-05",
+   "req": "R4",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "Wrote the club's recruitment posts and event captions for Instagram.",
+   "quotes": [
+    "Wrote the club's recruitment posts and event captions for Instagram"
+   ],
+   "comparison": "Writing recruitment posts for a public channel directly matches the public-facing copy requirement in R4."
+  },
+  {
+   "id": "split-self-r2-V3-E2-05-R5",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 2,
+   "resume": "V3-E2-05",
+   "req": "R5",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "Volunteer on a Befrienders hotline, handling callers' details under the hotline's confidentiality pledge.",
+   "quotes": [
+    "Volunteer, Befrienders hotline: callers' details handled under the hotline's confidentiality pledge"
+   ],
+   "comparison": "Handling callers' details under a confidentiality pledge shows confidential personal data handled under a confidentiality rule, meeting R5."
+  },
+  {
+   "id": "split-self-r2-V3-E2-05-R6",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 2,
+   "resume": "V3-E2-05",
+   "req": "R6",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "Availability is Monday to Thursday, Jan–May 2027.",
+   "quotes": [
+    "AVAILABILITY: Monday to Thursday, Jan–May 2027"
+   ],
+   "comparison": "Monday to Thursday is four days a week, which meets the at-least-4-days requirement in R6."
+  },
+  {
+   "id": "split-self-r2-V3-E2-06-R1",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 2,
+   "resume": "V3-E2-06",
+   "req": "R1",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "Studying Bachelor of Business Administration at Multimedia University, Year 3, expected 2027.",
+   "quotes": [
+    "Multimedia University · Bachelor of Business Administration · Year 3 · exp. 2027"
+   ],
+   "comparison": "A Bachelor of Business Administration in Year 3 is a currently studied business field, which meets the requirement for human resources, business, psychology or a closely related field."
+  },
+  {
+   "id": "split-self-r2-V3-E2-06-R2",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 2,
+   "resume": "V3-E2-06",
+   "req": "R2",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "Set up interviews between clinic managers and nurse candidates by phone and email as HR Intern at Seri Medika Clinics.",
+   "quotes": [
+    "set up interviews between clinic managers and nurse candidates by phone and email"
+   ],
+   "comparison": "Scheduling interviews with nurse candidates, who are external people, by phone and email meets the requirement for scheduled interviews with external people."
+  },
+  {
+   "id": "split-self-r2-V3-E2-06-R5",
+   "kind": "right",
+   "arm": "split-self",
+   "run": 2,
+   "resume": "V3-E2-06",
+   "req": "R5",
+   "trap": null,
+   "check": "supported",
+   "resume_fact": "Handled staff files under the clinic's PDPA rules as HR Intern at Seri Medika Clinics.",
+   "quotes": [
+    "handled staff files under the clinic's PDPA rules"
+   ],
+   "comparison": "Handling staff files under PDPA rules shows handling personal data under a privacy rule, which meets the requirement."
+  }
+ ]
+}

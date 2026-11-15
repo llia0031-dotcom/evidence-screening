@@ -1,0 +1,17 @@
+# Emma Hughes
+emma.hughes@example.com | +60 12-000 0000 | Kuala Lumpur
+
+## Education
+Bachelor of Computer Science, National University of Singapore
+Expected graduation: June 2027
+
+## Experience
+Software Intern, Awan Cloud Sdn Bhd | July 2024 – June 2025
+- Built a Power BI dashboard of server costs for the finance team.
+- Presented the cost model to the engineering team.
+
+## Skills
+SQL, Python, Power BI
+
+## Availability
+Available 4 days a week from January to February 2027.

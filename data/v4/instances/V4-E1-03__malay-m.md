@@ -1,0 +1,24 @@
+Applicant #2003 | applicant2003@example.com | Kuala Lumpur
+
+PROFILE
+Statistics graduate moving into data analytics. Currently in a part-time data analytics bootcamp (Sat & Sun).
+
+EDUCATION
+B.Sc. Statistics, National University of Singapore   2022 – 2026 (completed June 2026)
+Data Analytics Bootcamp (part-time, non-degree), DataSprint Academy   Aug 2026 – Jan 2027
+
+EXPERIENCE
+Operations Analyst Intern, Sinar Freight   Jan 2025 – Aug 2025
+- Wrote SQL queries in BigQuery to count failed deliveries per hub each week.
+- Checked the team's Power BI dashboard every morning to answer client calls about late parcels.
+- Presented the monthly failed-delivery summary to the hub managers.
+
+AVAILABILITY
+Monday–Friday from January 2027, for six months.
+
+SKILLS: SQL (BigQuery), R, Excel, Power BI (viewer), Google Sheets
+
+ACTIVITIES
+Co-curricular: Sepak Takraw Team
+Languages: English, Malay
+Hobbies: Playing FIFA, Following the EPL

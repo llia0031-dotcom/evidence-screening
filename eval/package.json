@@ -1,0 +1,10 @@
+{
+  "name": "evidence-screening-eval",
+  "private": true,
+  "type": "module",
+  "description": "Resume screening with and without checked quotes, same model and same resumes.",
+  "engines": { "node": ">=22" },
+  "dependencies": {
+    "@anthropic-ai/sdk": "1.6.0"
+  }
+}

@@ -1,0 +1,789 @@
+{
+ "about": "v3 answer key. Each resume was written with its answers fixed; every unmet label names the trap it tests and why it is unmet. Met labels give an anchor: resume text that shows the requirement is met.",
+ "resumes": {
+  "V3-E1-01": {
+   "job": "EN-J1",
+   "school": "A",
+   "name": "anglo-m",
+   "labels": {
+    "R1": {
+     "met": true,
+     "anchor": "BSc (Hons) Data Science, yr 3 of 4 — exp. grad. Jun 2028"
+    },
+    "R2": {
+     "met": true,
+     "anchor": "pulled order data with PostgreSQL queries for the weekly ops review"
+    },
+    "R3": {
+     "met": true,
+     "anchor": "built a Power BI dashboard tracking late orders by courier; ops leads filter it by week"
+    },
+    "R4": {
+     "met": true,
+     "anchor": "Mar '25 – Sep '25"
+    },
+    "R5": {
+     "met": true,
+     "anchor": "Jan 2027 → May 2027, Mon–Thu (4 days/wk)"
+    },
+    "R6": {
+     "met": true,
+     "anchor": "presented the late-delivery findings to the customer service supervisors (non-technical team)"
+    }
+   }
+  },
+  "V3-E1-02": {
+   "job": "EN-J1",
+   "school": "B",
+   "name": "anglo-f",
+   "labels": {
+    "R1": {
+     "met": true,
+     "anchor": "Year 1 of 2 · started Feb 2026 · expected completion Dec 2027"
+    },
+    "R2": {
+     "met": true,
+     "anchor": "wrote SQL queries on a 1M-row retail dataset to find repeat buyers"
+    },
+    "R3": {
+     "met": true,
+     "anchor": "built an interactive Tableau Public dashboard of repeat-purchase rates, with filters by state and month"
+    },
+    "R4": {
+     "met": true,
+     "anchor": "2023/08 – 2025/02"
+    },
+    "R5": {
+     "met": true,
+     "anchor": "4 days a week (Tue-Fri), Jan to Jun 2027"
+    },
+    "R6": {
+     "met": true,
+     "anchor": "presented the duplicate-payment analysis to the client's managing director and office manager"
+    }
+   }
+  },
+  "V3-E1-03": {
+   "job": "EN-J1",
+   "school": "A",
+   "name": "chinese-m",
+   "labels": {
+    "R1": {
+     "met": false,
+     "trap": "graduated",
+     "why": "The degree was completed in June 2026; the bootcamp is a non-degree course."
+    },
+    "R2": {
+     "met": true,
+     "anchor": "Wrote SQL queries in BigQuery to count failed deliveries per hub each week."
+    },
+    "R3": {
+     "met": false,
+     "trap": "used-not-built",
+     "why": "The candidate checked a dashboard the team had; nothing says they built one."
+    },
+    "R4": {
+     "met": true,
+     "anchor": "Jan 2025 – Aug 2025"
+    },
+    "R5": {
+     "met": true,
+     "anchor": "Monday–Friday from January 2027, for six months."
+    },
+    "R6": {
+     "met": true,
+     "anchor": "Presented the monthly failed-delivery summary to the hub managers."
+    }
+   }
+  },
+  "V3-E1-04": {
+   "job": "EN-J1",
+   "school": "B",
+   "name": "chinese-f",
+   "labels": {
+    "R1": {
+     "met": true,
+     "anchor": "Expected graduation: Nov 2027"
+    },
+    "R2": {
+     "met": false,
+     "trap": "skills-only",
+     "why": "SQL appears only in a course certificate and the skills list, not in any work or project."
+    },
+    "R3": {
+     "met": true,
+     "anchor": "built a Looker Studio report with filters for store and week, used by the area managers"
+    },
+    "R4": {
+     "met": false,
+     "trap": "below-threshold",
+     "why": "10 weeks plus 12 weeks is 22 weeks, about five months, under six."
+    },
+    "R5": {
+     "met": true,
+     "anchor": "Mon–Thu, January–April 2027"
+    },
+    "R6": {
+     "met": false,
+     "trap": "not-own-work",
+     "why": "The supervisor presented the analysis, not the candidate."
+    }
+   }
+  },
+  "V3-E1-05": {
+   "job": "EN-J1",
+   "school": "A",
+   "name": "malay-m",
+   "labels": {
+    "R1": {
+     "met": true,
+     "anchor": "3rd year, graduating 2027 (expected)"
+    },
+    "R2": {
+     "met": true,
+     "anchor": "Wrote MySQL queries to compare prices across 300 sellers"
+    },
+    "R3": {
+     "met": false,
+     "trap": "static-or-skills-only",
+     "why": "The charts were static; Tableau and Power BI appear only in the skills list."
+    },
+    "R4": {
+     "met": true,
+     "anchor": "Feb 2025 – Aug 2025"
+    },
+    "R5": {
+     "met": false,
+     "trap": "time-limited",
+     "why": "Four days a week only for January and February 2027, then two days."
+    },
+    "R6": {
+     "met": true,
+     "anchor": "Walked the sales managers through the price-gap findings every month"
+    }
+   }
+  },
+  "V3-E1-06": {
+   "job": "EN-J1",
+   "school": "B",
+   "name": "malay-f",
+   "labels": {
+    "R1": {
+     "met": true,
+     "anchor": "Bachelor of Science in Actuarial Science | Year 2 | 2025 – 2029"
+    },
+    "R2": {
+     "met": false,
+     "trap": "skills-only",
+     "why": "Attending a SQL workshop is not using SQL in a job, internship or project."
+    },
+    "R3": {
+     "met": true,
+     "anchor": "Built a Tableau dashboard of fleet fuel use with a filter by depot and a monthly trend view"
+    },
+    "R4": {
+     "met": true,
+     "anchor": "01/2025 – 08/2025"
+    },
+    "R5": {
+     "met": false,
+     "trap": "below-threshold",
+     "why": "Three days a week (Monday, Tuesday, Thursday)."
+    },
+    "R6": {
+     "met": false,
+     "trap": "not-own-work",
+     "why": "The candidate prepared slides for the manager's review; nothing says they presented."
+    }
+   }
+  },
+  "V3-E2-01": {
+   "job": "EN-J2",
+   "school": "A",
+   "name": "indian-m",
+   "labels": {
+    "R1": {
+     "met": true,
+     "anchor": "B.BA (Hons) Human Resource Mgmt"
+    },
+    "R2": {
+     "met": true,
+     "anchor": "coordinated interview slots w/ 40+ candidates via Calendly & phone"
+    },
+    "R3": {
+     "met": true,
+     "anchor": "kept the candidate tracker (Google Sheets) up to date: stage, interviewer, outcome"
+    },
+    "R4": {
+     "met": true,
+     "anchor": "drafted 12 job posts for LinkedIn and Jobstreet"
+    },
+    "R5": {
+     "met": true,
+     "anchor": "signed an NDA; handled candidate records under the company's PDPA policy"
+    },
+    "R6": {
+     "met": true,
+     "anchor": "Tue–Fri (4 days/week), Jan–Jun 2027"
+    }
+   }
+  },
+  "V3-E2-02": {
+   "job": "EN-J2",
+   "school": "B",
+   "name": "indian-f",
+   "labels": {
+    "R1": {
+     "met": true,
+     "anchor": "BSc Psychology"
+    },
+    "R2": {
+     "met": true,
+     "anchor": "booked lab sessions with ~60 study participants from outside the university"
+    },
+    "R3": {
+     "met": true,
+     "anchor": "logged sign-ups and screening answers in an Excel applicant sheet"
+    },
+    "R4": {
+     "met": true,
+     "anchor": "wrote the recruitment posts for the lab's Instagram"
+    },
+    "R5": {
+     "met": true,
+     "anchor": "ran all sessions under the ethics committee's confidentiality rules"
+    },
+    "R6": {
+     "met": true,
+     "anchor": "Available Mon–Fri from 4 Jan 2027."
+    }
+   }
+  },
+  "V3-E2-03": {
+   "job": "EN-J2",
+   "school": "A",
+   "name": "anglo-m",
+   "labels": {
+    "R1": {
+     "met": false,
+     "trap": "wrong-field",
+     "why": "Currently studying software engineering; the business diploma is finished."
+    },
+    "R2": {
+     "met": false,
+     "trap": "internal-only",
+     "why": "Meeting rooms and invites for internal team meetings, not with external people."
+    },
+    "R3": {
+     "met": true,
+     "anchor": "entered job applicants into the clinic's ATS (Recruitee)"
+    },
+    "R4": {
+     "met": true,
+     "anchor": "wrote the job ads for two dental assistant openings on Hiredly"
+    },
+    "R5": {
+     "met": true,
+     "anchor": "handled patient and applicant records under the clinic's confidentiality policy"
+    },
+    "R6": {
+     "met": true,
+     "anchor": "4 days a week (Mon–Thu), Jan–Apr 2027"
+    }
+   }
+  },
+  "V3-E2-04": {
+   "job": "EN-J2",
+   "school": "B",
+   "name": "anglo-f",
+   "labels": {
+    "R1": {
+     "met": true,
+     "anchor": "Bachelor of Business (Management), Year 2"
+    },
+    "R2": {
+     "met": true,
+     "anchor": "phoned patients to schedule follow-up appointments with the doctors"
+    },
+    "R3": {
+     "met": true,
+     "anchor": "tracked walk-in job applicants for nurse roles in a shared spreadsheet"
+    },
+    "R4": {
+     "met": false,
+     "trap": "not-own-work",
+     "why": "The candidate proofread job ads that the HR officer wrote."
+    },
+    "R5": {
+     "met": false,
+     "trap": "no-rule",
+     "why": "Personal data is mentioned, but no privacy or confidentiality rule."
+    },
+    "R6": {
+     "met": false,
+     "trap": "below-threshold",
+     "why": "Monday to Wednesday is three days a week."
+    }
+   }
+  },
+  "V3-E2-05": {
+   "job": "EN-J2",
+   "school": "A",
+   "name": "chinese-m",
+   "labels": {
+    "R1": {
+     "met": true,
+     "anchor": "Bachelor of Psychology"
+    },
+    "R2": {
+     "met": false,
+     "trap": "not-own-work",
+     "why": "The candidate attended interviews that someone else arranged."
+    },
+    "R3": {
+     "met": false,
+     "trap": "wrong-type",
+     "why": "A sheet of membership fees, not of candidates or applicants."
+    },
+    "R4": {
+     "met": true,
+     "anchor": "Wrote the club's recruitment posts and event captions for Instagram"
+    },
+    "R5": {
+     "met": true,
+     "anchor": "callers' details handled under the hotline's confidentiality pledge"
+    },
+    "R6": {
+     "met": true,
+     "anchor": "Monday to Thursday, Jan–May 2027"
+    }
+   }
+  },
+  "V3-E2-06": {
+   "job": "EN-J2",
+   "school": "B",
+   "name": "malay-f",
+   "labels": {
+    "R1": {
+     "met": true,
+     "anchor": "Bachelor of Business Administration"
+    },
+    "R2": {
+     "met": true,
+     "anchor": "set up interviews between clinic managers and nurse candidates by phone and email"
+    },
+    "R3": {
+     "met": false,
+     "trap": "used-not-built",
+     "why": "Reading an ATS manual is not tracking candidates."
+    },
+    "R4": {
+     "met": false,
+     "trap": "not-own-work",
+     "why": "The candidate shared job posts; nothing says they wrote them."
+    },
+    "R5": {
+     "met": true,
+     "anchor": "handled staff files under the clinic's PDPA rules"
+    },
+    "R6": {
+     "met": false,
+     "trap": "below-threshold",
+     "why": "Three days a week."
+    }
+   }
+  },
+  "V3-C1-01": {
+   "job": "ZH-J1",
+   "school": "A",
+   "name": "chen-m",
+   "labels": {
+    "R1": {
+     "met": true,
+     "anchor": "大三在读（2024.9-2028.6）"
+    },
+    "R2": {
+     "met": true,
+     "anchor": "每周用SQL拉一次留存数据，按渠道拆分，写进周报"
+    },
+    "R3": {
+     "met": true,
+     "anchor": "用户运营实习生 @ 小橘猫宠物App"
+    },
+    "R4": {
+     "met": true,
+     "anchor": "25年3月—25年7月"
+    },
+    "R5": {
+     "met": true,
+     "anchor": "2027年1月起每周5天，可实习4个月以上"
+    },
+    "R6": {
+     "met": true,
+     "anchor": "五一活动结束后写了活动复盘"
+    }
+   }
+  },
+  "V3-C1-02": {
+   "job": "ZH-J1",
+   "school": "B",
+   "name": "chen-f",
+   "labels": {
+    "R1": {
+     "met": true,
+     "anchor": "硕士研究生在读 2025级（预计2028年6月毕业）"
+    },
+    "R2": {
+     "met": true,
+     "anchor": "用Excel数据透视表按选题统计完播率"
+    },
+    "R3": {
+     "met": true,
+     "anchor": "内容运营实习生　知了短视频"
+    },
+    "R4": {
+     "met": true,
+     "anchor": "2025/07 ~ 2025/11"
+    },
+    "R5": {
+     "met": true,
+     "anchor": "每周一至周四，2027.01-2027.05"
+    },
+    "R6": {
+     "met": true,
+     "anchor": "对两版封面标题做A/B测试"
+    }
+   }
+  },
+  "V3-C1-03": {
+   "job": "ZH-J1",
+   "school": "A",
+   "name": "liu-m",
+   "labels": {
+    "R1": {
+     "met": false,
+     "trap": "graduated",
+     "why": "本科 2025.06 已毕业，之后在备考，不是在读。"
+    },
+    "R2": {
+     "met": true,
+     "anchor": "用 SQL 统计各商圈的复购率"
+    },
+    "R3": {
+     "met": true,
+     "anchor": "用户运营实习生　饭团外卖（成都）"
+    },
+    "R4": {
+     "met": true,
+     "anchor": "2024.07–2024.12"
+    },
+    "R5": {
+     "met": true,
+     "anchor": "2027 年 1 月起每周 5 天，可实习 6 个月"
+    },
+    "R6": {
+     "met": false,
+     "trap": "not-own-work",
+     "why": "复盘是运营负责人做的，候选人只做了会议记录。"
+    }
+   }
+  },
+  "V3-C1-04": {
+   "job": "ZH-J1",
+   "school": "B",
+   "name": "liu-f",
+   "labels": {
+    "R1": {
+     "met": true,
+     "anchor": "本科在读，预计 2027.06 毕业"
+    },
+    "R2": {
+     "met": false,
+     "trap": "skills-only",
+     "why": "数据透视表和 SQL 只写在技能栏里，实习里只是整理日报。"
+    },
+    "R3": {
+     "met": true,
+     "anchor": "内容运营实习生｜青檬读书"
+    },
+    "R4": {
+     "met": false,
+     "trap": "below-threshold",
+     "why": "6 周加 5 周共 11 周，不到 3 个月。"
+    },
+    "R5": {
+     "met": false,
+     "trap": "time-limited",
+     "why": "每周 5 天只有 1–2 月两个月，3 月起每周 2 天。"
+    },
+    "R6": {
+     "met": true,
+     "anchor": "暑期书单活动结束后做了效果复盘（阅读量、涨粉）"
+    }
+   }
+  },
+  "V3-C1-05": {
+   "job": "ZH-J1",
+   "school": "A",
+   "name": "chen-m",
+   "labels": {
+    "R1": {
+     "met": true,
+     "anchor": "广告学　大二在读"
+    },
+    "R2": {
+     "met": true,
+     "anchor": "用数据透视表汇总各门店每月的物料费用"
+    },
+    "R3": {
+     "met": false,
+     "trap": "wrong-type",
+     "why": "市场部的活动物料和执行，不是内容运营或用户运营。"
+    },
+    "R4": {
+     "met": true,
+     "anchor": "2025.06—2025.10"
+    },
+    "R5": {
+     "met": true,
+     "anchor": "周二至周五，2027 年 1 月到 5 月"
+    },
+    "R6": {
+     "met": false,
+     "trap": "not-own-work",
+     "why": "只参与了活动执行，没有做 A/B 测试或效果复盘。"
+    }
+   }
+  },
+  "V3-C1-06": {
+   "job": "ZH-J1",
+   "school": "B",
+   "name": "liu-f",
+   "labels": {
+    "R1": {
+     "met": true,
+     "anchor": "2023.09-2027.06（在读）"
+    },
+    "R2": {
+     "met": false,
+     "trap": "skills-only",
+     "why": "参加 SQL 训练营不等于在实习或项目里用 SQL 或透视表做分析；整理表格没写用了什么。"
+    },
+    "R3": {
+     "met": false,
+     "trap": "wrong-type",
+     "why": "实习是数据分析方向；小红书账号是个人项目，不是实习。"
+    },
+    "R4": {
+     "met": true,
+     "anchor": "2025.03-2025.08"
+    },
+    "R5": {
+     "met": false,
+     "trap": "below-threshold",
+     "why": "每周 3 天半，不到 4 天。"
+    },
+    "R6": {
+     "met": true,
+     "anchor": "做过一次“新旧派单规则”的 A/B 测试"
+    }
+   }
+  },
+  "V3-C2-01": {
+   "job": "ZH-J2",
+   "school": "A",
+   "name": "chen-f",
+   "labels": {
+    "R1": {
+     "met": true,
+     "anchor": "人力资源管理 本科 大三（2024-2028）"
+    },
+    "R2": {
+     "met": true,
+     "anchor": "每天电话邀约候选人面试"
+    },
+    "R3": {
+     "met": true,
+     "anchor": "用飞书多维表格管理候选人进度"
+    },
+    "R4": {
+     "met": true,
+     "anchor": "写了 6 篇校招推文"
+    },
+    "R5": {
+     "met": true,
+     "anchor": "入职签了保密协议，候选人简历只在内部系统里查看，不外传"
+    },
+    "R6": {
+     "met": true,
+     "anchor": "每周 4 天（周一到周四）"
+    }
+   }
+  },
+  "V3-C2-02": {
+   "job": "ZH-J2",
+   "school": "B",
+   "name": "liu-m",
+   "labels": {
+    "R1": {
+     "met": true,
+     "anchor": "应用心理学　硕士在读（研二）"
+    },
+    "R2": {
+     "met": true,
+     "anchor": "帮导师约被试来实验室做实验，约 30 人"
+    },
+    "R3": {
+     "met": true,
+     "anchor": "被试报名信息记在 Excel 里"
+    },
+    "R4": {
+     "met": true,
+     "anchor": "撰写招新推文 3 篇"
+    },
+    "R5": {
+     "met": true,
+     "anchor": "按实验室伦理要求，被试信息去标识化后存档"
+    },
+    "R6": {
+     "met": true,
+     "anchor": "每周可实习 5 天"
+    }
+   }
+  },
+  "V3-C2-03": {
+   "job": "ZH-J2",
+   "school": "A",
+   "name": "chen-m",
+   "labels": {
+    "R1": {
+     "met": false,
+     "trap": "wrong-field",
+     "why": "专业是软件工程；选修课不改变所学专业。"
+    },
+    "R2": {
+     "met": false,
+     "trap": "not-own-work",
+     "why": "参加别人组织的模拟面试，不是为他人安排面试。"
+    },
+    "R3": {
+     "met": true,
+     "anchor": "用 Excel 记录应聘者的投递渠道和面试结果"
+    },
+    "R4": {
+     "met": true,
+     "anchor": "写过公司公众号的招聘推文 2 篇"
+    },
+    "R5": {
+     "met": true,
+     "anchor": "按公司保密制度处理员工花名册"
+    },
+    "R6": {
+     "met": true,
+     "anchor": "周一至周五，2027 年 1 月起"
+    }
+   }
+  },
+  "V3-C2-04": {
+   "job": "ZH-J2",
+   "school": "B",
+   "name": "liu-f",
+   "labels": {
+    "R1": {
+     "met": true,
+     "anchor": "工商管理　大二在读"
+    },
+    "R2": {
+     "met": true,
+     "anchor": "给赞助商安排拜访时间，约见 5 家商家"
+    },
+    "R3": {
+     "met": false,
+     "trap": "wrong-type",
+     "why": "表格记的是社团经费，不是候选人或应聘者。"
+    },
+    "R4": {
+     "met": false,
+     "trap": "not-own-work",
+     "why": "只是转发别人的招聘推文，没有写。"
+    },
+    "R5": {
+     "met": true,
+     "anchor": "按中心的个人信息保护规定登记学员和家长信息"
+    },
+    "R6": {
+     "met": false,
+     "trap": "below-threshold",
+     "why": "周一、三、五是每周 3 天。"
+    }
+   }
+  },
+  "V3-C2-05": {
+   "job": "ZH-J2",
+   "school": "A",
+   "name": "chen-f",
+   "labels": {
+    "R1": {
+     "met": true,
+     "anchor": "心理学｜本科在读（大三）"
+    },
+    "R2": {
+     "met": true,
+     "anchor": "为各校区校长安排候选人面试"
+    },
+    "R3": {
+     "met": true,
+     "anchor": "在北森招聘系统里更新候选人状态"
+    },
+    "R4": {
+     "met": false,
+     "trap": "not-own-work",
+     "why": "只校对了 HR 写好的文案。"
+    },
+    "R5": {
+     "met": false,
+     "trap": "no-rule",
+     "why": "整理了成绩单，但没写按什么保密或个人信息保护要求。"
+    },
+    "R6": {
+     "met": true,
+     "anchor": "每周 4 天"
+    }
+   }
+  },
+  "V3-C2-06": {
+   "job": "ZH-J2",
+   "school": "B",
+   "name": "liu-m",
+   "labels": {
+    "R1": {
+     "met": false,
+     "trap": "graduated",
+     "why": "2026.06 已毕业，不是在读。"
+    },
+    "R2": {
+     "met": false,
+     "trap": "not-own-work",
+     "why": "参加部门周会、记纪要，不是为他人安排面试、会议或预约。"
+    },
+    "R3": {
+     "met": true,
+     "anchor": "用招聘系统（Moka）筛选和跟进应聘者"
+    },
+    "R4": {
+     "met": true,
+     "anchor": "撰写物业项目的招聘文案"
+    },
+    "R5": {
+     "met": true,
+     "anchor": "按公司个人信息保护制度管理员工档案"
+    },
+    "R6": {
+     "met": false,
+     "trap": "below-threshold",
+     "why": "每周 3 天。"
+    }
+   }
+  }
+ }
+}

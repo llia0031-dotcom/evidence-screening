@@ -1,0 +1,17 @@
+# Daniel Hughes
+daniel.hughes@example.com | +60 12-000 0000 | Kuala Lumpur
+
+## Education
+Bachelor of Economics, Multimedia University
+Expected graduation: November 2027
+
+## Experience
+Research Intern, Pusat Kajian Ekonomi | June 2025 – September 2025
+- Made bar charts in Excel for a printed household survey report.
+- Presented the survey findings to the centre's administrative staff.
+
+## Projects
+Course project: wrote SQL queries to compare grocery prices across 40 stores.
+
+## Availability
+Available 5 days a week for 4 months, January to April 2027.
