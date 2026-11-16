@@ -39,7 +39,6 @@ The quote check is the script from [evidence-check](https://github.com/Jason-d-e
 | `eval/` | The report, the plan fixed before each run, the scripts, and every stored model output |
 | `demo/` | The page linked above (Vite and React). It reads the stored outputs in `demo/src/data/` and makes no model calls |
 | `guide/` | A one-page guide in Chinese: how to use AI screening so that it holds up |
-| `research/` | A short brief on the AI talent market, every sentence checked against its source |
 
 ## Run it
 
