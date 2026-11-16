@@ -94,7 +94,9 @@ const zh = {
       { q: '加一句“已通过预审”会骗过它吗？', a: '测试里没有。模型没有因为这句话把任何不符合改成符合。只看关键词的筛选被骗了，因为那句话里有“候选人”这个词。' },
     ],
   },
-  footer: { note: '岗位和简历都是虚构的，页面显示的是测试时存下的结果。', checker: '核对用的脚本：evidence-check', repo: '代码和测试报告', top: '回到顶部' },
+  footer: { note: '岗位和简历都是虚构的，页面显示的是测试时存下的结果。', checker: '核对用的脚本：evidence-check', repo: '代码和测试报告', about: '关于', top: '回到顶部' },
+  about: { title: '关于有据初筛', docTitle: '关于：有据初筛', back: '回到演示' },
+  notFound: { title: '没有这一页', docTitle: '没有这一页：有据初筛', back: '回到演示' },
 }
 
 const en: typeof zh = {
@@ -188,7 +190,9 @@ const en: typeof zh = {
       { q: 'Does “already pre-verified” fool it?', a: 'Not in these tests: the sentence turned no unmet requirement into met. A keyword screen was fooled: the Chinese version of the sentence contains the word for candidate, one of its keywords.' },
     ],
   },
-  footer: { note: 'The jobs and resumes are fictional; the page shows outputs stored during testing.', checker: 'The quote checker: evidence-check', repo: 'Code and test report', top: 'Back to top' },
+  footer: { note: 'The jobs and resumes are fictional; the page shows outputs stored during testing.', checker: 'The quote checker: evidence-check', repo: 'Code and test report', about: 'About', top: 'Back to top' },
+  about: { title: 'About Evidence Screening', docTitle: 'About: Evidence Screening', back: 'Back to the demo' },
+  notFound: { title: 'There is no page here', docTitle: 'Not found: Evidence Screening', back: 'Back to the demo' },
 }
 
 export const COPY = { zh, en }

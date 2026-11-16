@@ -9,16 +9,7 @@ import Demo from './components/Demo'
 import Results from './components/Results'
 import Faq from './components/Faq'
 import Footer from './components/Footer'
-
-const KEY = 'screening-demo-lang'
-
-function initialLang(): Lang {
-  try {
-    const saved = localStorage.getItem(KEY)
-    if (saved === 'zh' || saved === 'en') return saved
-  } catch { /* storage unavailable */ }
-  return navigator.language?.toLowerCase().startsWith('en') ? 'en' : 'zh'
-}
+import { initialLang, saveLang } from './lang'
 
 export default function App() {
   const [lang, setLang] = useState<Lang>(initialLang)
@@ -30,7 +21,7 @@ export default function App() {
     document.documentElement.lang = t.htmlLang
     document.title = t.title
     document.querySelector('meta[name="description"]')?.setAttribute('content', t.description)
-    try { localStorage.setItem(KEY, lang) } catch { /* ignore */ }
+    saveLang(lang)
     let live = true
     setData(null)
     setFailed(false)
