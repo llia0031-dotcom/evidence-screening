@@ -1,0 +1,1 @@
+import{a as e}from"./lang-i1vI9H1Y.js";var t=e(),n=new Intl.Segmenter(`zh`,{granularity:`word`});function r({text:e,lang:r}){return r===`zh`?(0,t.jsx)(t.Fragment,{children:[...n.segment(e)].map((e,n)=>(0,t.jsx)(`span`,{className:`ph`,children:e.segment},n))}):(0,t.jsx)(t.Fragment,{children:e})}export{r as t};
