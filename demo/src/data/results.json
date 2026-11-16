@@ -1,0 +1,113 @@
+{
+ "arms": {
+  "keyword": {
+   "correct": 2510,
+   "cells": 2736,
+   "falseMet": 182,
+   "falseNotMet": 44,
+   "goldMet": 1976,
+   "goldNotMet": 760
+  },
+  "plain": {
+   "correct": 2728,
+   "cells": 2736,
+   "falseMet": 8,
+   "falseNotMet": 0,
+   "goldMet": 1976,
+   "goldNotMet": 760
+  },
+  "evidence": {
+   "correct": 2735,
+   "cells": 2736,
+   "falseMet": 1,
+   "falseNotMet": 0,
+   "goldMet": 1976,
+   "goldNotMet": 760
+  },
+  "evidence+script": {
+   "correct": 2379,
+   "cells": 2736,
+   "falseMet": 1,
+   "falseNotMet": 356,
+   "goldMet": 1976,
+   "goldNotMet": 760
+  }
+ },
+ "nameFlips": {
+  "plain": {
+   "decisionFlips": 0,
+   "decisions": 240,
+   "flips": 2,
+   "cells": 1440
+  },
+  "evidence": {
+   "decisionFlips": 0,
+   "decisions": 240,
+   "flips": 3,
+   "cells": 1440
+  }
+ },
+ "quotesFound": 2909,
+ "quotes": 2909,
+ "lostByCheck": 356,
+ "costPerResume": {
+  "score-only": 0.00019066688596491228,
+  "plain": 0.00044179561403508773,
+  "evidence": 0.0007423982456140351
+ },
+ "versions": 228,
+ "bases": 24,
+ "v2": {
+  "bases": 12,
+  "versions": 48,
+  "evidence": {
+   "lost": 70,
+   "met": 424,
+   "cost": 0.0708331
+  },
+  "split": {
+   "lost": 10,
+   "met": 424,
+   "cost": 0.0887874
+  },
+  "split_self": {
+   "lost": 0,
+   "met": 422,
+   "cost": 0.1629735
+  }
+ },
+ "v3": {
+  "bases": 24,
+  "traps": 40
+ },
+ "seeded": {
+  "madeUp": {
+   "n": 1212,
+   "caught": 1212
+  },
+  "figure": {
+   "n": 229,
+   "caught": 201
+  },
+  "misread": {
+   "n": 40,
+   "caught": 0
+  }
+ },
+ "review": {
+  "runs": [
+   {
+    "misreadings": 40,
+    "caught": 40,
+    "right": 103,
+    "false_alarms": 0
+   },
+   {
+    "misreadings": 40,
+    "caught": 40,
+    "right": 103,
+    "false_alarms": 0
+   }
+  ]
+ }
+}

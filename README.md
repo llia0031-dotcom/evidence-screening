@@ -2,6 +2,8 @@
 
 Resume screening with a language model, where every "meets" points to the line of the resume behind it, checked word for word by a script. Five rounds of tests on fictional jobs and resumes show what that adds, what the check stops and what it does not, and whether the conclusions move with names, gender or other signals that have nothing to do with the job.
 
+**Try it:** [jason-d-e.github.io/evidence-screening](https://jason-d-e.github.io/evidence-screening/), the stored outputs in an applicant-tracking view. It makes no model calls.
+
 [中文](#中文)
 
 ## What the tests found
@@ -35,16 +37,18 @@ The quote check is the script from [evidence-check](https://github.com/Jason-d-e
 |---|---|
 | `data/` | Four fictional jobs and the test resumes of each round, with their answer keys |
 | `eval/` | The report, the plan fixed before each run, the scripts, and every stored model output |
+| `demo/` | The page linked above (Vite and React). It reads the stored outputs in `demo/src/data/` and makes no model calls |
 | `guide/` | A one-page guide in Chinese: how to use AI screening so that it holds up |
 | `research/` | A short brief on the AI talent market, every sentence checked against its source |
 
 ## Run it
 
-Scoring needs no API key:
+Scoring and the demo need no API key:
 
 ```bash
 python eval/score.py --check
 python eval/v4/score.py eval/v4/results/run-2026-11-14.jsonl
+cd demo && npm install && npm run build && npm run preview
 ```
 
 A new run needs an Anthropic API key in a `.env` file and Node 22 or later; see the run command in each round's `PREREGISTRATION.md`.
@@ -63,6 +67,7 @@ This repository is released under the MIT License (`LICENSE`). Parts copied from
 - Name-swap design: Wilson & Caliskan (AIES 2024) and FAIRE (arXiv 2504.01420); no code or name lists copied.
 - English markers of ethnicity and gender in v4: Tan et al., "Small Changes, Big Impact" (EMNLP 2026, arXiv 2603.05189), github.com/Social-AI-Studio/LLMHiringFairnessSG, CC-BY-4.0.
 - Rule-based error seeding after FactCC (EMNLP 2020); review without seeing the earlier answer after factored Chain-of-Verification (arXiv 2309.11495). No code copied.
+- Demo fonts: Merriweather, Geist, Noto Serif SC and Noto Sans SC through Fontsource (SIL Open Font License 1.1). Icons: Phosphor (MIT).
 
 ## 中文
 
@@ -72,6 +77,8 @@ This repository is released under the MIT License (`LICENSE`). Parts copied from
 - 核对只能核对简历本身的事实：连复述的岗位门槛一起核对，新简历上会误伤 17% 的正确判断；只核对简历事实、交卷前先自查，降到 0，费用约两倍。
 - 核对拦得住编造的证据（1,212 处全部拦下），拦不住引文是真的、意思看错了的错判（40 条一条没拦住）；对每条“符合”再复核一次，160 条里挑出 159 条，412 条正确答案没有一条被误判。
 - 换名字和性别，去留一次都没变（0/240）；隐去名字、只加语言和社团线索，只给结论的做法去留也没变（0/288）。
+
+在线试用：[jason-d-e.github.io/evidence-screening](https://jason-d-e.github.io/evidence-screening/)，页面显示测试时存下的结果，不调用模型。
 
 **在作品集里的位置**：这是“让 AI 拿出证据”这组项目里判断类场景的第一步，一条判断附一句简历原文；后面依次是用上百条评价证实一条卖点、多轮调用工具的广告审核 Agent。核对用的是 [evidence-check](https://github.com/Jason-d-e/evidence-check) 的脚本，固定用 0.2.0 版的冻结副本，结果不会随脚本更新而变。
 
