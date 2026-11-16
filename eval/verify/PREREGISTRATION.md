@@ -79,6 +79,8 @@ The file was saved at 18:20:07; the batch was sent at 18:20:15 and its results w
 
 Noted after the results were seen: the one misreading not caught (verify-fact, run 2, V3-C1-06 R3) has the verdict "right" while its reason says the screener's "met" is wrong, because the account is a personal project marked 非实习. The rule counts the verdict field, so it stays a miss.
 
+- 17 November 2026, after the run: the comment on the `MODEL` line of `run.mjs` was reworded; no code changed. Its sha256 (first 12 characters, LF) is now `1128fe00c7b3`; the file as run had `0a7da7fd7858`, as listed above.
+
 ## Note for the public copy
 
 The run command above named the key file on the machine that ran it. In this copy that path is replaced with `path/to/your.env`; nothing else in this file was changed for publication.

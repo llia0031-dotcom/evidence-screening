@@ -73,6 +73,8 @@ The run started at 21:57:15 and finished at 22:05:46 MYT (file times of the resu
 - No change to cases, prompts or scoring rules.
 - Added after the results were seen, and reported as exploratory: `eval/v2/explore.py`, which lists every split verdict that fails the check (9 of 10 count the resume's entries, "两段" or "two entries"; 1 quote leaves out the fact's dates) and every answer that leaves out a requirement (one split-self answer left out R5 and R6). Output: `results/run-2026-11-13.explore.md`.
 
+- 17 November 2026, after the run: the comment on the `MODEL` line of `run.mjs` was reworded; no code changed. Its sha256 (first 12 characters, LF) is now `7360aa1c4921`; the file as run had `919c4a400794`, as listed above.
+
 ## Note for the public copy
 
 The run command above named the key file on the machine that ran it. In this copy that path is replaced with `path/to/your.env`; nothing else in this file was changed for publication.

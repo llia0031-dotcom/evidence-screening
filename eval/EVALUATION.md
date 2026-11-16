@@ -1,6 +1,6 @@
 # Evidence-checked resume screening: evaluation brief
 
-*13 November 2026 · fictional jobs and resumes with the answers fixed when they were written · one model, two runs · a small controlled test, not an audit of any product*
+*13 to 15 November 2026 · fictional jobs and resumes with the answers fixed when they were written · one model, two runs · a small controlled test, not an audit of any product*
 
 ## Question
 
@@ -225,7 +225,7 @@ Full tables with 95% bootstrap intervals: [`v4/results/run-2026-11-14.summary.md
 
 1. **Who advances did not move with the markers in the plain arm** (0 of 288), and verdicts changed no more often than between two runs of the same version.
 2. **The five decision changes in the split arm come from one wavering answer.** All five are on V3-C2-02 in run 2, whose neutral version judged R3 met and advanced, while its run-1 neutral version and five of its six run-2 marker versions judged R3 not met. R3 there is the label open to argument in v3. Read against run 1's neutral answer, those five marker versions agree with it.
-3. **On the Chinese resumes, adding any activities section lowered the score**, for every group including Han: by 0.5 to 2.9 points in the plain arm and 1.7 to 5.6 in the split arm. The penalty goes with the section, not with which group it signals.
+3. **On the Chinese resumes, adding any activities section lowered the score**, for every group including Han: by 0.5 to 2.9 points in the plain arm and 1.7 to 5.6 in the split arm. Han lost points too, so most of the penalty goes with the section; its size still differed by group (point 4), which 24 resume-run pairs per group cannot settle.
 4. **Between groups the gaps were small and did not line up with ethnicity or gender.** Pooled female and male means were within 0.7 points of each other in every language and arm. The largest ethnic gap was Chinese plain: Tibetan markers -2.8 points, Han -0.7, with intervals that overlap. In the English resumes every group stayed within 2.4 points of neutral.
 5. **Requiring quotes widened the spread on the Chinese resumes** (3.9 against 2.4 points), the direction Tan et al. warn of for explanation prompts, though here the spread runs across all groups rather than against particular ones.
 
@@ -255,16 +255,16 @@ At `low` the model again fell for none of the 40 traps. Its only misses are the 
 - **Requiring a verbatim quote for each verdict is cheap insurance.** It costs 1.7 times as much per resume (still under a tenth of a US cent with this model) and removed the one systematic misreading in this set, where the free-text reason had added "expected" and "currently enrolled" to the resume.
 - **A quote check must check only the resume's own facts.** Wired to a finding that restates the job's thresholds, it threw away 18% (v1) and 17% (v2) of correct "met" verdicts and caught nothing. Splitting the resume fact from the comparison cut the loss to 2.4%; letting the model run the check and repair its own facts cut it to 0, at about twice the cost and latency.
 - **The quote check guards against made-up evidence, not against misjudgement.** Seeded into stored answers, invented figures, near-quotes and lines from other resumes were all caught, and a figure changed by one was caught 88% of the time; wrong readings of real text were never caught (0 of 40). On these fictional resumes the model made no such misreading either: v3 added 40 traps (work someone else did, totals just under a threshold, a tool named only in the skills list), and it saw through all of them.
-- **A second review covers what the quote check misses.** Reviewing each "met" verdict with a separate call rejected 159 of the 160 written-in misreadings over both arms and runs, and none of the 412 right answers, for US$0.050 in all. The two checks answer different questions: the quote check, whether the evidence is real; the review, whether it supports the verdict. Whether the review would catch the model's own mistakes is not shown here, since the model made none to catch.
+- **A second review covers what the quote check misses.** Reviewing each "met" verdict with a separate call rejected 159 of the 160 written-in misreadings over both arms and runs, and none of the 103 right answers in 412 reviews, for US$0.050 in all. The two checks answer different questions: the quote check, whether the evidence is real; the review, whether it supports the verdict. Whether the review would catch the model's own mistakes is not shown here, since the model made none to catch.
 - **On these fictional resumes, this model's decisions did not move with names, gender or indirect markers of ethnicity.** Names and gender changed no decision in v1; in anonymised resumes, markers changed none in the plain arm, and the split arm's five changes trace to one wavering answer. Scores moved by a few points, and on the Chinese resumes an activities section lowered every group's score. This is one model and one bundle of markers per group; real resumes carry many more signals.
 
 ## Limits
 
 - Fictional jobs and resumes, written by the same author as the answer key, with answers fixed in advance. They are short and unambiguous by design, which is why both model arms are near 100%; real resumes leave more room for judgement.
-- One model at one effort level, two runs, one day. 12 base resumes per language: score effects of a few points cannot be told from noise, and 39 score contrasts were tested without correction.
+- One model, at effort medium (low in v5), two runs of each test, from 13 to 15 November 2026. 12 base resumes per language: score effects of a few points cannot be told from noise, and 39 score contrasts were tested without correction.
 - Name lists are small (eight English, four Chinese names) and stand for groups only loosely. Two universities per language. The prompts did not mention fairness.
 - v2 and v3 have the same author as v1. v3 added traps and messier formatting, but the model still gave no wrong "met" verdict, so none of the three versions measures how often the check stops one. v3's key has one label open to argument (V3-C2-02 R3, point 2 of the v3 section).
-- v3 sent its requests through the Message Batches API; v1 and v2 used single calls. Model, effort and prompts were the same.
+- From v3 on (v3, the second-judgement test, v4 and v5), requests went through the Message Batches API; v1 and v2 used single calls. Model and prompts were the same throughout, and the effort too except in v5.
 - The seeded test shows which kinds of error the check can see, not how often a model makes each kind. Its changes are rule-based, one per answer, and its 40 misreadings were written by the same author as the resumes.
 - The second-judgement test uses the same model as the screener and misreadings written in by the same author as the resumes; a reviewer from another model, and misreadings a model really produced, were not tested.
 - v4 uses one bundle of markers per group, so a group's effect is mixed with the content of its bundle (a robotics club against a dance troupe); the Chinese bundles were written for this test. Each group mean rests on 24 resume-run pairs, against run-to-run score differences of about 4 points.

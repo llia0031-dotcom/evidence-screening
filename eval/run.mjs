@@ -24,7 +24,7 @@ import Anthropic from "@anthropic-ai/sdk";
 
 const here = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(here, "..");
-const MODEL = "claude-haiku-5-5"; // cheapest current model, chosen by the user
+const MODEL = "claude-haiku-5-5"; // the cheapest current Claude model
 const EFFORT = "medium";
 const PRICE = { input: 0.1 / 1e6, output: 0.5 / 1e6 }; // Claude Haiku 5.5 list price, prompts up to 100K tokens
 const CONCURRENCY = 8;

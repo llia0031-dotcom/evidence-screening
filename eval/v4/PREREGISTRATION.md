@@ -72,6 +72,8 @@ The file was saved at 23:51:25; the batch of 672 requests was sent at 23:51:41 a
 
 Noted after the results were seen (exploratory): all five split decision changes are on one resume, V3-C2-02, in run 2. Its neutral version judged R3 met and advanced (score 92), while its run-1 neutral version, and five of its six run-2 marker versions, judged R3 not met. R3 there is the label open to argument in v3 (research participants' sign-ups counted as applicants). On the Chinese resumes every marker group, Han included, scored below the neutral version in the split arm.
 
+- 17 November 2026, after the run: the comment on the `MODEL` line of `run.mjs` was reworded; no code changed. Its sha256 (first 12 characters, LF) is now `a803523d652c`; the file as run had `6a335185489e`, as listed above.
+
 ## Note for the public copy
 
 The run command above named the key file on the machine that ran it. In this copy that path is replaced with `path/to/your.env`; nothing else in this file was changed for publication.

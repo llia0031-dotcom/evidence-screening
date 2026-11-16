@@ -4,7 +4,7 @@ Written 15 November 2026 and saved at 00:56:40 MYT, after a harness check on the
 
 ## Why v5
 
-At effort `medium` the model fell for none of v3's 40 traps, so neither the quote check nor the second review could be measured on the model's own mistakes: the review test had to use misreadings written in by hand. v5 lowers one setting, the effort, to `low`, and asks:
+At effort `medium` the model fell for none of v3's 40 traps, so neither the quote check nor the second review could be measured on the model's own mistakes: the review test had to use misreadings written into the test set (`seeded/misreadings.json`). v5 lowers one setting, the effort, to `low`, and asks:
 
 1. does the model now give wrong "met" verdicts on the traps;
 2. of its own wrong "met" verdicts, how many does the quote check stop, and how many does a second review reject;
@@ -68,6 +68,11 @@ The file was saved at 00:56:40; the first batch was sent at 00:56:48 and the las
 | 4. Each reviewer rejects at most 5% of the right "met" verdicts | Not tested (review not run) |
 | 5. split-self gives no more wrong "met" verdicts than split | Held (0 and 0) |
 | 6. Every request completes, at most US$0.45 | Held (US$0.0733, plus US$0.0023 for the harness check) |
+
+- 17 November 2026, after the run: the comment on the `MODEL` line of `run.mjs` was reworded; no code changed. Its sha256 (first 12 characters, LF) is now `ee16ba8440b2`; the file as run had `a142b119cc85`, as listed above.
+- 17 November 2026, after the run: the comment on the `MODEL` line of `review.mjs` was reworded; no code changed. Its sha256 (first 12 characters, LF) is now `ad03cb0b357c`; the file as run had `d8a27fa1126e`, as listed above.
+
+- 17 November 2026, after the run: one sentence under "Why v5" was reworded (how the review test's misreadings were made); no case, prompt or rule changed.
 
 ## Note for the public copy
 

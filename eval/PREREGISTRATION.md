@@ -84,6 +84,8 @@ The run started at 00:39:28 MYT and finished at 00:50:17 MYT (file times of the 
 - No change to cases, prompts or scoring rules. While the run was going, `score.py` was run once on a copy of the partial results to make sure it worked; it was not changed.
 - Added after the first results were seen, and reported as exploratory: `eval/explore.py`, which (1) sorts the figures that made "met" verdicts fail the script by whether they appear in the requirement text and in the resume, (2) re-scores the evidence arm with a quotes-only check (figure rule left out), and (3) lists one failing finding per base resume and requirement. Output: `results/run-2026-11-13.explore.md`.
 
+- 17 November 2026, after the run: the comment on the `MODEL` line of `run.mjs` was reworded; no code changed. Its sha256 (first 12 characters, LF) is now `c02c2aadb02b`; the file as run had `66033e0ff651`, as listed above.
+
 ## Note for the public copy
 
 The run command above named the key file on the machine that ran it. In this copy that path is replaced with `path/to/your.env`; nothing else in this file was changed for publication.

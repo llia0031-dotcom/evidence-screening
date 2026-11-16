@@ -98,6 +98,8 @@ The file was saved at 16:52:04; at 16:52:12 a missing closing bracket in the has
 - Noted after the results were seen: the only cell any arm got wrong is V3-C2-02 R3, judged not met in all three arms and both runs. The key says met (research participants' sign-ups, 被试报名信息, kept in Excel, counted as applicants); the requirement asks for 候选人或应聘者, and its wording supports the model's reading. The key was not changed; the report gives both readings.
 - `explore.py` was written before the run and is in the hash table; its output is `results/run-2026-11-14.explore.md`.
 
+- 17 November 2026, after the run: the comment on the `MODEL` line of `run.mjs` was reworded; no code changed. Its sha256 (first 12 characters, LF) is now `4803ea826ed8`; the file as run had `aa692aa66898`, as listed above.
+
 ## Note for the public copy
 
 The run command above named the key file on the machine that ran it. In this copy that path is replaced with `path/to/your.env`; nothing else in this file was changed for publication.
