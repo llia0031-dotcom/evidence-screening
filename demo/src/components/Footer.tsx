@@ -10,8 +10,8 @@ export default function Footer({ t }: { t: Copy }) {
           <a href="#demo">{t.nav.demo}</a>
           <a href="#results">{t.nav.results}</a>
           <a href="#faq">{t.nav.faq}</a>
-          <a href="https://github.com/Jason-d-e/evidence-screening">{t.footer.repo}</a>
-          <a href="https://github.com/Jason-d-e/evidence-check">{t.footer.checker}</a>
+          <a href="https://github.com/llia0031-dotcom/evidence-screening">{t.footer.repo}</a>
+          <a href="https://github.com/llia0031-dotcom/evidence-check">{t.footer.checker}</a>
           <a href="about.html">{t.footer.about}</a>
           <a href="#top">{t.footer.top}</a>
         </nav>

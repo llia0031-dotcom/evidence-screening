@@ -8,9 +8,9 @@ import Phrase from './components/Phrase'
 type Bit = string | { text: string; href: string }
 type Section = { h: string; p: Bit[][] }
 
-const REPO = 'https://github.com/Jason-d-e/evidence-screening'
+const REPO = 'https://github.com/llia0031-dotcom/evidence-screening'
 const REPORT = `${REPO}/blob/main/eval/EVALUATION.md`
-const CHECKER = 'https://github.com/Jason-d-e/evidence-check'
+const CHECKER = 'https://github.com/llia0031-dotcom/evidence-check'
 
 const SECTIONS: Record<Lang, Section[]> = {
   zh: [

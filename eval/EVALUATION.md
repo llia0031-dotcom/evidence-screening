@@ -8,7 +8,7 @@ When a language model screens resumes against a job's must-have requirements, do
 
 ## Where this fits
 
-This evaluation is one of a set of projects built on one idea: every claim an AI makes should point to its source, and every change to an AI step should come with evaluation evidence. Among the projects that judge, it is the first step: a single verdict, backed by one line of the resume. The next steps judge a product claim against many customer reviews, and an agent that reviews ads over several turns with tools. The quote check is the script from [evidence-check](https://github.com/Jason-d-e/evidence-check), used here as a frozen copy of version 0.2.0 ([`frozen/check_evidence.py`](frozen/check_evidence.py)), so that results do not move when the script changes.
+This evaluation is one of a set of projects built on one idea: every claim an AI makes should point to its source, and every change to an AI step should come with evaluation evidence. Among the projects that judge, it is the first step: a single verdict, backed by one line of the resume. The next steps judge a product claim against many customer reviews, and an agent that reviews ads over several turns with tools. The quote check is the script from [evidence-check](https://github.com/llia0031-dotcom/evidence-check), used here as a frozen copy of version 0.2.0 ([`frozen/check_evidence.py`](frozen/check_evidence.py)), so that results do not move when the script changes.
 
 ## Setup
 

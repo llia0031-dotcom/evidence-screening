@@ -2,7 +2,7 @@
 
 Resume screening with a language model, where every "meets" points to the line of the resume behind it, checked word for word by a script. Five rounds of tests on fictional jobs and resumes show what that adds, what the check stops and what it does not, and whether the conclusions move with names, gender or other signals that have nothing to do with the job.
 
-**Try it:** [jason-d-e.github.io/evidence-screening](https://jason-d-e.github.io/evidence-screening/), the stored outputs in an applicant-tracking view. It makes no model calls.
+**Try it:** [llia0031-dotcom.github.io/evidence-screening](https://llia0031-dotcom.github.io/evidence-screening/), the stored outputs in an applicant-tracking view. It makes no model calls.
 
 [中文](#中文)
 
@@ -27,9 +27,9 @@ The stored outputs shown the way an applicant tracking system shows a job: one j
 
 ## Where this fits
 
-This is one of a set of projects built on one idea: every claim an AI makes should point to its source, and every change to an AI step should come with evaluation evidence. Among the projects that judge, it is the first step: a single verdict, backed by one line of the resume. The next steps [judge a product claim against many customer reviews](https://github.com/Jason-d-e/sellpoint-check) and [review ads over several turns with tools](https://github.com/Jason-d-e/grounded-review).
+This is one of a set of projects built on one idea: every claim an AI makes should point to its source, and every change to an AI step should come with evaluation evidence. Among the projects that judge, it is the first step: a single verdict, backed by one line of the resume. The next steps [judge a product claim against many customer reviews](https://github.com/llia0031-dotcom/sellpoint-check) and [review ads over several turns with tools](https://github.com/llia0031-dotcom/grounded-review).
 
-The quote check is the script from [evidence-check](https://github.com/Jason-d-e/evidence-check), used as a frozen copy of version 0.2.0 ([`eval/frozen/check_evidence.py`](eval/frozen/check_evidence.py)), so that results do not move when the script changes.
+The quote check is the script from [evidence-check](https://github.com/llia0031-dotcom/evidence-check), used as a frozen copy of version 0.2.0 ([`eval/frozen/check_evidence.py`](eval/frozen/check_evidence.py)), so that results do not move when the script changes.
 
 ## What is here
 
@@ -79,8 +79,8 @@ This repository is released under the MIT License (`LICENSE`). Parts copied from
 - 把 effort 调低到 low 再跑，40 个陷阱仍然一个都没上当，所以核对和复核能拦住模型自己多少错，还没测到。
 - 分数会动几分：中文简历加任何一节活动经历，各组分数都降，所以去留要看逐条判断，不看分数。
 
-在线试用：[jason-d-e.github.io/evidence-screening](https://jason-d-e.github.io/evidence-screening/)，页面显示测试时存下的结果，不调用模型。
+在线试用：[llia0031-dotcom.github.io/evidence-screening](https://llia0031-dotcom.github.io/evidence-screening/)，页面显示测试时存下的结果，不调用模型。
 
-**这个项目的位置**：这是“让 AI 拿出证据”这组项目里判断类场景的第一步，一条判断附一句简历原文；后面依次是[用上百条评价证实一条卖点](https://github.com/Jason-d-e/sellpoint-check)、[多轮调用工具的广告审核 Agent](https://github.com/Jason-d-e/grounded-review)。核对用的是 [evidence-check](https://github.com/Jason-d-e/evidence-check) 的脚本，固定用 0.2.0 版的冻结副本，结果不会随脚本更新而变。
+**这个项目的位置**：这是“让 AI 拿出证据”这组项目里判断类场景的第一步，一条判断附一句简历原文；后面依次是[用上百条评价证实一条卖点](https://github.com/llia0031-dotcom/sellpoint-check)、[多轮调用工具的广告审核 Agent](https://github.com/llia0031-dotcom/grounded-review)。核对用的是 [evidence-check](https://github.com/llia0031-dotcom/evidence-check) 的脚本，固定用 0.2.0 版的冻结副本，结果不会随脚本更新而变。
 
 给招聘团队的做法：[`guide/AI初筛怎么用才稳.md`](guide/AI初筛怎么用才稳.md)。
